@@ -1,0 +1,78 @@
+"""Class for Creating Khal_Sheet_Index"""
+class khal_sheet_Nos:
+    def __init__(self,khal_Name,length,xsection_list,start_sheet_no,y0):
+        self.Name=khal_Name
+        self.y0=y0
+        self.Index_map_sheet_No=start_sheet_no
+        self.Titles=[]        
+        self.Notes_Sheet_No=start_sheet_no+1
+        no_long_section=math.ceil(length/3000.0)
+        print("Total sheet for Long Section={}".format(no_long_section))
+        self.Long_Section_Sheet_No=[start_sheet_no+1+i 
+                                    for i in range(1,no_long_section+1)]
+        print("LS Sheets={}".format(self.Long_Section_Sheet_No))
+        k=self.Long_Section_Sheet_No[-1]
+        cross_section_sheet_list=[]
+        for index,elem in enumerate(xsection_list):
+            if index%2==0:
+                k=k+1
+                cross_section_sheet_list.append(k)
+            else:
+                cross_section_sheet_list.append(k)
+        data={"SectionName":xsection_list,"Sheet_No":cross_section_sheet_list}
+        self.xsection_sheet_df=pd.DataFrame(data)
+        self.Details=cross_section_sheet_list[-1]+1
+        self.Next_Index=self.Details+1
+        """Generating Titles for Drawing Sheet"""
+        self.generateTitles()
+        """Generating Sheet Coorinates"""
+        n=len(self.Titles)
+        self.Xcoord=[]
+        self.Ycoord=[]
+        self.width=[]
+        self.DrawingNo=[]
+        self.DrawingDate=[]
+        for i in range(0,n):
+            self.Xcoord.append(i*10000)
+            self.Ycoord.append(self.y0)
+            self.width.append(8000)
+            
+        
+    def generateTitles(self):
+        """generatig sheet Titles"""
+        Titles=[]
+        Titles.append("Index Map & Site Map for "+self.Name)
+        Titles.append("Notes for "+self.Name)
+        for x in self.Long_Section_Sheet_No:
+            Titles.append("Long Section of "+self.Name)
+        unique_xs_sheet=self.xsection_sheet_df.Sheet_No.unique()  
+        for s in unique_xs_sheet:
+            Titles.append("Typical Cross Section of "+self.Name)
+        Titles.append("Details for "+self.Name)
+        self.Titles=Titles
+    
+    
+    
+    def display(self):
+        print("Khal Name={} Index Map={} Notes={} "              
+              .format(self.Name,self.Index_map_sheet_No,self.Notes_Sheet_No))
+        print("Long Sections={}".format(self.Long_Section_Sheet_No))
+        print("Xsections={}".format(self.xsection_sheet_df))
+        print("Details={}".format(self.Details))
+"""Class for creating Khal Long Sections"""
+class Khal_Long_Sections:
+    def __init__(self,khal_name,xsection_list,index_df,LS_Code,head=None):
+        self.xsection_codes=xsection_list
+        if head:
+            self.xsection_codes.insert(0,head)
+        self.LS_codes=[LS_Code for xs in self.xsection_codes]
+        data={"LSCode":self.LS_codes,"CSCode":self.xsection_codes}
+        self.DataDetails=pd.DataFrame(data)
+        
+        
+        
+            
+        
+        
+                
+                

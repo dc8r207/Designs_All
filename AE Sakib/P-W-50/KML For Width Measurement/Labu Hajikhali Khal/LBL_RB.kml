@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LBL_RB.kml</name>
+	<StyleMap id="m_ylw-pushpin19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl24">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin23">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>LBL_RB</name>
+		<styleUrl>#m_ylw-pushpin19</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				89.16516225498094,22.59503028262909,0 89.16525408134507,22.59431181172507,0 89.1654865391466,22.59432872169905,0 89.16566448241156,22.59431294958564,0 89.16581906924425,22.59433960102017,0 89.16613561938274,22.59457890877338,0 89.16624315599479,22.59478780470749,0 89.16655132643672,22.59484251560126,0 89.1666884717026,22.5946708318142,0 89.16687006004614,22.59460792258559,0 89.16706589983343,22.59460697774343,0 89.16723236391439,22.59460410427463,0 89.16734442240667,22.59461857639833,0 89.16763800447748,22.59461476214218,0 89.16812502264801,22.59464830415212,0 89.16869904404687,22.59492068878336,0 89.16892630881605,22.5950747061965,0 89.16908077395698,22.59509532426489,0 89.16922411120055,22.59511223539964,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
