@@ -1,0 +1,275 @@
+                                                                 PAGE NO.    1
+
+
+
+             ****************************************************        
+             *                                                  *        
+             *           STAAD.Pro CONNECT Edition              *        
+             *           Version  22.08.00.175                  *        
+             *           Proprietary Program of                 *        
+             *           Bentley Systems, Inc.                  *        
+             *           Date=    APR  6, 2022                  *        
+             *           Time=    16:13:55                      *        
+             *                                                  *        
+             *  Licensed to: only@ ::LAVteam::®                 *        
+             ****************************************************        
+
+
+
+     1. STAAD SPACE
+INPUT FILE: E:\Design-8\Designs_All\AE Sakib\Narail\2021_22\Bridges\Kalishankar Pur Khal Footoverbridg.. .STD
+     2. START JOB INFORMATION
+     3. ENGINEER DATE 30-MAR-22
+     4. END JOB INFORMATION
+     5. INPUT WIDTH 79
+     6. UNIT INCHES KIP
+     7. JOINT COORDINATES
+     8. 1 0 0 0; 2 57 0 0; 3 133 0 0; 4 209 0 0; 5 266 0 0
+     9. MEMBER INCIDENCES
+    10. 1 1 2; 2 2 3; 3 3 4; 4 4 5
+    11. DEFINE MATERIAL START
+    12. ISOTROPIC CONCRETE
+    13. E 3150
+    14. POISSON 0.17
+    15. DENSITY 8.68E-05
+    16. ALPHA 5.5E-06
+    17. DAMP 0.05
+    18. G 1346.15
+    19. TYPE CONCRETE
+    20. STRENGTH FCU 4
+    21. END DEFINE MATERIAL
+    22. MEMBER PROPERTY
+    23. 1 TO 4 PRIS YD 9 ZD 12
+    24. CONSTANTS
+    25. MATERIAL CONCRETE ALL
+    26. SUPPORTS
+    27. 2 TO 4 PINNED
+    28. LOAD 1 LOADTYPE NONE  TITLE DL
+    29. UNIT FEET KIP
+    30. MEMBER LOAD
+    31. 1 TO 4 UNI GY -0.125
+    32. LOAD 2 LOADTYPE DEAD  TITLE RAILING_LOAD
+    33. JOINT LOAD
+    34. 1 5 FY -0.11
+    35. PERFORM ANALYSIS PRINT ALL
+     STAAD SPACE                                              -- PAGE NO.    2
+        
+
+
+
+            P R O B L E M   S T A T I S T I C S
+            -----------------------------------
+
+     NUMBER OF JOINTS          5  NUMBER OF MEMBERS       4
+     NUMBER OF PLATES          0  NUMBER OF SOLIDS        0
+     NUMBER OF SURFACES        0  NUMBER OF SUPPORTS      3
+
+           Using 64-bit analysis engine.
+ 
+           SOLVER USED IS THE IN-CORE ADVANCED MATH SOLVER
+ 
+   TOTAL      PRIMARY LOAD CASES =     2, TOTAL DEGREES OF FREEDOM =      21
+   TOTAL LOAD COMBINATION  CASES =     0  SO FAR.
+
+     STAAD SPACE                                              -- PAGE NO.    3
+        
+
+
+   LOADING     1  LOADTYPE NONE  TITLE DL                                     
+   -----------
+
+
+   MEMBER LOAD - UNIT KIP  FEET
+
+   MEMBER     UDL      L1     L2      CON       L     LIN1     LIN2
+
+      1    -0.1250 GY   0.00    4.75
+      2    -0.1250 GY   0.00    6.33
+      3    -0.1250 GY   0.00    6.33
+      4    -0.1250 GY   0.00    4.75
+
+
+   LOADING     2  LOADTYPE DEAD  TITLE RAILING_LOAD                           
+   -----------
+
+
+   JOINT LOAD - UNIT KIP  FEET
+
+   JOINT   FORCE-X   FORCE-Y     FORCE-Z     MOM-X     MOM-Y     MOM-Z
+
+       1      0.00     -0.11        0.00      0.00      0.00      0.00
+       5      0.00     -0.11        0.00      0.00      0.00      0.00
+
+ ***WARNING -  INSTABILITY AT JOINT     3   DIRECTION = MX 
+  PROBABLE CAUSE SINGULAR-ADDING WEAK SPRING 
+  K-MATRIX DIAG=  5.5777334E+04 L-MATRIX DIAG=  2.8882363E-11 EQN NO      10
+  ***NOTE - VERY WEAK SPRING ADDED FOR STABILITY
+
+    **NOTE** STAAD DETECTS INSTABILITIES AS EXCESSIVE LOSS OF SIGNIFICANT DIGITS
+             DURING DECOMPOSITION. WHEN SIGNIFICANT DIGITS LOST IS GREATER THAN 9 
+             STAAD PRINTS A SINGULARITY NOTICE. 
+
+             THE ABOVE CONDITIONS COULD ALSO BE CAUSED BY VERY STIFF OR VERY WEAK 
+             ELEMENTS AS WELL AS TRUE SINGULARITIES.
+
+
+
+FOR LOADING -     1
+APPLIED JOINT EQUIVALENT LOADS
+ JOINT   FORCE-X     FORCE-Y     FORCE-Z      MOM-X       MOM-Y       MOM-Z
+     1 0.00000E+00-2.96875E-01 0.00000E+00 0.00000E+00 0.00000E+00-2.35026E-01
+     2 0.00000E+00-6.92708E-01 0.00000E+00 0.00000E+00 0.00000E+00-1.82798E-01
+     3 0.00000E+00-7.91667E-01 0.00000E+00 0.00000E+00 0.00000E+00 0.00000E+00
+     4 0.00000E+00-6.92708E-01 0.00000E+00 0.00000E+00 0.00000E+00 1.82798E-01
+     5 0.00000E+00-2.96875E-01 0.00000E+00 0.00000E+00 0.00000E+00 2.35026E-01
+
+          STATIC LOAD/REACTION/EQUILIBRIUM SUMMARY FOR CASE NO.     1
+          LOADTYPE NONE  TITLE DL                                     
+
+
+           CENTER OF FORCE BASED ON Y FORCES ONLY (FEET).
+         (FORCES IN NON-GLOBAL DIRECTIONS WILL INVALIDATE RESULTS)
+
+                        X =  0.110833337E+02
+                        Y =  0.000000000E+00
+                        Z =  0.000000000E+00
+TOTAL APPLIED LOAD     1
+
+   ***TOTAL APPLIED LOAD ( KIP  FEET ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =          -2.77
+       SUMMATION FORCE-Z =           0.00
+     STAAD SPACE                                              -- PAGE NO.    4
+        
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=         -30.71
+
+TOTAL REACTION LOAD    1
+
+   ***TOTAL REACTION LOAD( KIP  FEET ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =           2.77
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=          30.71
+
+
+   MAXIMUM DISPLACEMENTS ( INCH /RADIANS) (LOADING      1)
+             MAXIMUMS    AT NODE
+      X =  0.00000E+00       0
+      Y = -1.18995E-02       1
+      Z =  0.00000E+00       0
+      RX=  0.00000E+00       0
+      RY=  0.00000E+00       0
+      RZ=  2.41364E-04       1
+
+
+
+   EXTERNAL AND INTERNAL JOINT LOAD SUMMARY ( KIP  FEET )-
+
+   JT     EXT FX/   EXT FY/   EXT FZ/    EXT MX/    EXT MY/    EXT MZ/
+          INT FX    INT FY    INT FZ     INT MX     INT MY     INT MZ
+
+                                                                      SUPPORT=1
+     2      0.00     -0.69      0.00       0.00       0.00      -0.18
+            0.00     -0.53      0.00       0.00       0.00       0.18  111000
+
+     3      0.00     -0.79      0.00       0.00       0.00       0.00
+            0.00      0.47      0.00       0.00       0.00       0.00  111000
+
+     4      0.00     -0.69      0.00       0.00       0.00       0.18
+            0.00     -0.53      0.00       0.00       0.00      -0.18  111000
+
+FOR LOADING -     2
+APPLIED JOINT EQUIVALENT LOADS
+ JOINT   FORCE-X     FORCE-Y     FORCE-Z      MOM-X       MOM-Y       MOM-Z
+     1 0.00000E+00-1.10000E-01 0.00000E+00 0.00000E+00 0.00000E+00 0.00000E+00
+     5 0.00000E+00-1.10000E-01 0.00000E+00 0.00000E+00 0.00000E+00 0.00000E+00
+
+          STATIC LOAD/REACTION/EQUILIBRIUM SUMMARY FOR CASE NO.     2
+          LOADTYPE DEAD  TITLE RAILING_LOAD                           
+
+
+           CENTER OF FORCE BASED ON Y FORCES ONLY (FEET).
+         (FORCES IN NON-GLOBAL DIRECTIONS WILL INVALIDATE RESULTS)
+
+                        X =  0.110833337E+02
+                        Y =  0.000000000E+00
+                        Z =  0.000000000E+00
+     STAAD SPACE                                              -- PAGE NO.    5
+        
+TOTAL APPLIED LOAD     2
+
+   ***TOTAL APPLIED LOAD ( KIP  FEET ) SUMMARY (LOADING     2 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =          -0.22
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=          -2.44
+
+TOTAL REACTION LOAD    2
+
+   ***TOTAL REACTION LOAD( KIP  FEET ) SUMMARY (LOADING     2 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =           0.22
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=           2.44
+
+
+   MAXIMUM DISPLACEMENTS ( INCH /RADIANS) (LOADING      2)
+             MAXIMUMS    AT NODE
+      X =  0.00000E+00       0
+      Y = -6.04963E-03       5
+      Z =  0.00000E+00       0
+      RX=  0.00000E+00       0
+      RY=  0.00000E+00       0
+      RZ= -1.31183E-04       5
+
+
+
+   EXTERNAL AND INTERNAL JOINT LOAD SUMMARY ( KIP  FEET )-
+
+   JT     EXT FX/   EXT FY/   EXT FZ/    EXT MX/    EXT MY/    EXT MZ/
+          INT FX    INT FY    INT FZ     INT MX     INT MY     INT MZ
+
+                                                                      SUPPORT=1
+     2      0.00      0.00      0.00       0.00       0.00       0.00
+            0.00     -0.23      0.00       0.00       0.00       0.00  111000
+
+     3      0.00      0.00      0.00       0.00       0.00       0.00
+            0.00      0.25      0.00       0.00       0.00      -0.00  111000
+
+     4      0.00      0.00      0.00       0.00       0.00       0.00
+            0.00     -0.23      0.00       0.00       0.00      -0.00  111000
+
+
+
+   ************ END OF DATA FROM INTERNAL STORAGE ************
+
+
+    36. FINISH
+     STAAD SPACE                                              -- PAGE NO.    6
+        
+
+
+             *********** END OF THE STAAD.Pro RUN ***********         
+
+               **** DATE= APR  6,2022   TIME= 16:13:55 ****
+
+         ************************************************************
+         *   For technical assistance on STAAD.Pro, please visit    *
+         *   http://www.bentley.com/en/support/                     *
+         *                                                          *
+         *   Details about additional assistance from               *
+         *   Bentley and Partners can be found at program menu      *
+         *   Help->Technical Support                                *
+         *                                                          *
+         *           Copyright (c) Bentley Systems, Inc.            *
+         *                http://www.bentley.com                    *
+         ************************************************************
+                                                                     
