@@ -1,0 +1,20 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DataType">Generic</MDI>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>cdemu45</Description>
+    <Metadata>
+      <MDI key="BandName">cdemu45</MDI>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1536</MDI>
+      <MDI key="STATISTICS_MEAN">1310.485483871</MDI>
+      <MDI key="STATISTICS_MINIMUM">1149</MDI>
+      <MDI key="STATISTICS_STDDEV">86.391054545081</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">62.75</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

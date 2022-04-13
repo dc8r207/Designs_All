@@ -1,0 +1,11 @@
+Projection    TRANSVERSE
+Units         METERS
+Zunits        NO
+Xshift        0.0
+Yshift        0.0
+Parameters    6377299.36  6356098.35162804
+0.9996 /* scale factor at central meridian
+  90  0  0.0 /* longitude of central meridian
+   0  0  0.0 /* latitude of origin
+500000.0 /* false easting (meters)
+-2000000.0 /* false northing (meters)

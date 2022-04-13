@@ -1,0 +1,183 @@
+                                                                 PAGE NO.    1
+
+
+
+             ****************************************************        
+             *                                                  *        
+             *           STAAD.Pro CONNECT Edition              *        
+             *           Version  22.08.00.175                  *        
+             *           Proprietary Program of                 *        
+             *           Bentley Systems, Inc.                  *        
+             *           Date=    MAR 30, 2022                  *        
+             *           Time=    18:42:51                      *        
+             *                                                  *        
+             *  Licensed to: only@ ::LAVteam::®                 *        
+             ****************************************************        
+
+
+
+     1. STAAD SPACE
+INPUT FILE: E:\Design-8\Divisions\CEIP-I\Structural Design\Model\Structure1.STD
+     2. START JOB INFORMATION
+     3. ENGINEER DATE 20-MAR-22
+     4. END JOB INFORMATION
+     5. INPUT WIDTH 79
+     6. UNIT INCHES KIP
+     7. JOINT COORDINATES
+     8. 1 0 0 0; 2 86.5 0 0; 3 0 252 0; 4 86.5 252 0
+     9. MEMBER INCIDENCES
+    10. 1 1 2; 2 3 4; 3 3 1; 4 4 2
+    11. DEFINE MATERIAL START
+    12. ISOTROPIC CONCRETE
+    13. E 3150
+    14. POISSON 0.17
+    15. DENSITY 8.68E-05
+    16. ALPHA 5.5E-06
+    17. DAMP 0.05
+    18. G 1346.15
+    19. TYPE CONCRETE
+    20. STRENGTH FCU 4
+    21. END DEFINE MATERIAL
+    22. MEMBER PROPERTY
+    23. 2 PRIS YD 22 ZD 12
+    24. 1 PRIS YD 28 ZD 12
+    25. 3 4 PRIS YD 28 ZD 12
+    26. CONSTANTS
+    27. MATERIAL CONCRETE ALL
+    28. SUPPORTS
+    29. 1 2 FIXED
+    30. LOAD 1 LOADTYPE NONE  TITLE LOAD CASE 1
+    31. UNIT FEET KIP
+    32. MEMBER LOAD
+    33. 2 UNI Y -1.55
+    34. 1 UNI Y -2.27
+    35. 3 TRAP GX 0.434 1.7
+     STAAD SPACE                                              -- PAGE NO.    2
+        
+    36. 4 TRAP GX -0.434 -1.7
+    37. PERFORM ANALYSIS PRINT ALL
+
+
+
+            P R O B L E M   S T A T I S T I C S
+            -----------------------------------
+
+     NUMBER OF JOINTS          4  NUMBER OF MEMBERS       4
+     NUMBER OF PLATES          0  NUMBER OF SOLIDS        0
+     NUMBER OF SURFACES        0  NUMBER OF SUPPORTS      2
+
+           Using 64-bit analysis engine.
+ 
+           SOLVER USED IS THE IN-CORE ADVANCED MATH SOLVER
+ 
+   TOTAL      PRIMARY LOAD CASES =     1, TOTAL DEGREES OF FREEDOM =      12
+   TOTAL LOAD COMBINATION  CASES =     0  SO FAR.
+
+     STAAD SPACE                                              -- PAGE NO.    3
+        
+
+
+   LOADING     1  LOADTYPE NONE  TITLE LOAD CASE 1                            
+   -----------
+
+
+   MEMBER LOAD - UNIT KIP  FEET
+
+   MEMBER     UDL      L1     L2      CON       L     LIN1     LIN2
+
+      2    -1.5500 Y    0.00    7.21
+      1    -2.2700 Y    0.00    7.21
+      3                                                0.434     1.700 GX
+      4                                               -0.434    -1.700 GX
+
+
+FOR LOADING -     1
+APPLIED JOINT EQUIVALENT LOADS
+ JOINT   FORCE-X     FORCE-Y     FORCE-Z      MOM-X       MOM-Y       MOM-Z
+     1 1.38621E+01-8.18146E+00 0.00000E+00 0.00000E+00 0.00000E+00-5.36939E+01
+     2-1.38621E+01-8.18146E+00 0.00000E+00 0.00000E+00 0.00000E+00 5.36939E+01
+     3 8.54490E+00-5.58646E+00 0.00000E+00 0.00000E+00 0.00000E+00 2.78482E+01
+     4-8.54490E+00-5.58646E+00 0.00000E+00 0.00000E+00 0.00000E+00-2.78482E+01
+
+          STATIC LOAD/REACTION/EQUILIBRIUM SUMMARY FOR CASE NO.     1
+          LOADTYPE NONE  TITLE LOAD CASE 1                            
+
+
+           CENTER OF FORCE BASED ON Y FORCES ONLY (FEET).
+         (FORCES IN NON-GLOBAL DIRECTIONS WILL INVALIDATE RESULTS)
+
+                        X =  0.360416677E+01
+                        Y =  0.852094246E+01
+                        Z =  0.000000000E+00
+TOTAL APPLIED LOAD     1
+
+   ***TOTAL APPLIED LOAD ( KIP  FEET ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =         -27.54
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=         -99.24
+
+TOTAL REACTION LOAD    1
+
+   ***TOTAL REACTION LOAD( KIP  FEET ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =          27.54
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=          99.24
+
+     STAAD SPACE                                              -- PAGE NO.    4
+        
+
+   MAXIMUM DISPLACEMENTS ( INCH /RADIANS) (LOADING      1)
+             MAXIMUMS    AT NODE
+      X = -3.84347E-04       4
+      Y = -1.33011E-03       4
+      Z =  0.00000E+00       0
+      RX=  0.00000E+00       0
+      RY=  0.00000E+00       0
+      RZ=  1.79707E-04       3
+
+
+
+   EXTERNAL AND INTERNAL JOINT LOAD SUMMARY ( KIP  FEET )-
+
+   JT     EXT FX/   EXT FY/   EXT FZ/    EXT MX/    EXT MY/    EXT MZ/
+          INT FX    INT FY    INT FZ     INT MX     INT MY     INT MZ
+
+                                                                      SUPPORT=1
+     1     13.86     -8.18      0.00       0.00       0.00     -53.69
+            1.15     -5.59      0.00       0.00       0.00      -8.02  111111
+
+     2    -13.86     -8.18      0.00       0.00       0.00      53.69
+           -1.15     -5.59      0.00       0.00       0.00       8.02  111111
+
+
+
+   ************ END OF DATA FROM INTERNAL STORAGE ************
+
+
+    38. FINISH
+
+
+             *********** END OF THE STAAD.Pro RUN ***********         
+
+               **** DATE= MAR 30,2022   TIME= 18:42:52 ****
+
+     STAAD SPACE                                              -- PAGE NO.    5
+        
+         ************************************************************
+         *   For technical assistance on STAAD.Pro, please visit    *
+         *   http://www.bentley.com/en/support/                     *
+         *                                                          *
+         *   Details about additional assistance from               *
+         *   Bentley and Partners can be found at program menu      *
+         *   Help->Technical Support                                *
+         *                                                          *
+         *           Copyright (c) Bentley Systems, Inc.            *
+         *                http://www.bentley.com                    *
+         ************************************************************
+                                                                     
