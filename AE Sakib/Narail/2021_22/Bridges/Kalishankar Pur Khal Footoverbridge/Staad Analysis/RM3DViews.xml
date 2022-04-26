@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<RM3DXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+	<Decoding codepage="1252" />
+	<ViewOptions>
+		<Setting name="MainView01">
+			<Projection draw="no" eye_distance="100" angle_x="0" angle_y="0">
+				<Zoom xmin="0" ymin="0" zmin="90" xmax="0" ymax="0" zmax="110" />
+			</Projection>
+			<GlobalDirections draw="yes" />
+			<ModelerAxes draw="no" />
+			<TerrainModel draw="no" triangle_edges="no" />
+			<Font size="1" />
+			<Size nodesize="1" elemsize="1" />
+			<Structure type="draw_all" deck="yes" pier="yes">
+				<RMSets draw="no" />
+			</Structure>
+			<Nodes draw="yes" ecc="yes" supports="yes" fem_nodes="yes">
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="0" />
+			</Nodes>
+			<Elements draw="yes" ecc="yes" center_line="yes" hinges="no" directions="no">
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="0" />
+				<Beam draw="yes" composite="both" />
+				<Fem draw="yes" center_face="no" />
+				<Spring draw="yes" support_conditions="no" />
+				<Bodies draw="no" type="detailed_bodies" />
+				<Cable draw="yes" />
+				<CrossSection draw="no" slave_nodes="no" type="mesh_cs" />
+			</Elements>
+			<Tendons draw="yes">
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="2" />
+			</Tendons>
+			<Loads draw="no" highlight="no" dispvals="yes" autoscale="yes" loadtext="no">
+				<Symbol type="single" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="uniform" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="moment" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="mass" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="displacement" scale="1" component="yes" resultant="no" size="0.75" />
+				<Symbol type="displacement_rotation" scale="1" component="yes" resultant="no" size="0.75" />
+				<Coloring>
+					<Limits auto="no" symmetric="yes" minval="-50" maxval="50" eccqtemp="yes" />
+				</Coloring>
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="1" />
+			</Loads>
+			<Traffic draw="no" lane_text="no" live_load_text="no">
+				<Labels draw="no" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="1" />
+			</Traffic>
+			<Reinforcement draw="yes" strands="yes" stirrups="yes" rebars="yes" bending_radius="yes" number_of_slices="12" />
+			<WindGrid draw="yes" />
+		</Setting>
+		<Setting name="SideView01">
+			<Projection draw="no" eye_distance="100" angle_x="0" angle_y="0">
+				<Zoom xmin="0" ymin="0" zmin="90" xmax="0" ymax="0" zmax="110" />
+			</Projection>
+			<GlobalDirections draw="yes" />
+			<ModelerAxes draw="no" />
+			<TerrainModel draw="no" triangle_edges="no" />
+			<Font size="1" />
+			<Size nodesize="1" elemsize="1" />
+			<Structure type="draw_all" deck="yes" pier="yes">
+				<RMSets draw="no" />
+			</Structure>
+			<Nodes draw="yes" ecc="yes" supports="yes" fem_nodes="yes">
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="0" />
+			</Nodes>
+			<Elements draw="yes" ecc="yes" center_line="yes" hinges="no" directions="no">
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="0" />
+				<Beam draw="yes" composite="both" />
+				<Fem draw="yes" center_face="no" />
+				<Spring draw="yes" support_conditions="no" />
+				<Bodies draw="no" type="detailed_bodies" />
+				<Cable draw="yes" />
+				<CrossSection draw="no" slave_nodes="no" type="mesh_cs" />
+			</Elements>
+			<Tendons draw="yes">
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="2" />
+			</Tendons>
+			<Loads draw="no" highlight="no" dispvals="yes" autoscale="yes" loadtext="no">
+				<Symbol type="single" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="uniform" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="moment" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="mass" scale="0.05" component="yes" resultant="no" size="0.75" />
+				<Symbol type="displacement" scale="1" component="yes" resultant="no" size="0.75" />
+				<Symbol type="displacement_rotation" scale="1" component="yes" resultant="no" size="0.75" />
+				<Coloring>
+					<Limits auto="no" symmetric="yes" minval="-50" maxval="50" eccqtemp="yes" />
+				</Coloring>
+				<Labels draw="yes" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="1" />
+			</Loads>
+			<Traffic draw="no" lane_text="no" live_load_text="no">
+				<Labels draw="no" type="0" plane="billboard" mirror_horizontally="no" mirror_vertically="no" size="1" />
+			</Traffic>
+			<Reinforcement draw="yes" strands="yes" stirrups="yes" rebars="yes" bending_radius="yes" number_of_slices="12" />
+			<WindGrid draw="yes" />
+		</Setting>
+	</ViewOptions>
+	<ViewList>
+		<View name="MainView01">
+			<Setting reference="MainView01" />
+			<Results />
+		</View>
+		<View name="SideView01">
+			<Setting reference="SideView01" />
+			<Results />
+		</View>
+	</ViewList>
+	<Layout>
+		<Area name="Area1">
+			<View reference="MainView01" x="0" y="0" width="1" height="1" />
+		</Area>
+		<Area name="Area2" location="side">
+			<View reference="SideView01" x="0" y="0" width="1" height="1" />
+		</Area>
+	</Layout>
+</RM3DXML>
