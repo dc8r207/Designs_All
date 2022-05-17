@@ -1,0 +1,51 @@
+*****************************************************************
+                 ALLPILE 7
+      VERTICAL ANALYSIS SUMMARY OUTPUT
+    Copyright by CivilTech Software 2005
+          www.civiltechsoftware.com                 
+*****************************************************************
+Licensed to        
+Date: 4/26/22  File: 
+
+Title 1: 
+Title 2: 
+
+
+TOTAL LOADS:
+	Vertical Load, Q: 10.0 -kp
+	  Load Factor for Vertical Loads: 1.0
+	Loads Supported by Pile Cap: 0 %
+
+PILE PROFILE:
+	Pile Length, L= 65.0 -ft
+	Top Height, H= 0 -ft
+	Slope Angle, As= 0
+	Batter Angle, Ab= 0.00    Batter Factor, Kbat= 1.00
+
+SINGLE PILE:
+	Deduction factor due to Group Effect, R= 1.00
+	Vertical Load= 10.00 -kp
+
+Single Pile Vertical Analysis:
+	Total Ultimate Capacity (Down)= 357.871-kp  Total Ultimate Capacity (Up)= 356.060-kp
+	Total Allowable Capacity (Down)= 235.400-kp  Total Allowable Capacity (Up)= 186.668-kp
+	Weight above Ground= 0.00	 Total Weight= 17.28-kp      *Soil Weight is not included
+	Side Resistance (Down)= 338.784-kp  Side Resistance (Up)= 338.783-kp
+	Tip Resistance (Down)= 19.088-kp  Tip Resistance (Up)= 0.000-kp
+	Negative Friction, Qneg= 0.000-kp, which has been subtracted from Total Ultimate Capacity (Down)
+	Negative friction does not affect Total Ultimate Capacity (Up)
+  
+	At Work Load= 10.00-kp,  Settlement= 0.00415-in
+	At Work Load= 10.00-kp,  Secant Stiffness Kqx= 2407.16-kp/-in
+	At Allowable Settlement= 1.000-in,  Capacity= 307.13-kp
+	Work Load, 10.00-kp, OK with the Capacity at Allowable Settlement= 1.00-in, Capacity= 307.13-kp
+	Work Load, 10.00-kp, OK with the Allowable Capacity (Down)= 235.40-kp
+
+
+____________________________________________
+FACTOR OF SAFETY:
+	FSside	FStip	FSuplif	FSweight
+	1.5	2.0	2.0	1.0
+
+Note:  If the program cannot find a result or the result exceeds the upper limit. The result will be displayed as 9999.
+0	1	0	32	1
