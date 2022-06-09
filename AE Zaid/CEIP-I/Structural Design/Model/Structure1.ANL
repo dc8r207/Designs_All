@@ -8,8 +8,8 @@
              *           Version  22.08.00.175                  *        
              *           Proprietary Program of                 *        
              *           Bentley Systems, Inc.                  *        
-             *           Date=    MAR 30, 2022                  *        
-             *           Time=    18:42:51                      *        
+             *           Date=    JUN  7, 2022                  *        
+             *           Time=    17:30:26                      *        
              *                                                  *        
              *  Licensed to: only@ ::LAVteam::®                 *        
              ****************************************************        
@@ -17,14 +17,14 @@
 
 
      1. STAAD SPACE
-INPUT FILE: E:\Design-8\Divisions\CEIP-I\Structural Design\Model\Structure1.STD
+INPUT FILE: E:\Design-8\Designs_All\AE Zaid\CEIP-I\Structural Design\Model\Structure1.STD
      2. START JOB INFORMATION
      3. ENGINEER DATE 20-MAR-22
      4. END JOB INFORMATION
      5. INPUT WIDTH 79
      6. UNIT INCHES KIP
      7. JOINT COORDINATES
-     8. 1 0 0 0; 2 86.5 0 0; 3 0 252 0; 4 86.5 252 0
+     8. 1 0 0 0; 2 86.496 0 0; 3 0 252 0; 4 86.5 252 0
      9. MEMBER INCIDENCES
     10. 1 1 2; 2 3 4; 3 3 1; 4 4 2
     11. DEFINE MATERIAL START
@@ -94,10 +94,10 @@ INPUT FILE: E:\Design-8\Divisions\CEIP-I\Structural Design\Model\Structure1.STD
 FOR LOADING -     1
 APPLIED JOINT EQUIVALENT LOADS
  JOINT   FORCE-X     FORCE-Y     FORCE-Z      MOM-X       MOM-Y       MOM-Z
-     1 1.38621E+01-8.18146E+00 0.00000E+00 0.00000E+00 0.00000E+00-5.36939E+01
-     2-1.38621E+01-8.18146E+00 0.00000E+00 0.00000E+00 0.00000E+00 5.36939E+01
+     1 1.38621E+01-8.18108E+00 0.00000E+00 0.00000E+00 0.00000E+00-5.36930E+01
+     2-1.38621E+01-8.18107E+00 0.00000E+00 0.00000E+00 0.00000E+00 5.36930E+01
      3 8.54490E+00-5.58646E+00 0.00000E+00 0.00000E+00 0.00000E+00 2.78482E+01
-     4-8.54490E+00-5.58646E+00 0.00000E+00 0.00000E+00 0.00000E+00-2.78482E+01
+     4-8.54490E+00-5.58647E+00 0.00000E+00 0.00000E+00 0.00000E+00-2.78482E+01
 
           STATIC LOAD/REACTION/EQUILIBRIUM SUMMARY FOR CASE NO.     1
           LOADTYPE NONE  TITLE LOAD CASE 1                            
@@ -106,13 +106,13 @@ APPLIED JOINT EQUIVALENT LOADS
            CENTER OF FORCE BASED ON Y FORCES ONLY (FEET).
          (FORCES IN NON-GLOBAL DIRECTIONS WILL INVALIDATE RESULTS)
 
-                        X =  0.360416677E+01
-                        Y =  0.852094246E+01
+                        X =  0.360406779E+01
+                        Y =  0.852118215E+01
                         Z =  0.000000000E+00
 TOTAL APPLIED LOAD     1
 
    ***TOTAL APPLIED LOAD ( KIP  FEET ) SUMMARY (LOADING     1 )
-       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-X =          -0.00
        SUMMATION FORCE-Y =         -27.54
        SUMMATION FORCE-Z =           0.00
 
@@ -134,12 +134,12 @@ APPLIED JOINT EQUIVALENT LOADS
 
    MAXIMUM DISPLACEMENTS ( INCH /RADIANS) (LOADING      1)
              MAXIMUMS    AT NODE
-      X = -3.84347E-04       4
-      Y = -1.33011E-03       4
+      X =  3.85598E-04       3
+      Y = -1.33014E-03       4
       Z =  0.00000E+00       0
       RX=  0.00000E+00       0
       RY=  0.00000E+00       0
-      RZ=  1.79707E-04       3
+      RZ= -1.79710E-04       4
 
 
 
@@ -165,7 +165,7 @@ APPLIED JOINT EQUIVALENT LOADS
 
              *********** END OF THE STAAD.Pro RUN ***********         
 
-               **** DATE= MAR 30,2022   TIME= 18:42:52 ****
+               **** DATE= JUN  7,2022   TIME= 17:30:26 ****
 
      STAAD SPACE                                              -- PAGE NO.    5
         
