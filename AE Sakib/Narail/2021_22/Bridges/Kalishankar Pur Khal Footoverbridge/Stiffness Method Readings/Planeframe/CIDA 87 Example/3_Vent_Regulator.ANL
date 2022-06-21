@@ -1,0 +1,203 @@
+                                                                 PAGE NO.    1
+
+
+
+             ****************************************************        
+             *                                                  *        
+             *           STAAD.Pro CONNECT Edition              *        
+             *           Version  22.08.00.175                  *        
+             *           Proprietary Program of                 *        
+             *           Bentley Systems, Inc.                  *        
+             *           Date=    JUN 12, 2022                  *        
+             *           Time=     1:40:47                      *        
+             *                                                  *        
+             *  Licensed to: only@ ::LAVteam::®                 *        
+             ****************************************************        
+
+
+
+     1. STAAD SPACE
+INPUT FILE: E:\Design-8\Designs_All\AE Sakib\Narail\2021_22\Bridges\Kalishankar Pur Khal Footoverbridg.. .STD
+     2. START JOB INFORMATION
+     3. ENGINEER DATE 12-JUN-22
+     4. END JOB INFORMATION
+     5. INPUT WIDTH 79
+     6. UNIT INCHES KIP
+     7. JOINT COORDINATES
+     8. 1 0 90 0; 2 76.5 90 0; 3 151.5 90 0; 4 228 90 0; 5 0 0 0; 6 76.5 0 0
+     9. 7 151.5 0 0; 8 228 0 0
+    10. MEMBER INCIDENCES
+    11. 1 1 2; 2 2 3; 3 3 4; 4 5 6; 5 6 7; 6 7 8; 7 1 5; 8 2 6; 9 3 7; 10 4 8
+    12. DEFINE MATERIAL START
+    13. ISOTROPIC CONCRETE
+    14. E 3150
+    15. POISSON 0.17
+    16. DENSITY 8.68E-05
+    17. ALPHA 5.5E-06
+    18. DAMP 0.05
+    19. G 1346.15
+    20. TYPE CONCRETE
+    21. STRENGTH FCU 4
+    22. END DEFINE MATERIAL
+    23. MEMBER PROPERTY
+    24. 1 TO 3 PRIS YD 12 ZD 12
+    25. 4 TO 6 PRIS YD 24 ZD 12
+    26. 7 10 PRIS YD 18 ZD 12
+    27. 8 9 PRIS YD 15 ZD 12
+    28. CONSTANTS
+    29. MATERIAL CONCRETE ALL
+    30. SUPPORTS
+    31. 1 TO 8 PINNED
+    32. LOAD 1 LOADTYPE DEAD  TITLE LOAD CASE 1
+    33. MEMBER LOAD
+    34. 1 TO 3 UNI GY -0.145
+    35. 4 TO 6 UNI GY 0.165
+    36. 7 TRAP GX 0.0825 0.1167
+    37. 10 TRAP GX -0.0825 -0.1167
+    38. PERFORM ANALYSIS PRINT ALL
+     STAAD SPACE                                              -- PAGE NO.    2
+        
+
+
+
+            P R O B L E M   S T A T I S T I C S
+            -----------------------------------
+
+     NUMBER OF JOINTS          8  NUMBER OF MEMBERS      10
+     NUMBER OF PLATES          0  NUMBER OF SOLIDS        0
+     NUMBER OF SURFACES        0  NUMBER OF SUPPORTS      8
+
+           Using 64-bit analysis engine.
+ 
+           SOLVER USED IS THE IN-CORE ADVANCED MATH SOLVER
+ 
+   TOTAL      PRIMARY LOAD CASES =     1, TOTAL DEGREES OF FREEDOM =      24
+   TOTAL LOAD COMBINATION  CASES =     0  SO FAR.
+
+     STAAD SPACE                                              -- PAGE NO.    3
+        
+
+
+   LOADING     1  LOADTYPE DEAD  TITLE LOAD CASE 1                            
+   -----------
+
+
+   MEMBER LOAD - UNIT KIP  INCH
+
+   MEMBER     UDL      L1     L2      CON       L     LIN1     LIN2
+
+      1    -0.1450 GY   0.00   76.50
+      2    -0.1450 GY   0.00   75.00
+      3    -0.1450 GY   0.00   76.50
+      4     0.1650 GY   0.00   76.50
+      5     0.1650 GY   0.00   75.00
+      6     0.1650 GY   0.00   76.50
+      7                                                0.083     0.117 GX
+     10                                               -0.083    -0.117 GX
+
+
+FOR LOADING -     1
+APPLIED JOINT EQUIVALENT LOADS
+ JOINT   FORCE-X     FORCE-Y     FORCE-Z      MOM-X       MOM-Y       MOM-Z
+     1 4.17420E+00-5.54625E+00 0.00000E+00 0.00000E+00 0.00000E+00-5.79319E+00
+     2 0.00000E+00-1.09837E+01 0.00000E+00 0.00000E+00 0.00000E+00 2.74595E+00
+     3 0.00000E+00-1.09837E+01 0.00000E+00 0.00000E+00 0.00000E+00-2.74595E+00
+     4-4.17420E+00-5.54625E+00 0.00000E+00 0.00000E+00 0.00000E+00 5.79319E+00
+     5 4.78980E+00 6.31125E+00 0.00000E+00 0.00000E+00 0.00000E+00 1.09299E+01
+     6 0.00000E+00 1.24988E+01 0.00000E+00 0.00000E+00 0.00000E+00-3.12469E+00
+     7 0.00000E+00 1.24988E+01 0.00000E+00 0.00000E+00 0.00000E+00 3.12469E+00
+     8-4.78980E+00 6.31125E+00 0.00000E+00 0.00000E+00 0.00000E+00-1.09299E+01
+
+          STATIC LOAD/REACTION/EQUILIBRIUM SUMMARY FOR CASE NO.     1
+          LOADTYPE DEAD  TITLE LOAD CASE 1                            
+
+TOTAL APPLIED LOAD     1
+
+   ***TOTAL APPLIED LOAD ( KIP  INCH ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =           4.56
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=         519.84
+
+TOTAL REACTION LOAD    1
+
+   ***TOTAL REACTION LOAD( KIP  INCH ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =          -4.56
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=        -519.84
+
+     STAAD SPACE                                              -- PAGE NO.    4
+        
+
+   MAXIMUM DISPLACEMENTS ( INCH /RADIANS) (LOADING      1)
+             MAXIMUMS    AT NODE
+      X =  0.00000E+00       0
+      Y =  0.00000E+00       0
+      Z =  0.00000E+00       0
+      RX=  0.00000E+00       0
+      RY=  0.00000E+00       0
+      RZ= -8.26576E-06       1
+
+
+
+   EXTERNAL AND INTERNAL JOINT LOAD SUMMARY ( KIP  INCH )-
+
+   JT     EXT FX/   EXT FY/   EXT FZ/    EXT MX/    EXT MY/    EXT MZ/
+          INT FX    INT FY    INT FZ     INT MX     INT MY     INT MZ
+
+                                                                      SUPPORT=1
+     1      4.17     -5.55      0.00       0.00       0.00      -5.79
+            0.03      0.02      0.00       0.00       0.00       5.79  111000
+
+     2      0.00    -10.98      0.00       0.00       0.00       2.75
+           -0.02     -0.02      0.00       0.00       0.00      -2.75  111000
+
+     3      0.00    -10.98      0.00       0.00       0.00      -2.75
+            0.02     -0.02      0.00       0.00       0.00       2.75  111000
+
+     4     -4.17     -5.55      0.00       0.00       0.00       5.79
+           -0.03      0.02      0.00       0.00       0.00      -5.79  111000
+
+     5      4.79      6.31      0.00       0.00       0.00      10.93
+           -0.03     -0.12      0.00       0.00       0.00     -10.93  111000
+
+     6      0.00     12.50      0.00       0.00       0.00      -3.12
+            0.02      0.12      0.00       0.00       0.00       3.12  111000
+
+     7      0.00     12.50      0.00       0.00       0.00       3.12
+           -0.02      0.12      0.00       0.00       0.00      -3.12  111000
+
+     8     -4.79      6.31      0.00       0.00       0.00     -10.93
+            0.03     -0.12      0.00       0.00       0.00      10.93  111000
+
+
+
+   ************ END OF DATA FROM INTERNAL STORAGE ************
+
+
+    39. FINISH
+
+
+             *********** END OF THE STAAD.Pro RUN ***********         
+
+               **** DATE= JUN 12,2022   TIME=  1:40:48 ****
+
+     STAAD SPACE                                              -- PAGE NO.    5
+        
+         ************************************************************
+         *   For technical assistance on STAAD.Pro, please visit    *
+         *   http://www.bentley.com/en/support/                     *
+         *                                                          *
+         *   Details about additional assistance from               *
+         *   Bentley and Partners can be found at program menu      *
+         *   Help->Technical Support                                *
+         *                                                          *
+         *           Copyright (c) Bentley Systems, Inc.            *
+         *                http://www.bentley.com                    *
+         ************************************************************
+                                                                     

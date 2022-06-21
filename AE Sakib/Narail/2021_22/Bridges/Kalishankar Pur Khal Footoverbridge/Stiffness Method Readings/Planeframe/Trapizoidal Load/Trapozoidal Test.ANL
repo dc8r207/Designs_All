@@ -1,0 +1,177 @@
+                                                                 PAGE NO.    1
+
+
+
+             ****************************************************        
+             *                                                  *        
+             *           STAAD.Pro CONNECT Edition              *        
+             *           Version  22.08.00.175                  *        
+             *           Proprietary Program of                 *        
+             *           Bentley Systems, Inc.                  *        
+             *           Date=    JUN 11, 2022                  *        
+             *           Time=    22:28:57                      *        
+             *                                                  *        
+             *  Licensed to: only@ ::LAVteam::®                 *        
+             ****************************************************        
+
+
+
+     1. STAAD SPACE
+INPUT FILE: E:\Design-8\Designs_All\AE Sakib\Narail\2021_22\Bridges\Kalishankar Pur Khal Footoverbridg.. .STD
+     2. START JOB INFORMATION
+     3. ENGINEER DATE 10-JUN-22
+     4. END JOB INFORMATION
+     5. INPUT WIDTH 79
+     6. UNIT INCHES KIP
+     7. JOINT COORDINATES
+     8. 1 0 0 0; 2 120 0 0
+     9. MEMBER INCIDENCES
+    10. 1 1 2
+    11. DEFINE MATERIAL START
+    12. ISOTROPIC CONCRETE
+    13. E 3150
+    14. POISSON 0.17
+    15. DENSITY 8.68E-05
+    16. ALPHA 5.5E-06
+    17. DAMP 0.05
+    18. G 1346.15
+    19. TYPE CONCRETE
+    20. STRENGTH FCU 4
+    21. END DEFINE MATERIAL
+    22. MEMBER PROPERTY
+    23. 1 PRIS YD 10 ZD 10
+    24. CONSTANTS
+    25. MATERIAL CONCRETE ALL
+    26. SUPPORTS
+    27. 1 2 FIXED
+    28. LOAD 1 LOADTYPE DEAD  TITLE DD
+
+   **WARNING** - ALL DEGREES OF FREEDOM FIXED.
+   STAAD WILL INFINITESIMALLY RELEASE MOMENT-X AT FIRST JOINT ENTERED.
+
+    29. UNIT FEET KIP
+    30. MEMBER LOAD
+    31. 1 TRAP GY -12 -36
+     STAAD SPACE                                              -- PAGE NO.    2
+        
+    32. PERFORM ANALYSIS PRINT ALL
+
+
+
+            P R O B L E M   S T A T I S T I C S
+            -----------------------------------
+
+     NUMBER OF JOINTS          2  NUMBER OF MEMBERS       1
+     NUMBER OF PLATES          0  NUMBER OF SOLIDS        0
+     NUMBER OF SURFACES        0  NUMBER OF SUPPORTS      2
+
+           Using 64-bit analysis engine.
+ 
+           SOLVER USED IS THE IN-CORE ADVANCED MATH SOLVER
+ 
+   TOTAL      PRIMARY LOAD CASES =     1, TOTAL DEGREES OF FREEDOM =       1
+   TOTAL LOAD COMBINATION  CASES =     0  SO FAR.
+
+     STAAD SPACE                                              -- PAGE NO.    3
+        
+
+
+   LOADING     1  LOADTYPE DEAD  TITLE DD                                     
+   -----------
+
+
+   MEMBER LOAD - UNIT KIP  FEET
+
+   MEMBER     UDL      L1     L2      CON       L     LIN1     LIN2
+
+      1                                              -12.000   -36.000 GY
+
+
+FOR LOADING -     1
+APPLIED JOINT EQUIVALENT LOADS
+ JOINT   FORCE-X     FORCE-Y     FORCE-Z      MOM-X       MOM-Y       MOM-Z
+     1 0.00000E+00-9.60000E+01 0.00000E+00 0.00000E+00 0.00000E+00-1.80000E+02
+     2 0.00000E+00-1.44000E+02 0.00000E+00 0.00000E+00 0.00000E+00 2.20000E+02
+
+          STATIC LOAD/REACTION/EQUILIBRIUM SUMMARY FOR CASE NO.     1
+          LOADTYPE DEAD  TITLE DD                                     
+
+
+           CENTER OF FORCE BASED ON Y FORCES ONLY (FEET).
+         (FORCES IN NON-GLOBAL DIRECTIONS WILL INVALIDATE RESULTS)
+
+                        X =  0.583333351E+01
+                        Y =  0.000000000E+00
+                        Z =  0.000000000E+00
+TOTAL APPLIED LOAD     1
+
+   ***TOTAL APPLIED LOAD ( KIP  FEET ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =        -240.00
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=       -1400.00
+
+TOTAL REACTION LOAD    1
+
+   ***TOTAL REACTION LOAD( KIP  FEET ) SUMMARY (LOADING     1 )
+       SUMMATION FORCE-X =           0.00
+       SUMMATION FORCE-Y =         240.00
+       SUMMATION FORCE-Z =           0.00
+
+      SUMMATION OF MOMENTS AROUND THE ORIGIN-
+      MX=           0.00  MY=           0.00  MZ=        1400.00
+
+
+   MAXIMUM DISPLACEMENTS ( INCH /RADIANS) (LOADING      1)
+             MAXIMUMS    AT NODE
+      X =  0.00000E+00       0
+      Y =  0.00000E+00       0
+      Z =  0.00000E+00       0
+      RX=  0.00000E+00       0
+      RY=  0.00000E+00       0
+      RZ=  0.00000E+00       0
+
+     STAAD SPACE                                              -- PAGE NO.    4
+        
+
+
+   EXTERNAL AND INTERNAL JOINT LOAD SUMMARY ( KIP  FEET )-
+
+   JT     EXT FX/   EXT FY/   EXT FZ/    EXT MX/    EXT MY/    EXT MZ/
+          INT FX    INT FY    INT FZ     INT MX     INT MY     INT MZ
+
+                                                                      SUPPORT=1
+     1      0.00    -96.00      0.00       0.00       0.00    -180.00
+            0.00      0.00      0.00       0.00       0.00       0.00  111111
+
+     2      0.00   -144.00      0.00       0.00       0.00     220.00
+            0.00      0.00      0.00       0.00       0.00       0.00  111111
+
+
+
+   ************ END OF DATA FROM INTERNAL STORAGE ************
+
+
+    33. FINISH
+
+
+             *********** END OF THE STAAD.Pro RUN ***********         
+
+               **** DATE= JUN 11,2022   TIME= 22:28:58 ****
+
+     STAAD SPACE                                              -- PAGE NO.    5
+        
+         ************************************************************
+         *   For technical assistance on STAAD.Pro, please visit    *
+         *   http://www.bentley.com/en/support/                     *
+         *                                                          *
+         *   Details about additional assistance from               *
+         *   Bentley and Partners can be found at program menu      *
+         *   Help->Technical Support                                *
+         *                                                          *
+         *           Copyright (c) Bentley Systems, Inc.            *
+         *                http://www.bentley.com                    *
+         ************************************************************
+                                                                     
