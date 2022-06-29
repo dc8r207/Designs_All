@@ -1,0 +1,179 @@
+2022-06-29 17:49:35,571 Testing Log file
+2022-06-29 17:49:35,623 printing estimated quantity............................
+2022-06-29 17:49:35,623     sl  Item code                           short_description  unit  \
+0    1  76-250-40           Manufacturing Flap Gate 1.95X1.65  Each   
+1    2  76-250-20           Manufacturing Flap Gate 1.35X1.35  Each   
+2    3  76-240-40                     Manufacturing Lift Gate  Each   
+3    4     76-190                Pedestal Type Lifting Device  Each   
+4    5  28-120-10                                    1:3:6 CC   cum   
+5    6     76-170                 MS Work in Plates abd Angle    Kg   
+6    7  72-130-10                      Synthetic Enamel Paint   sqm   
+7    8  76-270-10  Labour Chrge for Removal of Gate and Hoist  Each   
+8    9  76-260-20          Labour Chrge for Gate Installation  Each   
+9   10     16-450                     Ring Bundh Construction   cum   
+10  11  12-310-20                                 Bailing out   cum   
+
+          rate     KMD_W_03     KMD_W_02     KMD_W_01   KMD_W_04  
+0   130568.661     8.000000     2.000000    11.000000    17.0000  
+1    79418.200     0.000000     7.000000     0.000000     0.0000  
+2   109392.430     1.000000     0.000000     0.000000     0.0000  
+3    93037.270     1.000000     0.000000     0.000000     0.0000  
+4     9561.100     2.784348     2.784348     3.403092     5.2593  
+5      161.491    63.800000    71.870000    87.850000   135.7600  
+6      254.010    57.915000    57.915000    70.785000   101.3950  
+7     2599.170    10.000000     9.000000    11.000000    17.0000  
+8    12923.011    10.000000     9.000000    11.000000    17.0000  
+9      198.790   648.000000   648.000000   792.000000   792.0000  
+10       7.460  3240.000000  3240.000000  3960.000000  6120.0000  
+2022-06-29 17:49:35,658 printing Assed Quantity............................
+2022-06-29 17:49:35,658     sl  Item code                           short_description  unit  \
+0    1  76-250-40           Manufacturing Flap Gate 1.95X1.65  Each   
+1    2  76-250-20           Manufacturing Flap Gate 1.35X1.35  Each   
+2    3  76-240-40                     Manufacturing Lift Gate  Each   
+3    4     76-190                Pedestal Type Lifting Device  Each   
+4    5  28-120-10                                    1:3:6 CC   cum   
+5    6     76-170                 MS Work in Plates abd Angle    Kg   
+6    7  72-130-10                      Synthetic Enamel Paint   sqm   
+7    8  76-270-10  Labour Chrge for Removal of Gate and Hoist  Each   
+8    9  76-260-20          Labour Chrge for Gate Installation  Each   
+9   10     16-450                     Ring Bundh Construction   cum   
+10  11  12-310-20                                 Bailing out   cum   
+
+          rate  KMD_W_03  KMD_W_02  KMD_W_01  KMD_W_04  
+0   130568.661      1.00      1.00      1.00      1.00  
+1     7418.420      1.00      1.00      1.00      1.00  
+2   109392.430      1.00      1.00      1.00      1.00  
+3    93037.270      1.00      1.00      1.00      1.00  
+4     9561.000      0.75      0.79      0.77      0.71  
+5      161.491      1.00      1.00      1.00      1.00  
+6      254.010      0.76      0.81      0.80      0.76  
+7     2599.170      1.00      1.00      1.00      1.00  
+8    12923.011      1.00      1.00      1.00      1.00  
+9      198.790      0.60      0.70      0.67      0.66  
+10       7.460      0.50      0.59      0.58      0.58  
+2022-06-29 17:49:35,684 printing package Names............................
+2022-06-29 17:49:35,685    sl  packages
+0   1  KMD_W_01
+1   2  KMD_W_02
+2   3  KMD_W_03
+3   4  KMD_W_04
+2022-06-29 17:49:35,691 printing information for package:KMD_W_01
+2022-06-29 17:49:35,695     Item code                                         des  unit     rate  \
+0   76-250-40           Manufacturing Flap Gate 1.95X1.65  Each   130569   
+1   76-250-20           Manufacturing Flap Gate 1.35X1.35  Each  79418.2   
+2   76-240-40                     Manufacturing Lift Gate  Each   109392   
+3      76-190                Pedestal Type Lifting Device  Each  93037.3   
+4   28-120-10                                    1:3:6 CC   cum   9561.1   
+5      76-170                 MS Work in Plates abd Angle    Kg  161.491   
+6   72-130-10                      Synthetic Enamel Paint   sqm   254.01   
+7   76-270-10  Labour Chrge for Removal of Gate and Hoist  Each  2599.17   
+8   76-260-20          Labour Chrge for Gate Installation  Each    12923   
+9      16-450                     Ring Bundh Construction   cum   198.79   
+10  12-310-20                                 Bailing out   cum     7.46   
+11          -                                       Total     -        -   
+12          -                                     Percent     -        -   
+
+     quan_e  quan_a         am_e         am_a  
+0        11      11  1.43626e+06  1.43626e+06  
+1         0       0            0            0  
+2         0       0            0            0  
+3         0       0            0            0  
+4   3.40309    2.62      32537.3      25050.1  
+5     87.85   87.85        14187        14187  
+6    70.785  56.628      17980.1      14384.1  
+7        11      11      28590.9      28590.9  
+8        11      11       142153       142153  
+9       792  530.64       157442       105486  
+10     3960  2296.8      29541.6      17134.1  
+11        -       -  1.85869e+06  1.78324e+06  
+12        -       -            -       95.94%  
+2022-06-29 17:49:35,704 printing information for package:KMD_W_02
+2022-06-29 17:49:35,711     Item code                                         des  unit     rate  \
+0   76-250-40           Manufacturing Flap Gate 1.95X1.65  Each   130569   
+1   76-250-20           Manufacturing Flap Gate 1.35X1.35  Each  79418.2   
+2   76-240-40                     Manufacturing Lift Gate  Each   109392   
+3      76-190                Pedestal Type Lifting Device  Each  93037.3   
+4   28-120-10                                    1:3:6 CC   cum   9561.1   
+5      76-170                 MS Work in Plates abd Angle    Kg  161.491   
+6   72-130-10                      Synthetic Enamel Paint   sqm   254.01   
+7   76-270-10  Labour Chrge for Removal of Gate and Hoist  Each  2599.17   
+8   76-260-20          Labour Chrge for Gate Installation  Each    12923   
+9      16-450                     Ring Bundh Construction   cum   198.79   
+10  12-310-20                                 Bailing out   cum     7.46   
+11          -                                       Total     -        -   
+12          -                                     Percent     -        -   
+
+     quan_e  quan_a         am_e         am_a  
+0         2       2       261137       261137  
+1         7       7       555927       555927  
+2         0       0            0            0  
+3         0       0            0            0  
+4   2.78435     2.2      26621.4      21034.4  
+5     71.87   71.87      11606.4      11606.4  
+6    57.915  46.911        14711      11915.9  
+7         9       9      23392.5      23392.5  
+8         9       9       116307       116307  
+9       648   453.6       128816      90171.1  
+10     3240  1911.6      24170.4      14260.5  
+11        -       -  1.16269e+06  1.10575e+06  
+12        -       -            -        95.1%  
+2022-06-29 17:49:35,721 printing information for package:KMD_W_03
+2022-06-29 17:49:35,724     Item code                                         des  unit     rate  \
+0   76-250-40           Manufacturing Flap Gate 1.95X1.65  Each   130569   
+1   76-250-20           Manufacturing Flap Gate 1.35X1.35  Each  79418.2   
+2   76-240-40                     Manufacturing Lift Gate  Each   109392   
+3      76-190                Pedestal Type Lifting Device  Each  93037.3   
+4   28-120-10                                    1:3:6 CC   cum   9561.1   
+5      76-170                 MS Work in Plates abd Angle    Kg  161.491   
+6   72-130-10                      Synthetic Enamel Paint   sqm   254.01   
+7   76-270-10  Labour Chrge for Removal of Gate and Hoist  Each  2599.17   
+8   76-260-20          Labour Chrge for Gate Installation  Each    12923   
+9      16-450                     Ring Bundh Construction   cum   198.79   
+10  12-310-20                                 Bailing out   cum     7.46   
+11          -                                       Total     -        -   
+12          -                                     Percent     -        -   
+
+     quan_e  quan_a         am_e         am_a  
+0         8       8  1.04455e+06  1.04455e+06  
+1         0       0            0            0  
+2         1       1       109392       109392  
+3         1       1      93037.3      93037.3  
+4   2.78435   2.088      26621.4      19963.6  
+5      63.8    63.8      10303.1      10303.1  
+6    57.915  44.015        14711      11180.2  
+7        10      10      25991.7      25991.7  
+8        10      10       129230       129230  
+9       648   388.8       128816      77289.6  
+10     3240    1620      24170.4      12085.2  
+11        -       -  1.60682e+06  1.53302e+06  
+12        -       -            -       95.41%  
+2022-06-29 17:49:35,734 printing information for package:KMD_W_04
+2022-06-29 17:49:35,736     Item code                                         des  unit     rate  \
+0   76-250-40           Manufacturing Flap Gate 1.95X1.65  Each   130569   
+1   76-250-20           Manufacturing Flap Gate 1.35X1.35  Each  79418.2   
+2   76-240-40                     Manufacturing Lift Gate  Each   109392   
+3      76-190                Pedestal Type Lifting Device  Each  93037.3   
+4   28-120-10                                    1:3:6 CC   cum   9561.1   
+5      76-170                 MS Work in Plates abd Angle    Kg  161.491   
+6   72-130-10                      Synthetic Enamel Paint   sqm   254.01   
+7   76-270-10  Labour Chrge for Removal of Gate and Hoist  Each  2599.17   
+8   76-260-20          Labour Chrge for Gate Installation  Each    12923   
+9      16-450                     Ring Bundh Construction   cum   198.79   
+10  12-310-20                                 Bailing out   cum     7.46   
+11          -                                       Total     -        -   
+12          -                                     Percent     -        -   
+
+     quan_e  quan_a         am_e         am_a  
+0        17      17  2.21967e+06  2.21967e+06  
+1         0       0            0            0  
+2         0       0            0            0  
+3         0       0            0            0  
+4    5.2593   3.734      50284.7      35701.2  
+5    135.76  135.76        21924        21924  
+6   101.395   77.06      25755.3        19574  
+7        17      17      44185.9      44185.9  
+8        17      17       219691       219691  
+9       792  522.72       157442       103912  
+10     6120  3549.6      45655.2        26480  
+11        -       -  2.78461e+06  2.69114e+06  
+12        -       -            -       96.64%  
