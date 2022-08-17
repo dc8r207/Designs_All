@@ -1,0 +1,27 @@
+<< Beam Analysis using Program BEAM >>
+EXAMPLE 9.2
+NN NE NM ND NL NMPC  NPR
+ 3  2  1  4  4  0     1
+NDIM NEN NDN 
+ 1    2   2
+Node#  Coordinates
+ 1      0
+ 2   1000
+ 3   2000
+Elem#  N1  N2  Mat#  Mom_Inertia 
+ 1      1   2   1     4e6
+ 2      2   3   1     4e6
+DOF#  Displacement
+ 1     0
+ 2     0
+ 3     0
+ 5     0
+DOF#  Load
+ 3    -6000
+ 4    -1e6
+ 5    -6000
+ 6     1e6
+MAT#   E 
+ 1    200000
+ Multi-point Constraints  B1*Qi+B2*Qj=B3
+

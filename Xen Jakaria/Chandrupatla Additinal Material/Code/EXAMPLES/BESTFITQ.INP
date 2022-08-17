@@ -1,0 +1,26 @@
+Geometry Data same as for QUAD, QUADCG, or AXIQUAD
+EXAMPLE CHAPTER 6   
+NN    NE    NM    ND    NL    NMPC
+9    4    1    6    1    0
+NDIM    NEN    NDN
+2    4    2
+Node#    X    Y
+1    0    0
+2    0    15
+3    0    30
+4    30    0
+5    30    15
+6    30    30
+7    60    0
+8    60    15
+9    60    30
+Elem#    N1    N2    N3    N4    Material#    Thickness    TempRise
+1    1    4    5    2    1    10    0
+2    2    5    6    3    1    10    0
+3    4    7    8    5    1    10    0
+4    5    8    9    6    1    10    0                        
+Element Values (If above number is 1 give element values here)
+1    213.3628966    160.2803797    53.77901082    141.1354365
+2    136.9611449    48.52905932    159.9454209    208.3193656
+3    93.73558047    58.81586404    38.02356773    91.47519314
+4    92.30714222    69.32117572    94.1831415    120.101283
