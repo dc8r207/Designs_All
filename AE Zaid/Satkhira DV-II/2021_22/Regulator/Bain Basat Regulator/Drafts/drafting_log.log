@@ -1,26 +1,15 @@
-2022-09-26 23:44:39,194 A(2,3,4)
-2022-09-26 23:44:39,333 Creating ROOT dictionary.
-2022-09-26 23:44:39,333 creating ACAD_COLOR dictionary
-2022-09-26 23:44:39,333 creating ACAD_GROUP dictionary
-2022-09-26 23:44:39,333 creating ACAD_LAYOUT dictionary
-2022-09-26 23:44:39,333 creating ACAD_MATERIAL dictionary
-2022-09-26 23:44:39,333 creating ACAD_MLEADERSTYLE dictionary
-2022-09-26 23:44:39,333 creating ACAD_MLINESTYLE dictionary
-2022-09-26 23:44:39,333 creating ACAD_PLOTSETTINGS dictionary
-2022-09-26 23:44:39,333 creating ACAD_PLOTSTYLENAME dictionary
-2022-09-26 23:44:39,333 creating ACAD_SCALELIST dictionary
-2022-09-26 23:44:39,333 creating ACAD_TABLESTYLE dictionary
-2022-09-26 23:44:39,333 creating ACAD_VISUALSTYLE dictionary
-2022-09-26 23:45:11,334 A(2,3,4)
-2022-09-26 23:45:11,457 Creating ROOT dictionary.
-2022-09-26 23:45:11,457 creating ACAD_COLOR dictionary
-2022-09-26 23:45:11,457 creating ACAD_GROUP dictionary
-2022-09-26 23:45:11,457 creating ACAD_LAYOUT dictionary
-2022-09-26 23:45:11,457 creating ACAD_MATERIAL dictionary
-2022-09-26 23:45:11,457 creating ACAD_MLEADERSTYLE dictionary
-2022-09-26 23:45:11,457 creating ACAD_MLINESTYLE dictionary
-2022-09-26 23:45:11,457 creating ACAD_PLOTSETTINGS dictionary
-2022-09-26 23:45:11,457 creating ACAD_PLOTSTYLENAME dictionary
-2022-09-26 23:45:11,457 creating ACAD_SCALELIST dictionary
-2022-09-26 23:45:11,457 creating ACAD_TABLESTYLE dictionary
-2022-09-26 23:45:11,472 creating ACAD_VISUALSTYLE dictionary
+2022-09-27 17:00:14,412 A(2,3,4)
+2022-09-27 17:00:14,524 Creating ROOT dictionary.
+2022-09-27 17:00:14,524 creating ACAD_COLOR dictionary
+2022-09-27 17:00:14,524 creating ACAD_GROUP dictionary
+2022-09-27 17:00:14,524 creating ACAD_LAYOUT dictionary
+2022-09-27 17:00:14,524 creating ACAD_MATERIAL dictionary
+2022-09-27 17:00:14,524 creating ACAD_MLEADERSTYLE dictionary
+2022-09-27 17:00:14,524 creating ACAD_MLINESTYLE dictionary
+2022-09-27 17:00:14,525 creating ACAD_PLOTSETTINGS dictionary
+2022-09-27 17:00:14,525 creating ACAD_PLOTSTYLENAME dictionary
+2022-09-27 17:00:14,525 creating ACAD_SCALELIST dictionary
+2022-09-27 17:00:14,525 creating ACAD_TABLESTYLE dictionary
+2022-09-27 17:00:14,525 creating ACAD_VISUALSTYLE dictionary
+2022-09-27 17:00:14,530 did not write header var $INTERFEREOBJVS, value is None.
+2022-09-27 17:00:14,530 did not write header var $INTERFEREVPVS, value is None.
