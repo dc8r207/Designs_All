@@ -1,0 +1,26 @@
+DEBUG:root:Testing logging module............
+DEBUG:root:sucessfully initiated Task writing....... 
+DEBUG:root:Printing Task Dataframe................
+DEBUG:root:   TaskNo                             Task_Name  Start Day  Finish Day  \
+0       1                                  Void          1           3   
+1       2           Compression Member Part_1_2          4           4   
+2       3           Compression Member Part_3_4          5           5   
+3       4             Compression Member Part_5          6           6   
+4       5  Group Discussion and Problem Solving          7           7   
+
+   Durations     Unit  H1  H2  H3   H4  ...  H24  H25  H26  H27  H28  H29  \
+0          3  Percent  34  34  34    0  ...    0    0    0    0    0    0   
+1          1  Percent   0   0   0  100  ...    0    0    0    0    0    0   
+2          1  Percent   0   0   0    0  ...    0    0    0    0    0    0   
+3          1  Percent   0   0   0    0  ...    0    0    0    0    0    0   
+4          1  Percent   0   0   0    0  ...    0    0    0    0    0    0   
+
+   H30  H31  Task Vol  Work_rate  
+0    0    0       100         34  
+1    0    0       100        100  
+2    0    0       100        100  
+3    0    0       100        100  
+4    0    0       100        100  
+
+[5 rows x 39 columns]
+DEBUG:root:start=1 finish=9

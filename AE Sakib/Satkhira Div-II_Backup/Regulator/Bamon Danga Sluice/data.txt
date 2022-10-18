@@ -1,0 +1,7 @@
+names=['VW', 'VH', 'NV', 'Tt', 'Ts', 'Tb', 'Tp', 'gamma_s', 'phi', 'H', 'MPF', 'IM', 'INVERT_LEVEL', 'EMBANKMENT_CREST_LEVEL', 'h_prime']
+units=['feet', 'feet', 'nos', 'inch', 'inch', 'inch', 'inch', 'pcf', 'degree', 'feet', 'unitless', 'unitless', 'ft-pwd', 'ft-pwd', 'ft']
+details=['Vent Inner Span/width', 'Vent Height', 'No of Vents', 
+'Top Slab thicjness', 'Bottom Slab Thicknes', 'Bottom Slab Thicknes', 'Pier Thicknes', 
+'Soil Fill Unit Wieght', 'friction angle of back fill soil', 'Height of srcharge above pier', 
+'Multiple Presnce Factor', 'Impact factor for Dynamic Loading',
+ 'Invert Level of Regulator', 'Emnakment Crest Level', 'Additional Surcharge load above Embankemt']
