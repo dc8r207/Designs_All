@@ -1,0 +1,62 @@
+ section no=1
+ displaying xvalues
+ [0,5,10,15,17.205,20,23.601,25,27.203,28.601,30,30.806,32.202,35,39.408,44.407,47.202,51.614,55.218,57.428,60.216,63.246,66.03,71.028,74.632,78.237,83.235,85.446,89.051,94.048,99.045,103.47,109.041,115.676,120.673,126.491,134.272,140.089,146.479,153.688,159.505,165.895,170.892,178.101,183.918,189.737,196.125,204.727,211.936,217.754,225.535,232.744,239.954,247.986,256.587,264.367,270.185,277.395,282.392,285.997,290.993,298.203,304.592,311.801,318.442,324.829,333.431,339.819,347.029,353.669,358.666,362.84,368.658,375.047,378.082,383.078,388.075,393.893,401.673,407.491,416.093,421.911,428.299,434.117,440.505,446.324,452.712,459.922,465.74,470.737,477.125,482.943,486.548,490.153,495.149,497.363,500.968,505.964,508.747,513.174,516.779,521.776,526.772,531.2,536.196,542.584,547.011,552.007,557.004,562,565.605,572.815,577.811,582.808,587.804,594.445,599.441,604.438,610.257,615.253,621.641,626.637,632.456,]
+ displaying yvalues
+ [2.852,2.788,2.948,2.958,2.97,3.306,1.797,1.559,1.855,1.202,1.16,-2.127,-2.122,-2.31,-2.62,-2.797,-3.094,0.92,0.82,-0.32,-1.26,-2.04,-2.68,-3.47,-3.99,-4.65,-5.12,-5.6,-5.97,-6.37,-6.94,-7.64,-8.17,-8.09,-8.01,-7.95,-7.86,-7.81,-7.79,-7.76,-7.77,-7.85,-7.88,-7.92,-7.86,-7.93,-7.94,-8.08,-8.11,-8.05,-8.12,-8.25,-8.19,-8.22,-8.24,-8.2,-8.24,-8.31,-8.37,-8.39,-8.37,-8.4,-8.46,-8.42,-8.5,-8.56,-8.5,-8.45,-8.24,-8.06,-7.85,-7.61,-6.88,-7.89,-6.77,-6.52,-7.33,-7.21,-7.04,-7.02,-6.87,-6.71,-6.6,-6.35,-6.37,-6.19,-6.21,-6.04,-5.96,-5.86,-5.53,-5.55,-5.48,-5.48,-5.02,-5.18,-4.73,-5.06,-4.82,-4.73,-4.72,-4.84,-4.5,-4.18,-4.14,-4.27,-4,-3.75,-3.66,-3.6,-3.43,-2.79,-3.06,-2.96,-2.8,-2.63,-2.59,-2.44,-2.29,-1.86,-1.49,-0.8,-0.07,]
+ reding design parameters
+ design RL=0 B=3 CL at m=3 left side slope 1:48 right side slope 1:24
+ drawing sheet width=10000 Drawing Location =A
+ Pitching start arclenght from LB=31.71
+ original size string:450X450X300
+  spited string:450,450,300,
+ original size string:450X450X450
+  spited string:450,450,450,hatlf_tentha=0.1623
+ original size string:450X450X300
+  spited string:450,450,300,
+ original size string:450X450X450
+  spited string:450,450,450,hatlf_tentha=0.1623
+ original size string:450X450X300
+  spited string:450,450,300,
+ original size string:450X450X450
+  spited string:450,450,450,hatlf_tentha=0.1623
+ System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Khal_Deafting.XSectionFull.FindPointFromArcLength(Double alength) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XSectionFull.cs:line 1916
+   at Khal_Deafting.XSectionFull.calculateBlockPitchingLinesRB() in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XSectionFull.cs:line 4112
+   at Khal_Deafting.XSectionFull..ctor(List`1 xvalues, List`1 yvalues, Double xog, Double yog, Double sx, Double sy, Double profileLength, Double draftingWidth, Double design_level, Double cl, Double base_width, Double leftSlope, Double rightSlope, DrawingSheet ds, String drawing_location, String section_name, Double sec_chainage, Double app_start, Double app_end, Double app_start_rl, Double app_end_rl, Double wlwl, Double appron_length, Double EGL, Double pitchingslope, Double geobag_volume, Double geobag_weight, Int32 geobag_layer_no, Double cc_block_volume, Int32 cc_block_layer_no, String dumping_block_1, String dumping_block_2, String placing_block, Double khoa_filter, Double sand_filter) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XSectionFull.cs:line 554
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 746
+mscorlib
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:line 635
+PW_Drafting_LB
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Khal_Deafting.XcelInput.getLeftAppronData(Editor edt, List`1 drawingSheets) in E:\Design-8\Drafting Programs\Design_8_Drafting_Programs\PWDrafting_LB_Without_Full_River\Khal_Drafting\XcelInput.cs:l
