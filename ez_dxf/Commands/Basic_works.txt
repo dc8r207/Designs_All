@@ -1,0 +1,4 @@
+#how to import ezdxf
+import ezdxf
+#how to create a new document
+doc = ezdxf.new()
