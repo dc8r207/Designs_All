@@ -2,3 +2,6 @@
 import ezdxf
 #how to create a new document
 doc = ezdxf.new()
+
+#referncing modelspace
+msp=doc.modelspace()
