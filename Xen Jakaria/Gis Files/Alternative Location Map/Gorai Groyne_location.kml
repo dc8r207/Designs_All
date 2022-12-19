@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Gorai Groyne_location.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Gorai Groyne</name>
+		<open>1</open>
+		<Placemark>
+			<name>Untitled Path</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.11629556243119,23.91851989822456,0 89.11645109713213,23.91851860251431,0 89.1165281553378,23.9185153688655,0 89.116602479508,23.91857094902171,0 89.1166688835924,23.91863211517345,0 89.11672202405556,23.91871383917437,0 89.11672500904389,23.91879260330963,0 89.11670708986431,23.91886224779084,0 89.11671180178294,23.91897371812626,0 89.11674641587202,23.91903908432972,0 89.11679248779245,23.91909183475154,0 89.11684008576849,23.91913896125405,0 89.11693351539331,23.9191591186518,0 89.11699647775509,23.91912713412713,0 89.11712292321262,23.91904599577604,0 89.11725790546126,23.91897455125116,0 89.11734299243884,23.91888645006184,0 89.11744751542045,23.91879082441881,0 89.11756064169921,23.91869736065023,0 89.1176980306372,23.91860391722829,0 89.11779894355608,23.91851358900669,0 89.11786927856686,23.91847642405228,0 89.11798478038686,23.91839504176172,0 89.11804917176569,23.91831204226956,0 89.11803876498911,23.91819817119648,0 89.11797056352287,23.91810032397712,0 89.11789928893924,23.9180031968345,0 89.11785824379284,23.91791835844501,0 89.11782496847053,23.91784490246152,0 89.11781332256167,23.91778703688958,0 89.11789364110626,23.91767260586139,0 89.11803472967509,23.91760718083959,0 89.11820785020527,23.91748537878105,0 89.11836311045894,23.91739121123119,0 89.11857180562281,23.91734176015954,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

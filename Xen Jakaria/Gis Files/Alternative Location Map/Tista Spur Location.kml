@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Tista Spur Location.kml</name>
+	<Style id="inline13310">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline13900">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline14900</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline14900">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline15000">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2550">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline15000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline13310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3020">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Tista Location</name>
+		<open>1</open>
+		<Placemark>
+			<name>Sholmari Spur-1</name>
+			<open>1</open>
+			<styleUrl>#inline13900</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.10887952836396,25.99425710015197,0 89.11101341226767,25.99536616361617,0 89.11109553325382,25.99525217057942,0 89.10893392546356,25.9941338393398,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Sholmari Spur-2</name>
+			<open>1</open>
+			<styleUrl>#inline2550</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.11411726329037,25.9797117389783,0 89.11714604690182,25.98133980123623,0 89.11718744131468,25.98129296170035,0 89.11800509775914,25.98171165823579,0 89.1180290526157,25.98166483732202,0 89.11720954342134,25.98125429299279,0 89.11723879127331,25.98120354414752,0 89.11416220723264,25.97960661335678,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CFD_Model_loc1.kml</name>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline3">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline4">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline6">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>CFD_Model</name>
+		<open>1</open>
+		<Placemark>
+			<name>DS Boundary</name>
+			<styleUrl>#inline7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.95810711365016,24.04750329548428,4.462306599632115 89.95949988320872,24.04746061108666,5.529347783609465 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Center Line</name>
+			<styleUrl>#inline0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.955459351863,24.05001257894913,0 89.9558659848244,24.05015704983501,0 89.95612183195793,24.05024596147401,0 89.95647379018911,24.05033240280893,0 89.95673608661096,24.0504073605291,0 89.95705951711447,24.05044090598538,0 89.9573713571877,24.05042203243591,0 89.95770622117246,24.05028304230007,0 89.95815800176256,24.05000790966957,0 89.95836148799143,24.04972624874173,0 89.95844768980513,24.04946677754731,0 89.9585623235688,24.04908614943616,0 89.95862251012642,24.04856217303023,0 89.95865156531409,24.04816842777836,0 89.95865845095382,24.04794868901677,0 89.9586693321087,24.04772612426081,0 89.95870403441066,24.0475427692441,0 89.95871182829625,24.04747276963188,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>USBoundary</name>
+			<styleUrl>#inline5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.95515864406919,24.05059016098987,5.062572174575324 89.95568939265736,24.04945024003028,3.937404211335921 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

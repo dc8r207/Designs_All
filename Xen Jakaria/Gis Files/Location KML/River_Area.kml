@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>River_Area.shp</name>
+	<open>1</open>
+	<Schema name="River_Area" id="S_River_Area_">
+		<SimpleField type="long" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[River_Area/id_2]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor1">
+		<IconStyle>
+			<color>ffe7ebef</color>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[River_Area/id_2]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffe7ebef</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>River_Area</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_River_Area_">
+					<SimpleData name="id_2">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							89.95516570552849,24.05059226832175,0 89.95516149982382,24.05058764348571,0 89.95568020351074,24.04942839367565,0 89.95570707695801,24.04943822779521,0 89.95581871179554,24.04947936663722,0 89.95591386887152,24.04951705894789,0 89.95618169829312,24.04957588581347,0 89.95629320399895,24.04961137947492,0 89.95653200340728,24.04965570728003,0 89.9568647095944,24.04968315993314,0 89.9570039519008,24.04967670330591,0 89.95723317538584,24.04966097719733,0 89.95737164112164,24.04962065143113,0 89.95753853317053,24.04956848130978,0 89.9577124991303,24.04946723094549,0 89.95786476731767,24.04931369183195,0 89.9580315823989,24.04912410503836,0 89.9582184424702,24.04869129650131,0 89.95822672199559,24.0483372388498,0 89.95811544988027,24.04750735492517,0 89.95947741483484,24.04745653971805,0 89.95962899096328,24.04745172470155,0 89.95962963846534,24.0474799486578,0 89.95960005631424,24.04797748311851,0 89.95946997336671,24.0487405025378,0 89.95921669108624,24.04931577974115,0 89.95899208956183,24.04971167074577,0 89.95885975319085,24.05001918482937,0 89.95875881844761,24.05026585356669,0 89.95866793286071,24.05041444137103,0 89.95840325315235,24.05067180694715,0 89.95821820080506,24.05082598072154,0 89.95797198101171,24.05099451427034,0 89.95787231507209,24.0510284430544,0 89.95769269609627,24.05106203543735,0 89.95753121573692,24.05108209984645,0 89.95724358328626,24.05105377748175,0 89.95706301501929,24.05104597393199,0 89.95681810911221,24.05100364766282,0 89.95663920168145,24.05097886958156,0 89.95635357531079,24.05094862429004,0 89.95608848184372,24.05091986405709,0 89.95599597630689,24.05090847480267,0 89.95570911050642,24.05082413219385,0 89.95554185050266,24.05077089116634,0 89.95541347791546,24.05071501612507,0 89.95531182823642,24.0506623895176,0 89.95517504442898,24.05059726459107,0 89.95516570552849,24.05059226832175,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
