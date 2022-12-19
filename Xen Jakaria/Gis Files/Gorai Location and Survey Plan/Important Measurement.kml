@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Important Measurement.kml</name>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline3">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline7">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline9">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Important Measurement</name>
+		<open>1</open>
+		<Placemark>
+			<name>Protrusion_Length</name>
+			<styleUrl>#inline4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.11624238554093,23.91852080910983,9.748844806295548 89.11676142689819,23.91927226213643,5.005593229259876 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Groyene_Length</name>
+			<styleUrl>#inline8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.11677145238681,23.91909226052637,5.005593526668378 89.11799072456607,23.91811842208665,5.005593365218048 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>US_Reach_Length</name>
+			<styleUrl>#inline6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.11258118631255,23.95013556178412,0 89.11330505329693,23.94758042463833,0 89.11348238793144,23.94560278329326,0 89.11353121404028,23.94314696734116,0 89.11345771679345,23.94114498918973,0 89.11309223725881,23.93830475595881,0 89.11288528339415,23.93606552224706,0 89.11280897045953,23.933863345487,0 89.11252617550974,23.93156439200543,0 89.112754538822,23.92830899379109,0 89.1131079409643,23.92625400091193,0 89.11359445302838,23.92468359808025,0 89.11400891397557,23.92344063998145,0 89.11454871552209,23.92259239218724,0 89.11532333300399,23.92185191267929,0 89.11620316656186,23.92121064009434,0 89.11721911100646,23.92050669405554,0 89.11740345657353,23.92041035111002,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>D_S_Reach Length</name>
+			<styleUrl>#inline5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					89.11880462682996,23.91967841711486,0 89.12011435461773,23.91901614288698,0 89.12120077303928,23.91867785106371,0 89.12266498267086,23.91816116649489,0 89.1240731822224,23.91778968464283,0 89.12510301143988,23.9174923257086,0 89.12602723328953,23.91716197676631,0 89.1271770733547,23.9167765206716,0 89.12813158481465,23.91641160432401,0 89.12900295809831,23.91591751086139,0 89.12934265624881,23.91568011559507,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
