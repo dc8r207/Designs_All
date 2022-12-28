@@ -1,9 +1,122 @@
-This is a warning
-This is a warning
-This is a warning
-This will get logged to a file
-This will get logged to a file
-This will get logged to a file
-This will get logged to a file
-This will get logged to a file
-This will get logged to a file
+2022-12-28 22:06:59,990 - __main__ - 10 - DEBUG - This is a warning message
+2022-12-28 22:07:01,100 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
+2022-12-28 22:07:01,105 - __main__ - 6 - DEBUG -    parameters   unit  values                        Remarks  Unnamed: 4
+0         EL1  m-pwd   -2.40               C/S Glacis Level           1
+1         EL2  m-pwd   -1.50                   Invert Level           2
+2         EL3  m-pwd   -2.55               R/S Glacis Level           3
+3         EL4  m-pwd    2.50          Existing Ground Level           4
+4         EL5  m-pwd    5.50           Embankment Creslevel           5
+5         EL6  m-PWD    3.95             Design Water Level           6
+6         Vno   none    2.00                 Number of Vent           7
+7          Vw  meter    1.50                     Vent Width           8
+8          Vh  meter    1.80                    Vent Height           9
+9          Wa  meter    0.80  width of Abutment at Abutment          10
+10         Wp  meter    0.70      width of Pier at Abutment          11
+11        Ecw  meter    5.50         Embankment Crest Width          12
+12       Ecss   none    2.00     CS slope of the embankment          13
+13       Erss   none    3.00   R/S  Slope of the Embankment          14
+14       Lext  meter    2.15        Length of Extended Part          15
+15         Gd  meter    0.90                    Glacis Drop          16
+16         Lb  meter   12.25       Length of Stilling Basin          17
+2022-12-28 22:07:01,325 - __main__ - 518 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,325 - __main__ - 519 - DEBUG - Displaying Elevation Parameter
+2022-12-28 22:07:01,325 - __main__ - 520 - DEBUG - C/S Apron Top=-2.4 m-PWD
+2022-12-28 22:07:01,335 - __main__ - 521 - DEBUG - Invert Level=-1.5 m-PWD
+2022-12-28 22:07:01,335 - __main__ - 522 - DEBUG - R/S Apron Top=-2.55 m-PWD
+2022-12-28 22:07:01,335 - __main__ - 523 - DEBUG - EGL=2.5m-PWD
+2022-12-28 22:07:01,335 - __main__ - 524 - DEBUG - Embankment Creslevel=5.5 m-PWD
+2022-12-28 22:07:01,345 - __main__ - 525 - DEBUG - Design Water Level=3.95 m-PWD
+2022-12-28 22:07:01,345 - __main__ - 529 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,345 - __main__ - 530 - DEBUG - Displaying Vent Related Parameter.................................
+2022-12-28 22:07:01,351 - __main__ - 531 - DEBUG - Number of Vent=2.0
+2022-12-28 22:07:01,351 - __main__ - 532 - DEBUG -  Vent Width=1.5 meter
+2022-12-28 22:07:01,355 - __main__ - 533 - DEBUG - Vent Height=1.8 meter
+2022-12-28 22:07:01,355 - __main__ - 534 - DEBUG - width of Abutment=0.8 meter
+2022-12-28 22:07:01,355 - __main__ - 535 - DEBUG - width of Pier=0.7 meter
+2022-12-28 22:07:01,355 - __main__ - 537 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,355 - __main__ - 538 - DEBUG - Displaying Embankment Related Parameter.................................
+2022-12-28 22:07:01,355 - __main__ - 539 - DEBUG - Embankment Crest Width=5.5 meter
+2022-12-28 22:07:01,365 - __main__ - 540 - DEBUG - C/S Slope of the Embankment=2.0
+2022-12-28 22:07:01,365 - __main__ - 541 - DEBUG - R/S Slope of the Embankment=3.0
+2022-12-28 22:07:01,365 - __main__ - 543 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,365 - __main__ - 544 - DEBUG - Displaying Basin Related Parameter.................................
+2022-12-28 22:07:01,375 - __main__ - 545 - DEBUG - Length of Extended Part=2.15 meter
+2022-12-28 22:07:01,375 - __main__ - 546 - DEBUG - Glacis Drop=0.9 meter
+2022-12-28 22:07:01,380 - __main__ - 547 - DEBUG - Length of Stilling Basin=12.25 meter
+22-12-28 22:06:59,990 - __main__ - 10 - DEBUG - This is a warning message
+2022-12-28 22:07:01,100 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
+2022-12-28 22:07:01,105 - __main__ - 6 - DEBUG -    parameters   unit  values                        Remarks  Unnamed: 4
+0         EL1  m-pwd   -2.40               C/S Glacis Level           1
+1         EL2  m-pwd   -1.50                   Invert Level           2
+2         EL3  m-pwd   -2.55               R/S Glacis Level           3
+3         EL4  m-pwd    2.50          Existing Ground Level           4
+4         EL5  m-pwd    5.50           Embankment Creslevel           5
+5         EL6  m-PWD    3.95             Design Water Level           6
+6         Vno   none    2.00                 Number of Vent           7
+7          Vw  meter    1.50                     Vent Width           8
+8          Vh  meter    1.80                    Vent Height           9
+9          Wa  meter    0.80  width of Abutment at Abutment          10
+10         Wp  meter    0.70      width of Pier at Abutment          11
+11        Ecw  meter    5.50         Embankment Crest Width          12
+12       Ecss   none    2.00     CS slope of the embankment          13
+13       Erss   none    3.00   R/S  Slope of the Embankment          14
+14       Lext  meter    2.15        Length of Extended Part          15
+15         Gd  meter    0.90                    Glacis Drop          16
+16         Lb  meter   12.25       Length of Stilling Basin          17
+2022-12-28 22:07:01,325 - __main__ - 518 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,325 - __main__ - 519 - DEBUG - Displaying Elevation Parameter
+2022-12-28 22:07:01,325 - __main__ - 520 - DEBUG - C/S Apron Top=-2.4 m-PWD
+2022-12-28 22:07:01,335 - __main__ - 521 - DEBUG - Invert Level=-1.5 m-PWD
+2022-12-28 22:07:01,335 - __main__ - 522 - DEBUG - R/S Apron Top=-2.55 m-PWD
+2022-12-28 22:07:01,335 - __main__ - 523 - DEBUG - EGL=2.5m-PWD
+2022-12-28 22:07:01,335 - __main__ - 524 - DEBUG - Embankment Creslevel=5.5 m-PWD
+2022-12-28 22:07:01,345 - __main__ - 525 - DEBUG - Design Water Level=3.95 m-PWD
+2022-12-28 22:07:01,345 - __main__ - 529 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,345 - __main__ - 530 - DEBUG - Displaying Vent Related Parameter.................................
+2022-12-28 22:07:01,351 - __main__ - 531 - DEBUG - Number of Vent=2.0
+2022-12-28 22:07:01,351 - __main__ - 532 - DEBUG -  Vent Width=1.5 meter
+2022-12-28 22:07:01,355 - __main__ - 533 - DEBUG - Vent Height=1.8 meter
+2022-12-28 22:07:01,355 - __main__ - 534 - DEBUG - width of Abutment=0.8 meter
+2022-12-28 22:07:01,355 - __main__ - 535 - DEBUG - width of Pier=0.7 meter
+2022-12-28 22:07:01,355 - __main__ - 537 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,355 - __main__ - 538 - DEBUG - Displaying Embankment Related Parameter.................................
+2022-12-28 22:07:01,355 - __main__ - 539 - DEBUG - Embankment Crest Width=5.5 meter
+2022-12-28 22:07:01,365 - __main__ - 540 - DEBUG - C/S Slope of the Embankment=2.0
+2022-12-28 22:07:01,365 - __main__ - 541 - DEBUG - R/S Slope of the Embankment=3.0
+2022-12-28 22:07:01,365 - __main__ - 543 - DEBUG - 
+
+
+
+
+2022-12-28 22:07:01,365 - __main__ - 544 - DEBUG - Displaying Basin Related Parameter.................................
+2022-12-28 22:07:01,375 - __main__ - 545 - DEBUG - Length of Extended Part=2.15 meter
+2022-12-28 22:07:01,375 - __main__ - 546 - DEBUG - Glacis Drop=0.9 meter
+2022-12-28 22:07:01,380 - __main__ - 547 - DEBUG - Length of Stilling Basin=12.25 meter
