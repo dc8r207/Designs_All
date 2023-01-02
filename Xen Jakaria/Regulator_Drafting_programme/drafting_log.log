@@ -1,17 +1,17 @@
-2022-12-30 05:02:53,393 - __main__ - 10 - DEBUG - This is a warning message
-2022-12-30 05:02:57,120 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
-2022-12-30 05:02:57,124 - __main__ - 6 - DEBUG -    parameters    unit  values                                       Remarks  \
+2023-01-02 19:16:51,784 - __main__ - 10 - DEBUG - This is a warning message
+2023-01-02 19:16:53,131 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
+2023-01-02 19:16:53,133 - __main__ - 6 - DEBUG -    parameters    unit  values                                       Remarks  \
 0         EL1   m-pwd   -2.40                              C/S Glacis Level   
 1         EL2   m-pwd   -1.50                                  Invert Level   
 2         EL3   m-pwd   -2.55                              R/S Glacis Level   
 3         EL4   m-pwd    2.50                         Existing Ground Level   
 4         EL5   m-pwd    5.50                          Embankment Creslevel   
 5         EL6   m-PWD    3.95                            Design Water Level   
-6         Vno    none    2.00                                Number of Vent   
+6         Vno    none    3.00                                Number of Vent   
 7          Vw   meter    1.50                                    Vent Width   
 8          Vh   meter    1.80                                   Vent Height   
-9          Wa   meter    0.80                 width of Abutment at Abutment   
-10         Wp   meter    0.70                     width of Pier at Abutment   
+9          Wa   meter    0.80             width of Abutment at Appron Level   
+10         Wp   meter    0.70                 width of Pier at Appron Level   
 11        Ecw   meter    5.50                        Embankment Crest Width   
 12       Ecss    none    2.00                    CS slope of the embankment   
 13       Erss    none    3.00                  R/S  Slope of the Embankment   
@@ -45,48 +45,55 @@
 18        19.0  
 19        20.0  
 20         NaN  
-2022-12-30 05:02:57,218 - __main__ - 523 - DEBUG - 
+2023-01-02 19:16:53,173 - __main__ - 570 - DEBUG - 
 
 
 
 
-2022-12-30 05:02:57,222 - __main__ - 524 - DEBUG - Displaying Elevation Parameter
-2022-12-30 05:02:57,226 - __main__ - 525 - DEBUG - C/S Apron Top=-2.4 m-PWD
-2022-12-30 05:02:57,226 - __main__ - 526 - DEBUG - Invert Level=-1.5 m-PWD
-2022-12-30 05:02:57,230 - __main__ - 527 - DEBUG - R/S Apron Top=-2.55 m-PWD
-2022-12-30 05:02:57,230 - __main__ - 528 - DEBUG - EGL=2.5m-PWD
-2022-12-30 05:02:57,234 - __main__ - 529 - DEBUG - Embankment Creslevel=5.5 m-PWD
-2022-12-30 05:02:57,238 - __main__ - 530 - DEBUG - Design Water Level=3.95 m-PWD
-2022-12-30 05:02:57,242 - __main__ - 534 - DEBUG - 
+2023-01-02 19:16:53,178 - __main__ - 571 - DEBUG - Displaying Elevation Parameter
+2023-01-02 19:16:53,180 - __main__ - 572 - DEBUG - C/S Apron Top=-2.4 m-PWD
+2023-01-02 19:16:53,182 - __main__ - 573 - DEBUG - Invert Level=-1.5 m-PWD
+2023-01-02 19:16:53,184 - __main__ - 574 - DEBUG - R/S Apron Top=-2.55 m-PWD
+2023-01-02 19:16:53,187 - __main__ - 575 - DEBUG - EGL=2.5m-PWD
+2023-01-02 19:16:53,190 - __main__ - 576 - DEBUG - Embankment Creslevel=5.5 m-PWD
+2023-01-02 19:16:53,195 - __main__ - 577 - DEBUG - Design Water Level=3.95 m-PWD
+2023-01-02 19:16:53,197 - __main__ - 581 - DEBUG - 
 
 
 
 
-2022-12-30 05:02:57,242 - __main__ - 535 - DEBUG - Displaying Vent Related Parameter.................................
-2022-12-30 05:02:57,246 - __main__ - 536 - DEBUG - Number of Vent=2.0
-2022-12-30 05:02:57,250 - __main__ - 537 - DEBUG -  Vent Width=1.5 meter
-2022-12-30 05:02:57,250 - __main__ - 538 - DEBUG - Vent Height=1.8 meter
-2022-12-30 05:02:57,254 - __main__ - 539 - DEBUG - width of Abutment=0.8 meter
-2022-12-30 05:02:57,258 - __main__ - 540 - DEBUG - width of Pier=0.7 meter
-2022-12-30 05:02:57,258 - __main__ - 542 - DEBUG - 
+2023-01-02 19:16:53,199 - __main__ - 582 - DEBUG - Displaying Vent Related Parameter.................................
+2023-01-02 19:16:53,202 - __main__ - 583 - DEBUG - Number of Vent=3.0
+2023-01-02 19:16:53,204 - __main__ - 584 - DEBUG -  Vent Width=1.5 meter
+2023-01-02 19:16:53,208 - __main__ - 585 - DEBUG - Vent Height=1.8 meter
+2023-01-02 19:16:53,213 - __main__ - 586 - DEBUG - width of Abutment=0.8 meter
+2023-01-02 19:16:53,215 - __main__ - 587 - DEBUG - width of Pier=0.7 meter
+2023-01-02 19:16:53,217 - __main__ - 589 - DEBUG - 
 
 
 
 
-2022-12-30 05:02:57,262 - __main__ - 543 - DEBUG - Displaying Embankment Related Parameter.................................
-2022-12-30 05:02:57,266 - __main__ - 544 - DEBUG - Embankment Crest Width=5.5 meter
-2022-12-30 05:02:57,266 - __main__ - 545 - DEBUG - C/S Slope of the Embankment=2.0
-2022-12-30 05:02:57,270 - __main__ - 546 - DEBUG - R/S Slope of the Embankment=3.0
-2022-12-30 05:02:57,270 - __main__ - 548 - DEBUG - 
+2023-01-02 19:16:53,219 - __main__ - 590 - DEBUG - Displaying Embankment Related Parameter.................................
+2023-01-02 19:16:53,224 - __main__ - 591 - DEBUG - Embankment Crest Width=5.5 meter
+2023-01-02 19:16:53,228 - __main__ - 592 - DEBUG - C/S Slope of the Embankment=2.0
+2023-01-02 19:16:53,229 - __main__ - 593 - DEBUG - R/S Slope of the Embankment=3.0
+2023-01-02 19:16:53,231 - __main__ - 595 - DEBUG - 
 
 
 
 
-2022-12-30 05:02:57,274 - __main__ - 549 - DEBUG - Displaying Basin Related Parameter.................................
-2022-12-30 05:02:57,274 - __main__ - 550 - DEBUG - Length of Extended Part=2.15 meter
-2022-12-30 05:02:57,278 - __main__ - 551 - DEBUG - Glacis Drop=0.9 meter
-2022-12-30 05:02:57,282 - __main__ - 552 - DEBUG - Length of Stilling Basin=12.25 meter
-2022-12-30 05:02:57,282 - __main__ - 553 - DEBUG - Flare Angle=11.0 degree
-2022-12-30 05:02:57,286 - __main__ - 554 - DEBUG - ncoming flow depth in Stiiling Basin=0.79 meter
-2022-12-30 05:02:57,286 - __main__ - 555 - DEBUG - conjugate depth after hydraulic jump=2.54 meter
-2022-12-30 05:02:57,292 - __main__ - 556 - DEBUG - Incoming flow froude numer in Stiiling Basin=2.98
+2023-01-02 19:16:53,234 - __main__ - 596 - DEBUG - Displaying Basin Related Parameter.................................
+2023-01-02 19:16:53,235 - __main__ - 597 - DEBUG - Length of Extended Part=2.15 meter
+2023-01-02 19:16:53,238 - __main__ - 598 - DEBUG - Glacis Drop=0.9 meter
+2023-01-02 19:16:53,241 - __main__ - 599 - DEBUG - Length of Stilling Basin=12.25 meter
+2023-01-02 19:16:53,243 - __main__ - 600 - DEBUG - Flare Angle=11.0 degree
+2023-01-02 19:16:53,245 - __main__ - 601 - DEBUG - ncoming flow depth in Stiiling Basin=0.79 meter
+2023-01-02 19:16:53,247 - __main__ - 602 - DEBUG - conjugate depth after hydraulic jump=2.54 meter
+2023-01-02 19:16:53,249 - __main__ - 603 - DEBUG - Incoming flow froude numer in Stiiling Basin=2.98
+2023-01-02 19:16:53,251 - __main__ - 606 - DEBUG - 
+
+
+
+
+2023-01-02 19:16:53,254 - __main__ - 607 - DEBUG - E:/Design-8/Designs_All/Xen Jakaria/Regulator_Drafting_programme\draft_Chakbara_input.dxf
+2023-01-02 19:16:53,282 - __main__ - 557 - DEBUG - half_width=3750.0 mm
