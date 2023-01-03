@@ -1,6 +1,6 @@
-2023-01-03 04:45:22,879 - __main__ - 10 - DEBUG - This is a warning message
-2023-01-03 04:45:24,990 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
-2023-01-03 04:45:24,990 - __main__ - 6 - DEBUG -    parameters    unit  values                                       Remarks  \
+2023-01-03 13:28:31,889 - __main__ - 10 - DEBUG - This is a warning message
+2023-01-03 13:28:33,314 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
+2023-01-03 13:28:33,318 - __main__ - 6 - DEBUG -    parameters    unit  values                                       Remarks  \
 0         EL1   m-pwd   -2.40                              C/S Glacis Level   
 1         EL2   m-pwd   -1.50                                  Invert Level   
 2         EL3   m-pwd   -2.55                              R/S Glacis Level   
@@ -45,135 +45,95 @@
 18        19.0  
 19        20.0  
 20         NaN  
-2023-01-03 04:45:25,065 - __main__ - 582 - DEBUG - 
+2023-01-03 13:28:33,354 - __main__ - 607 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,068 - __main__ - 583 - DEBUG - Displaying Elevation Parameter
-2023-01-03 04:45:25,070 - __main__ - 584 - DEBUG - C/S Apron Top=-2.4 m-PWD
-2023-01-03 04:45:25,075 - __main__ - 585 - DEBUG - Invert Level=-1.5 m-PWD
-2023-01-03 04:45:25,075 - __main__ - 586 - DEBUG - R/S Apron Top=-2.55 m-PWD
-2023-01-03 04:45:25,080 - __main__ - 587 - DEBUG - EGL=2.5m-PWD
-2023-01-03 04:45:25,080 - __main__ - 588 - DEBUG - Embankment Creslevel=5.5 m-PWD
-2023-01-03 04:45:25,085 - __main__ - 589 - DEBUG - Design Water Level=3.95 m-PWD
-2023-01-03 04:45:25,089 - __main__ - 593 - DEBUG - 
+2023-01-03 13:28:33,354 - __main__ - 608 - DEBUG - Displaying Elevation Parameter
+2023-01-03 13:28:33,358 - __main__ - 609 - DEBUG - C/S Apron Top=-2.4 m-PWD
+2023-01-03 13:28:33,362 - __main__ - 610 - DEBUG - Invert Level=-1.5 m-PWD
+2023-01-03 13:28:33,362 - __main__ - 611 - DEBUG - R/S Apron Top=-2.55 m-PWD
+2023-01-03 13:28:33,370 - __main__ - 612 - DEBUG - EGL=2.5m-PWD
+2023-01-03 13:28:33,370 - __main__ - 613 - DEBUG - Embankment Creslevel=5.5 m-PWD
+2023-01-03 13:28:33,374 - __main__ - 614 - DEBUG - Design Water Level=3.95 m-PWD
+2023-01-03 13:28:33,374 - __main__ - 618 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,089 - __main__ - 594 - DEBUG - Displaying Vent Related Parameter.................................
-2023-01-03 04:45:25,094 - __main__ - 595 - DEBUG - Number of Vent=3.0
-2023-01-03 04:45:25,094 - __main__ - 596 - DEBUG -  Vent Width=1.5 meter
-2023-01-03 04:45:25,099 - __main__ - 597 - DEBUG - Vent Height=1.8 meter
-2023-01-03 04:45:25,099 - __main__ - 598 - DEBUG - width of Abutment=0.8 meter
-2023-01-03 04:45:25,104 - __main__ - 599 - DEBUG - width of Pier=0.7 meter
-2023-01-03 04:45:25,104 - __main__ - 601 - DEBUG - 
+2023-01-03 13:28:33,378 - __main__ - 619 - DEBUG - Displaying Vent Related Parameter.................................
+2023-01-03 13:28:33,382 - __main__ - 620 - DEBUG - Number of Vent=3.0
+2023-01-03 13:28:33,386 - __main__ - 621 - DEBUG -  Vent Width=1.5 meter
+2023-01-03 13:28:33,386 - __main__ - 622 - DEBUG - Vent Height=1.8 meter
+2023-01-03 13:28:33,390 - __main__ - 623 - DEBUG - width of Abutment=0.8 meter
+2023-01-03 13:28:33,394 - __main__ - 624 - DEBUG - width of Pier=0.7 meter
+2023-01-03 13:28:33,394 - __main__ - 626 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,109 - __main__ - 602 - DEBUG - Displaying Embankment Related Parameter.................................
-2023-01-03 04:45:25,109 - __main__ - 603 - DEBUG - Embankment Crest Width=5.5 meter
-2023-01-03 04:45:25,114 - __main__ - 604 - DEBUG - C/S Slope of the Embankment=2.0
-2023-01-03 04:45:25,114 - __main__ - 605 - DEBUG - R/S Slope of the Embankment=3.0
-2023-01-03 04:45:25,120 - __main__ - 607 - DEBUG - 
+2023-01-03 13:28:33,398 - __main__ - 627 - DEBUG - Displaying Embankment Related Parameter.................................
+2023-01-03 13:28:33,402 - __main__ - 628 - DEBUG - Embankment Crest Width=5.5 meter
+2023-01-03 13:28:33,406 - __main__ - 629 - DEBUG - C/S Slope of the Embankment=2.0
+2023-01-03 13:28:33,406 - __main__ - 630 - DEBUG - R/S Slope of the Embankment=3.0
+2023-01-03 13:28:33,410 - __main__ - 632 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,120 - __main__ - 608 - DEBUG - Displaying Basin Related Parameter.................................
-2023-01-03 04:45:25,125 - __main__ - 609 - DEBUG - Length of Extended Part=2.15 meter
-2023-01-03 04:45:25,125 - __main__ - 610 - DEBUG - Glacis Drop=0.9 meter
-2023-01-03 04:45:25,130 - __main__ - 611 - DEBUG - Length of Stilling Basin=12.25 meter
-2023-01-03 04:45:25,130 - __main__ - 612 - DEBUG - Flare Angle=11.0 degree
-2023-01-03 04:45:25,135 - __main__ - 613 - DEBUG - ncoming flow depth in Stiiling Basin=0.79 meter
-2023-01-03 04:45:25,135 - __main__ - 614 - DEBUG - conjugate depth after hydraulic jump=2.54 meter
-2023-01-03 04:45:25,140 - __main__ - 615 - DEBUG - Incoming flow froude numer in Stiiling Basin=2.98
-2023-01-03 04:45:25,140 - __main__ - 618 - DEBUG - 
+2023-01-03 13:28:33,410 - __main__ - 633 - DEBUG - Displaying Basin Related Parameter.................................
+2023-01-03 13:28:33,414 - __main__ - 634 - DEBUG - Length of Extended Part=2.15 meter
+2023-01-03 13:28:33,418 - __main__ - 635 - DEBUG - Glacis Drop=0.9 meter
+2023-01-03 13:28:33,418 - __main__ - 636 - DEBUG - Length of Stilling Basin=12.25 meter
+2023-01-03 13:28:33,422 - __main__ - 637 - DEBUG - Flare Angle=11.0 degree
+2023-01-03 13:28:33,422 - __main__ - 638 - DEBUG - ncoming flow depth in Stiiling Basin=0.79 meter
+2023-01-03 13:28:33,426 - __main__ - 639 - DEBUG - conjugate depth after hydraulic jump=2.54 meter
+2023-01-03 13:28:33,430 - __main__ - 640 - DEBUG - Incoming flow froude numer in Stiiling Basin=2.98
+2023-01-03 13:28:33,430 - __main__ - 643 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,140 - __main__ - 619 - DEBUG - E:/Design-8/Designs_All/Xen Jakaria/Regulator_Drafting_programme\draft_Chakbara_input.dxf
-2023-01-03 04:45:25,199 - __main__ - 536 - DEBUG - half_width=3750.0 mm
-2023-01-03 04:45:25,200 - __main__ - 548 - DEBUG - Drawing First Abutment.......................................
-2023-01-03 04:45:25,204 - __main__ - 551 - DEBUG - Drawing Second Abutment.......................................
-2023-01-03 04:45:25,211 - __main__ - 57 - DEBUG - [(-3750.0, -4900.0), (-2950.0, -4900.0), (-2950.0, 4900.0), (-3750.0, 4900.0)]
-2023-01-03 04:45:25,211 - __main__ - 15 - DEBUG - 
+2023-01-03 13:28:33,434 - __main__ - 644 - DEBUG - E:/Design-8/Designs_All/Xen Jakaria/Regulator_Drafting_programme\draft_Chakbara_input.dxf
+2023-01-03 13:28:33,462 - __main__ - 540 - DEBUG - half_width=3750.0 mm
+2023-01-03 13:28:33,462 - __main__ - 92 - DEBUG - [(-4900.0, -3750.0), (4900.0, -3750.0), (4900.0, -2950.0), (-4900.0, -2950.0)]
+2023-01-03 13:28:33,466 - __main__ - 567 - DEBUG - Drawing First Abutment.......................................
+2023-01-03 13:28:33,470 - __main__ - 570 - DEBUG - Drawing Second Abutment.......................................
+2023-01-03 13:28:33,470 - __main__ - 15 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,215 - __main__ - 16 - DEBUG - Printing Translation Mattrix...............
-2023-01-03 04:45:25,219 - __main__ - 17 - DEBUG - [[   1    0 6700]
- [   0    1    0]
+2023-01-03 13:28:33,470 - __main__ - 16 - DEBUG - Printing Translation Mattrix...............
+2023-01-03 13:28:33,474 - __main__ - 17 - DEBUG - [[   1    0    0]
+ [   0    1 6700]
  [   0    0    1]]
-2023-01-03 04:45:25,221 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,224 - __main__ - 21 - DEBUG - p=(-3750.0, -4900.0)
-2023-01-03 04:45:25,224 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,229 - __main__ - 26 - DEBUG - p=(2950.0, -4900.0)
-2023-01-03 04:45:25,231 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,231 - __main__ - 21 - DEBUG - p=(-2950.0, -4900.0)
-2023-01-03 04:45:25,235 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,235 - __main__ - 26 - DEBUG - p=(3750.0, -4900.0)
-2023-01-03 04:45:25,240 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,241 - __main__ - 21 - DEBUG - p=(-2950.0, 4900.0)
-2023-01-03 04:45:25,245 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,245 - __main__ - 26 - DEBUG - p=(3750.0, 4900.0)
-2023-01-03 04:45:25,249 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,251 - __main__ - 21 - DEBUG - p=(-3750.0, 4900.0)
-2023-01-03 04:45:25,254 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,262 - __main__ - 26 - DEBUG - p=(2950.0, 4900.0)
-2023-01-03 04:45:25,265 - __main__ - 57 - DEBUG - [(2950.0, -4900.0), (3750.0, -4900.0), (3750.0, 4900.0), (2950.0, 4900.0)]
-2023-01-03 04:45:25,265 - __main__ - 15 - DEBUG - 
+2023-01-03 13:28:33,474 - __main__ - 20 - DEBUG - before translation.............
+2023-01-03 13:28:33,474 - __main__ - 21 - DEBUG - p=(-4900.0, -3750.0)
+2023-01-03 13:28:33,478 - __main__ - 25 - DEBUG - After translation.............
+2023-01-03 13:28:33,482 - __main__ - 26 - DEBUG - p=(-4900.0, 2950.0)
+2023-01-03 13:28:33,482 - __main__ - 20 - DEBUG - before translation.............
+2023-01-03 13:28:33,486 - __main__ - 21 - DEBUG - p=(4900.0, -3750.0)
+2023-01-03 13:28:33,486 - __main__ - 25 - DEBUG - After translation.............
+2023-01-03 13:28:33,490 - __main__ - 26 - DEBUG - p=(4900.0, 2950.0)
+2023-01-03 13:28:33,494 - __main__ - 20 - DEBUG - before translation.............
+2023-01-03 13:28:33,498 - __main__ - 21 - DEBUG - p=(4900.0, -2950.0)
+2023-01-03 13:28:33,502 - __main__ - 25 - DEBUG - After translation.............
+2023-01-03 13:28:33,502 - __main__ - 26 - DEBUG - p=(4900.0, 3750.0)
+2023-01-03 13:28:33,506 - __main__ - 20 - DEBUG - before translation.............
+2023-01-03 13:28:33,506 - __main__ - 21 - DEBUG - p=(-4900.0, -2950.0)
+2023-01-03 13:28:33,510 - __main__ - 25 - DEBUG - After translation.............
+2023-01-03 13:28:33,510 - __main__ - 26 - DEBUG - p=(-4900.0, 3750.0)
+2023-01-03 13:28:33,514 - __main__ - 588 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,272 - __main__ - 16 - DEBUG - Printing Translation Mattrix...............
-2023-01-03 04:45:25,275 - __main__ - 17 - DEBUG - [[   1    0 1000]
- [   0    1    0]
- [   0    0    1]]
-2023-01-03 04:45:25,275 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,275 - __main__ - 21 - DEBUG - p=(2950.0, -4900.0)
-2023-01-03 04:45:25,280 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,282 - __main__ - 26 - DEBUG - p=(3950.0, -4900.0)
-2023-01-03 04:45:25,282 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,285 - __main__ - 21 - DEBUG - p=(3750.0, -4900.0)
-2023-01-03 04:45:25,285 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,285 - __main__ - 26 - DEBUG - p=(4750.0, -4900.0)
-2023-01-03 04:45:25,290 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,292 - __main__ - 21 - DEBUG - p=(3750.0, 4900.0)
-2023-01-03 04:45:25,294 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,294 - __main__ - 26 - DEBUG - p=(4750.0, 4900.0)
-2023-01-03 04:45:25,294 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 04:45:25,294 - __main__ - 21 - DEBUG - p=(2950.0, 4900.0)
-2023-01-03 04:45:25,300 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 04:45:25,302 - __main__ - 26 - DEBUG - p=(3950.0, 4900.0)
-2023-01-03 04:45:25,302 - __main__ - 33 - DEBUG - 
+2023-01-03 13:28:33,518 - __main__ - 590 - DEBUG - pierNo=1 abutment_offset=800.0 pier_offset=0.0 vent_offset=1500.0
+2023-01-03 13:28:33,522 - __main__ - 588 - DEBUG - 
 
 
 
 
-2023-01-03 04:45:25,305 - __main__ - 35 - DEBUG - roation angle in degree=45  in radians=0.7853981633974483
-2023-01-03 04:45:25,310 - __main__ - 41 - DEBUG - Printing Rotation Mattrix...............
-2023-01-03 04:45:25,335 - __main__ - 42 - DEBUG - [[ 0.70710678 -0.70710678  0.        ]
- [ 0.70710678  0.70710678  0.        ]
- [ 0.          0.          1.        ]]
-2023-01-03 04:45:25,341 - __main__ - 45 - DEBUG - before rotation.............
-2023-01-03 04:45:25,341 - __main__ - 46 - DEBUG - p=(3950.0, -4900.0)
-2023-01-03 04:45:25,341 - __main__ - 50 - DEBUG - After rotaion.............
-2023-01-03 04:45:25,345 - __main__ - 51 - DEBUG - p=(6257.895013500945, -671.7514421272203)
-2023-01-03 04:45:25,345 - __main__ - 45 - DEBUG - before rotation.............
-2023-01-03 04:45:25,345 - __main__ - 46 - DEBUG - p=(4750.0, -4900.0)
-2023-01-03 04:45:25,350 - __main__ - 50 - DEBUG - After rotaion.............
-2023-01-03 04:45:25,350 - __main__ - 51 - DEBUG - p=(6823.580438450184, -106.0660171779823)
-2023-01-03 04:45:25,355 - __main__ - 45 - DEBUG - before rotation.............
-2023-01-03 04:45:25,355 - __main__ - 46 - DEBUG - p=(4750.0, 4900.0)
-2023-01-03 04:45:25,359 - __main__ - 50 - DEBUG - After rotaion.............
-2023-01-03 04:45:25,359 - __main__ - 51 - DEBUG - p=(-106.0660171779823, 6823.580438450184)
-2023-01-03 04:45:25,359 - __main__ - 45 - DEBUG - before rotation.............
-2023-01-03 04:45:25,364 - __main__ - 46 - DEBUG - p=(3950.0, 4900.0)
-2023-01-03 04:45:25,364 - __main__ - 50 - DEBUG - After rotaion.............
-2023-01-03 04:45:25,364 - __main__ - 51 - DEBUG - p=(-671.7514421272203, 6257.895013500945)
+2023-01-03 13:28:33,522 - __main__ - 590 - DEBUG - pierNo=2 abutment_offset=800.0 pier_offset=700.0 vent_offset=3000.0

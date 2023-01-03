@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2459948.1982060187
+2459948.5614930554
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2459948.1982060187
+2459948.5614930554
   9
 $TDUUPDATE
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-3E
+4A
   9
 $SURFTAB1
  70
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{314EBF4E-E2A4-44DE-9EF2-937CD84D3C9B}
+{9E88BE34-6905-46EA-9E31-8A5D85CE0C14}
   9
 $VERSIONGUID
   2
-{47E4BA24-5776-46B8-9278-2820277C6299}
+{6B940765-A6A0-4805-B825-02058F9F9EB0}
   9
 $EXTNAMES
 290
@@ -1701,7 +1701,7 @@ ACAD
   0
 APPID
   5
-3B
+47
 330
 3
 100
@@ -1715,7 +1715,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-3C
+48
 330
 3
 100
@@ -2061,9 +2061,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
--3750.0
- 20
 -4900.0
+ 20
+-3750.0
  30
 0.0
  70
@@ -2083,9 +2083,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
--2950.0
+4900.0
  20
--4900.0
+-3750.0
  30
 0.0
  70
@@ -2105,9 +2105,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
--2950.0
- 20
 4900.0
+ 20
+-2950.0
  30
 0.0
  70
@@ -2127,9 +2127,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
--3750.0
+-4900.0
  20
-4900.0
+-2950.0
  30
 0.0
  70
@@ -2183,9 +2183,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2950.0
- 20
 -4900.0
+ 20
+2950.0
  30
 0.0
  70
@@ -2205,9 +2205,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-3750.0
+4900.0
  20
--4900.0
+2950.0
  30
 0.0
  70
@@ -2227,9 +2227,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-3750.0
- 20
 4900.0
+ 20
+3750.0
  30
 0.0
  70
@@ -2249,9 +2249,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2950.0
+-4900.0
  20
-4900.0
+3750.0
  30
 0.0
  70
@@ -2260,6 +2260,250 @@ AcDb3dPolylineVertex
 SEQEND
   5
 36
+330
+17
+100
+AcDbEntity
+  8
+0
+  0
+POLYLINE
+  5
+3B
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDb3dPolyline
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+9
+  0
+VERTEX
+  5
+3D
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+-4900.0
+ 20
+6050.0
+ 30
+0.0
+ 70
+32
+  0
+VERTEX
+  5
+3E
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+4900.0
+ 20
+6050.0
+ 30
+0.0
+ 70
+32
+  0
+VERTEX
+  5
+3F
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+4900.0
+ 20
+6750.0
+ 30
+0.0
+ 70
+32
+  0
+VERTEX
+  5
+40
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+-4900.0
+ 20
+-3050.0
+ 30
+0.0
+ 70
+32
+  0
+SEQEND
+  5
+3C
+330
+17
+100
+AcDbEntity
+  8
+0
+  0
+POLYLINE
+  5
+41
+330
+17
+100
+AcDbEntity
+  8
+0
+ 62
+1
+100
+AcDb3dPolyline
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+9
+  0
+VERTEX
+  5
+43
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+-4900.0
+ 20
+8250.0
+ 30
+0.0
+ 70
+32
+  0
+VERTEX
+  5
+44
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+4900.0
+ 20
+8250.0
+ 30
+0.0
+ 70
+32
+  0
+VERTEX
+  5
+45
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+4900.0
+ 20
+8950.0
+ 30
+0.0
+ 70
+32
+  0
+VERTEX
+  5
+46
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbVertex
+100
+AcDb3dPolylineVertex
+ 10
+-4900.0
+ 20
+-3050.0
+ 30
+0.0
+ 70
+32
+  0
+SEQEND
+  5
+42
 330
 17
 100
@@ -3261,7 +3505,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-3D
+49
   0
 DICTIONARYVAR
   5
@@ -3273,11 +3517,11 @@ DictionaryVariables
 280
 0
   1
-0.18 @ 2023-01-02T22:45:25.199903+00:00
+0.18 @ 2023-01-03T07:28:33.462052+00:00
   0
 DICTIONARYVAR
   5
-3D
+49
 330
 2D
 100
@@ -3285,7 +3529,7 @@ DictionaryVariables
 280
 0
   1
-0.18 @ 2023-01-02T22:45:25.375086+00:00
+0.18 @ 2023-01-03T07:28:33.530047+00:00
   0
 ENDSEC
   0
