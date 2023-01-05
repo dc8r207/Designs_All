@@ -1,386 +1,385 @@
-2023-01-03 20:26:21,253 - __main__ - 10 - DEBUG - This is a warning message
-2023-01-03 20:26:22,781 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
-2023-01-03 20:26:22,785 - __main__ - 6 - DEBUG -    parameters    unit  values                                       Remarks  \
+2023-01-05 05:35:42,709 - __main__ - 10 - DEBUG - This is a warning message
+2023-01-05 05:35:44,326 - __main__ - 5 - DEBUG - Initiated Drafting Parameter Extraction from Excel file........................
+2023-01-05 05:35:44,330 - __main__ - 6 - DEBUG -    parameters    unit  values                                       Remarks  \
 0         EL1   m-pwd   -2.40                              C/S Glacis Level   
 1         EL2   m-pwd   -1.50                                  Invert Level   
 2         EL3   m-pwd   -2.55                              R/S Glacis Level   
 3         EL4   m-pwd    2.50                         Existing Ground Level   
 4         EL5   m-pwd    5.50                          Embankment Creslevel   
 5         EL6   m-PWD    3.95                            Design Water Level   
-6         Vno    none   44.00                                Number of Vent   
-7          Vw   meter    1.50                                    Vent Width   
-8          Vh   meter    1.80                                   Vent Height   
-9          Wa   meter    0.80             width of Abutment at Appron Level   
-10         Wp   meter    0.70                 width of Pier at Appron Level   
-11        Ecw   meter    5.50                        Embankment Crest Width   
-12       Ecss    none    2.00                    CS slope of the embankment   
-13       Erss    none    3.00                  R/S  Slope of the Embankment   
-14       Lext   meter    2.15                       Length of Extended Part   
-15         Gd   meter    0.90                                   Glacis Drop   
-16         Lb   meter   12.25                      Length of Stilling Basin   
-17      Theta  degree   11.00                                   Flare Angle   
-18         D1   meter    0.79         incoming flow depth in Stiiling Basin   
-19         D2   meter    2.54          conjugate depth after hydraulic jump   
-20        Fr1    none    2.98  Incoming flow froude numer in Stiiling Basin   
+6         EL7   m-pwd    1.00                           Avg Canal Banklevel   
+7         Vno    none    4.00                                Number of Vent   
+8          Vw   meter    1.50                                    Vent Width   
+9          Vh   meter    1.80                                   Vent Height   
+10         Wa   meter    0.80             width of Abutment at Appron Level   
+11         Wp   meter    0.70                 width of Pier at Appron Level   
+12        Ecw   meter    5.50                        Embankment Crest Width   
+13       Ecss    none    2.00                    CS slope of the embankment   
+14       Erss    none    3.00                  R/S  Slope of the Embankment   
+15       Lext   meter    2.15                       Length of Extended Part   
+16         Gd   meter    0.90                                   Glacis Drop   
+17         Lb   meter   12.25                      Length of Stilling Basin   
+18      Theta  degree   11.00                                   Flare Angle   
+19         D1   meter    0.79         incoming flow depth in Stiiling Basin   
+20         D2   meter    2.54          conjugate depth after hydraulic jump   
+21        Fr1    none    2.98  Incoming flow froude numer in Stiiling Basin   
+22         Tw   meter    0.60           Wing wall thickness at Appron Level   
+23         Tr   meter    0.40         Return Wall thickness at Appron Level   
 
     Unnamed: 4  
-0          1.0  
-1          2.0  
-2          3.0  
-3          4.0  
-4          5.0  
-5          6.0  
-6          7.0  
-7          8.0  
-8          9.0  
-9         10.0  
-10        11.0  
-11        12.0  
-12        13.0  
-13        14.0  
-14        15.0  
-15        16.0  
-16        17.0  
-17        18.0  
-18        19.0  
-19        20.0  
-20         NaN  
-2023-01-03 20:26:22,829 - __main__ - 613 - DEBUG - 
+0            0  
+1            1  
+2            2  
+3            3  
+4            4  
+5            5  
+6            6  
+7            7  
+8            8  
+9            9  
+10          10  
+11          11  
+12          12  
+13          13  
+14          14  
+15          15  
+16          16  
+17          17  
+18          18  
+19          19  
+20          20  
+21          21  
+22          22  
+23          23  
+2023-01-05 05:35:44,402 - __main__ - 333 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:22,829 - __main__ - 614 - DEBUG - Displaying Elevation Parameter
-2023-01-03 20:26:22,841 - __main__ - 615 - DEBUG - C/S Apron Top=-2.4 m-PWD
-2023-01-03 20:26:22,845 - __main__ - 616 - DEBUG - Invert Level=-1.5 m-PWD
-2023-01-03 20:26:22,845 - __main__ - 617 - DEBUG - R/S Apron Top=-2.55 m-PWD
-2023-01-03 20:26:22,849 - __main__ - 618 - DEBUG - EGL=2.5m-PWD
-2023-01-03 20:26:22,853 - __main__ - 619 - DEBUG - Embankment Creslevel=5.5 m-PWD
-2023-01-03 20:26:22,857 - __main__ - 620 - DEBUG - Design Water Level=3.95 m-PWD
-2023-01-03 20:26:22,857 - __main__ - 624 - DEBUG - 
+2023-01-05 05:35:44,407 - __main__ - 334 - DEBUG - Displaying Elevation Parameter
+2023-01-05 05:35:44,410 - __main__ - 335 - DEBUG - C/S Apron Top=-2.4 m-PWD
+2023-01-05 05:35:44,420 - __main__ - 336 - DEBUG - Invert Level=-1.5 m-PWD
+2023-01-05 05:35:44,422 - __main__ - 337 - DEBUG - R/S Apron Top=-2.55 m-PWD
+2023-01-05 05:35:44,425 - __main__ - 338 - DEBUG - EGL=2.5m-PWD
+2023-01-05 05:35:44,427 - __main__ - 339 - DEBUG - Embankment Creslevel=5.5 m-PWD
+2023-01-05 05:35:44,431 - __main__ - 340 - DEBUG - Design Water Level=3.95 m-PWD
+2023-01-05 05:35:44,433 - __main__ - 341 - DEBUG - AVG GL at Regulator Site=1.0 m-PWD
+2023-01-05 05:35:44,435 - __main__ - 345 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:22,861 - __main__ - 625 - DEBUG - Displaying Vent Related Parameter.................................
-2023-01-03 20:26:22,861 - __main__ - 626 - DEBUG - Number of Vent=44.0
-2023-01-03 20:26:22,865 - __main__ - 627 - DEBUG -  Vent Width=1.5 meter
-2023-01-03 20:26:22,869 - __main__ - 628 - DEBUG - Vent Height=1.8 meter
-2023-01-03 20:26:22,873 - __main__ - 629 - DEBUG - width of Abutment=0.8 meter
-2023-01-03 20:26:22,873 - __main__ - 630 - DEBUG - width of Pier=0.7 meter
-2023-01-03 20:26:22,877 - __main__ - 632 - DEBUG - 
+2023-01-05 05:35:44,437 - __main__ - 346 - DEBUG - Displaying Vent Related Parameter.................................
+2023-01-05 05:35:44,439 - __main__ - 347 - DEBUG - Number of Vent=4.0
+2023-01-05 05:35:44,441 - __main__ - 348 - DEBUG -  Vent Width=1.5 meter
+2023-01-05 05:35:44,443 - __main__ - 349 - DEBUG - Vent Height=1.8 meter
+2023-01-05 05:35:44,447 - __main__ - 350 - DEBUG - width of Abutment=0.8 meter
+2023-01-05 05:35:44,451 - __main__ - 351 - DEBUG - width of Pier=0.7 meter
+2023-01-05 05:35:44,453 - __main__ - 354 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:22,877 - __main__ - 633 - DEBUG - Displaying Embankment Related Parameter.................................
-2023-01-03 20:26:22,885 - __main__ - 634 - DEBUG - Embankment Crest Width=5.5 meter
-2023-01-03 20:26:22,885 - __main__ - 635 - DEBUG - C/S Slope of the Embankment=2.0
-2023-01-03 20:26:22,889 - __main__ - 636 - DEBUG - R/S Slope of the Embankment=3.0
-2023-01-03 20:26:22,893 - __main__ - 638 - DEBUG - 
+2023-01-05 05:35:44,455 - __main__ - 355 - DEBUG - Displaying Embankment Related Parameter.................................
+2023-01-05 05:35:44,458 - __main__ - 356 - DEBUG - Embankment Crest Width=5.5 meter
+2023-01-05 05:35:44,460 - __main__ - 357 - DEBUG - C/S Slope of the Embankment=2.0
+2023-01-05 05:35:44,463 - __main__ - 358 - DEBUG - R/S Slope of the Embankment=3.0
+2023-01-05 05:35:44,466 - __main__ - 361 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:22,893 - __main__ - 639 - DEBUG - Displaying Basin Related Parameter.................................
-2023-01-03 20:26:22,897 - __main__ - 640 - DEBUG - Length of Extended Part=2.15 meter
-2023-01-03 20:26:22,901 - __main__ - 641 - DEBUG - Glacis Drop=0.9 meter
-2023-01-03 20:26:22,905 - __main__ - 642 - DEBUG - Length of Stilling Basin=12.25 meter
-2023-01-03 20:26:22,909 - __main__ - 643 - DEBUG - Flare Angle=11.0 degree
-2023-01-03 20:26:22,913 - __main__ - 644 - DEBUG - ncoming flow depth in Stiiling Basin=0.79 meter
-2023-01-03 20:26:22,913 - __main__ - 645 - DEBUG - conjugate depth after hydraulic jump=2.54 meter
-2023-01-03 20:26:22,917 - __main__ - 646 - DEBUG - Incoming flow froude numer in Stiiling Basin=2.98
-2023-01-03 20:26:22,917 - __main__ - 649 - DEBUG - 
+2023-01-05 05:35:44,469 - __main__ - 362 - DEBUG - Displaying Basin Related Parameter.................................
+2023-01-05 05:35:44,472 - __main__ - 363 - DEBUG - Length of Extended Part=2.15 meter
+2023-01-05 05:35:44,474 - __main__ - 364 - DEBUG - Glacis Drop=0.9 meter
+2023-01-05 05:35:44,477 - __main__ - 365 - DEBUG - Length of Stilling Basin=12.25 meter
+2023-01-05 05:35:44,481 - __main__ - 366 - DEBUG - Length of Return Wall=7.1 meter
+2023-01-05 05:35:44,483 - __main__ - 367 - DEBUG - Flare Angle=11.0 degree
+2023-01-05 05:35:44,485 - __main__ - 368 - DEBUG - ncoming flow depth in Stiiling Basin=0.79 meter
+2023-01-05 05:35:44,487 - __main__ - 369 - DEBUG - conjugate depth after hydraulic jump=2.54 meter
+2023-01-05 05:35:44,489 - __main__ - 370 - DEBUG - Incoming flow froude numer in Stiiling Basin=2.98
+2023-01-05 05:35:44,492 - __main__ - 373 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:22,921 - __main__ - 650 - DEBUG - E:/Design-8/Designs_All/Xen Jakaria/Regulator_Drafting_programme\draft_Chakbara_input.dxf
-2023-01-03 20:26:22,961 - __main__ - 542 - DEBUG - half_width=48850.0 mm
-2023-01-03 20:26:22,965 - __main__ - 92 - DEBUG - [(-4900.0, -48850.0), (4900.0, -48850.0), (4900.0, -48050.0), (-4900.0, -48050.0)]
-2023-01-03 20:26:22,965 - __main__ - 569 - DEBUG - Drawing First Abutment.......................................
-2023-01-03 20:26:22,969 - __main__ - 572 - DEBUG - Drawing Second Abutment.......................................
-2023-01-03 20:26:22,973 - __main__ - 574 - DEBUG - offset of abutment=96900.0
-2023-01-03 20:26:22,977 - __main__ - 15 - DEBUG - 
+2023-01-05 05:35:44,494 - __main__ - 374 - DEBUG - E:/Design-8/Designs_All/Xen Jakaria/Regulator_Drafting_programme\draft_Chakbara_input.dxf
+2023-01-05 05:35:44,497 - __main__ - 377 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:22,977 - __main__ - 16 - DEBUG - Printing Translation Mattrix...............
-2023-01-03 20:26:22,981 - __main__ - 17 - DEBUG - [[1.00e+00 0.00e+00 0.00e+00]
- [0.00e+00 1.00e+00 9.69e+04]
- [0.00e+00 0.00e+00 1.00e+00]]
-2023-01-03 20:26:22,981 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 20:26:22,985 - __main__ - 21 - DEBUG - p=(-4900.0, -48850.0)
-2023-01-03 20:26:22,989 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 20:26:22,989 - __main__ - 26 - DEBUG - p=(-4900.0, 48050.0)
-2023-01-03 20:26:22,993 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 20:26:22,993 - __main__ - 21 - DEBUG - p=(4900.0, -48850.0)
-2023-01-03 20:26:22,993 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 20:26:22,997 - __main__ - 26 - DEBUG - p=(4900.0, 48050.0)
-2023-01-03 20:26:23,001 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 20:26:23,001 - __main__ - 21 - DEBUG - p=(4900.0, -48050.0)
-2023-01-03 20:26:23,005 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 20:26:23,009 - __main__ - 26 - DEBUG - p=(4900.0, 48850.0)
-2023-01-03 20:26:23,009 - __main__ - 20 - DEBUG - before translation.............
-2023-01-03 20:26:23,009 - __main__ - 21 - DEBUG - p=(-4900.0, -48050.0)
-2023-01-03 20:26:23,013 - __main__ - 25 - DEBUG - After translation.............
-2023-01-03 20:26:23,017 - __main__ - 26 - DEBUG - p=(-4900.0, 48850.0)
-2023-01-03 20:26:23,017 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,501 - __main__ - 378 - DEBUG - Displaying Wingwall and Returnwall Related Parameter................
+2023-01-05 05:35:44,503 - __main__ - 379 - DEBUG - Wing wall thickness at Appron Level=600.0 mm
+2023-01-05 05:35:44,505 - __main__ - 380 - DEBUG - Return Wall thickness at Appron Level=400.0 mm
+2023-01-05 05:35:44,540 - __main__ - 261 - DEBUG - half_width=4850.0 mm
+2023-01-05 05:35:44,545 - __main__ - 127 - DEBUG - [(-4900.0, -4850.0), (4900.0, -4850.0), (4900.0, -4050.0), (-4900.0, -4050.0)]
+2023-01-05 05:35:44,550 - __main__ - 288 - DEBUG - Drawing First Abutment.......................................
+2023-01-05 05:35:44,554 - __main__ - 291 - DEBUG - Drawing Second Abutment.......................................
+2023-01-05 05:35:44,556 - __main__ - 293 - DEBUG - offset of abutment=8900.0
+2023-01-05 05:35:44,558 - __main__ - 14 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,021 - __main__ - 593 - DEBUG - pierNo=1 abutment_offset=800.0 pier_offset=0.0 vent_offset=1500.0 total_offset=2300.0
-2023-01-03 20:26:23,025 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,561 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,564 - __main__ - 16 - DEBUG - [[1.0e+00 0.0e+00 0.0e+00]
+ [0.0e+00 1.0e+00 8.9e+03]
+ [0.0e+00 0.0e+00 1.0e+00]]
+2023-01-05 05:35:44,570 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,573 - __main__ - 20 - DEBUG - p=(-4900.0, -4850.0)
+2023-01-05 05:35:44,575 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,580 - __main__ - 25 - DEBUG - p=(-4900.0, 4050.0)
+2023-01-05 05:35:44,583 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,585 - __main__ - 20 - DEBUG - p=(4900.0, -4850.0)
+2023-01-05 05:35:44,592 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,595 - __main__ - 25 - DEBUG - p=(4900.0, 4050.0)
+2023-01-05 05:35:44,598 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,599 - __main__ - 20 - DEBUG - p=(4900.0, -4050.0)
+2023-01-05 05:35:44,601 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,602 - __main__ - 25 - DEBUG - p=(4900.0, 4850.0)
+2023-01-05 05:35:44,604 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,605 - __main__ - 20 - DEBUG - p=(-4900.0, -4050.0)
+2023-01-05 05:35:44,607 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,612 - __main__ - 25 - DEBUG - p=(-4900.0, 4850.0)
+2023-01-05 05:35:44,616 - __main__ - 309 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,025 - __main__ - 593 - DEBUG - pierNo=2 abutment_offset=800.0 pier_offset=700.0 vent_offset=3000.0 total_offset=4500.0
-2023-01-03 20:26:23,029 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,619 - __main__ - 312 - DEBUG - pierNo=1 abutment_offset=800.0 pier_offset=0.0 vent_offset=1500.0 total_offset=2300.0
+2023-01-05 05:35:44,622 - __main__ - 309 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,041 - __main__ - 593 - DEBUG - pierNo=3 abutment_offset=800.0 pier_offset=1400.0 vent_offset=4500.0 total_offset=6700.0
-2023-01-03 20:26:23,041 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,626 - __main__ - 312 - DEBUG - pierNo=2 abutment_offset=800.0 pier_offset=700.0 vent_offset=3000.0 total_offset=4500.0
+2023-01-05 05:35:44,631 - __main__ - 309 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,045 - __main__ - 593 - DEBUG - pierNo=4 abutment_offset=800.0 pier_offset=2100.0 vent_offset=6000.0 total_offset=8900.0
-2023-01-03 20:26:23,049 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,633 - __main__ - 312 - DEBUG - pierNo=3 abutment_offset=800.0 pier_offset=1400.0 vent_offset=4500.0 total_offset=6700.0
+2023-01-05 05:35:44,635 - __main__ - 117 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,049 - __main__ - 593 - DEBUG - pierNo=5 abutment_offset=800.0 pier_offset=2800.0 vent_offset=7500.0 total_offset=11100.0
-2023-01-03 20:26:23,053 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,638 - __main__ - 118 - DEBUG - Calcualting Key Points for Walls............
+2023-01-05 05:35:44,640 - __main__ - 138 - DEBUG - half_width=4850.0 mm
+2023-01-05 05:35:44,642 - __main__ - 127 - DEBUG - [(4920.0, 4050.0)]
+2023-01-05 05:35:44,644 - __main__ - 14 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,057 - __main__ - 593 - DEBUG - pierNo=6 abutment_offset=800.0 pier_offset=3500.0 vent_offset=9000.0 total_offset=13300.0
-2023-01-03 20:26:23,057 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,647 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,649 - __main__ - 16 - DEBUG - [[1.00000000e+00 0.00000000e+00 1.22500000e+04]
+ [0.00000000e+00 1.00000000e+00 2.38115879e+03]
+ [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
+2023-01-05 05:35:44,652 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,655 - __main__ - 20 - DEBUG - p=(4920.0, 4050.0)
+2023-01-05 05:35:44,657 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,658 - __main__ - 25 - DEBUG - p=(17170.0, 6431.158786937051)
+2023-01-05 05:35:44,661 - __main__ - 127 - DEBUG - [(17170.0, 6431.158786937051)]
+2023-01-05 05:35:44,663 - __main__ - 14 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,061 - __main__ - 593 - DEBUG - pierNo=7 abutment_offset=800.0 pier_offset=4200.0 vent_offset=10500.0 total_offset=15500.0
-2023-01-03 20:26:23,065 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,665 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,667 - __main__ - 16 - DEBUG - [[1.0e+00 0.0e+00 0.0e+00]
+ [0.0e+00 1.0e+00 7.1e+03]
+ [0.0e+00 0.0e+00 1.0e+00]]
+2023-01-05 05:35:44,669 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,672 - __main__ - 20 - DEBUG - p=(17170.0, 6431.158786937051)
+2023-01-05 05:35:44,673 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,675 - __main__ - 25 - DEBUG - p=(17170.0, 13531.158786937052)
+2023-01-05 05:35:44,676 - __main__ - 127 - DEBUG - [(17170.0, 13531.158786937052)]
+2023-01-05 05:35:44,684 - __main__ - 14 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,065 - __main__ - 593 - DEBUG - pierNo=8 abutment_offset=800.0 pier_offset=4900.0 vent_offset=12000.0 total_offset=17700.0
-2023-01-03 20:26:23,069 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,686 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,689 - __main__ - 16 - DEBUG - [[   1.    0. -400.]
+ [   0.    1.    0.]
+ [   0.    0.    1.]]
+2023-01-05 05:35:44,691 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,693 - __main__ - 20 - DEBUG - p=(17170.0, 13531.158786937052)
+2023-01-05 05:35:44,696 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,701 - __main__ - 25 - DEBUG - p=(16770.0, 13531.158786937052)
+2023-01-05 05:35:44,703 - __main__ - 127 - DEBUG - [(17170.0, 6431.158786937051)]
+2023-01-05 05:35:44,706 - __main__ - 14 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,069 - __main__ - 593 - DEBUG - pierNo=9 abutment_offset=800.0 pier_offset=5600.0 vent_offset=13500.0 total_offset=19900.0
-2023-01-03 20:26:23,073 - __main__ - 590 - DEBUG - 
+2023-01-05 05:35:44,707 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,711 - __main__ - 16 - DEBUG - [[   1.    0. -400.]
+ [   0.    1.  600.]
+ [   0.    0.    1.]]
+2023-01-05 05:35:44,714 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,717 - __main__ - 20 - DEBUG - p=(17170.0, 6431.158786937051)
+2023-01-05 05:35:44,718 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,720 - __main__ - 25 - DEBUG - p=(16770.0, 7031.158786937051)
+2023-01-05 05:35:44,721 - __main__ - 127 - DEBUG - [(16770.0, 7031.158786937051)]
+2023-01-05 05:35:44,723 - __main__ - 14 - DEBUG - 
 
 
 
 
-2023-01-03 20:26:23,073 - __main__ - 593 - DEBUG - pierNo=10 abutment_offset=800.0 pier_offset=6300.0 vent_offset=15000.0 total_offset=22100.0
-2023-01-03 20:26:23,077 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,081 - __main__ - 593 - DEBUG - pierNo=11 abutment_offset=800.0 pier_offset=7000.0 vent_offset=16500.0 total_offset=24300.0
-2023-01-03 20:26:23,093 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,093 - __main__ - 593 - DEBUG - pierNo=12 abutment_offset=800.0 pier_offset=7700.0 vent_offset=18000.0 total_offset=26500.0
-2023-01-03 20:26:23,101 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,105 - __main__ - 593 - DEBUG - pierNo=13 abutment_offset=800.0 pier_offset=8400.0 vent_offset=19500.0 total_offset=28700.0
-2023-01-03 20:26:23,109 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,109 - __main__ - 593 - DEBUG - pierNo=14 abutment_offset=800.0 pier_offset=9100.0 vent_offset=21000.0 total_offset=30900.0
-2023-01-03 20:26:23,113 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,121 - __main__ - 593 - DEBUG - pierNo=15 abutment_offset=800.0 pier_offset=9800.0 vent_offset=22500.0 total_offset=33100.0
-2023-01-03 20:26:23,125 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,125 - __main__ - 593 - DEBUG - pierNo=16 abutment_offset=800.0 pier_offset=10500.0 vent_offset=24000.0 total_offset=35300.0
-2023-01-03 20:26:23,129 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,133 - __main__ - 593 - DEBUG - pierNo=17 abutment_offset=800.0 pier_offset=11200.0 vent_offset=25500.0 total_offset=37500.0
-2023-01-03 20:26:23,141 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,145 - __main__ - 593 - DEBUG - pierNo=18 abutment_offset=800.0 pier_offset=11900.0 vent_offset=27000.0 total_offset=39700.0
-2023-01-03 20:26:23,173 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,173 - __main__ - 593 - DEBUG - pierNo=19 abutment_offset=800.0 pier_offset=12600.0 vent_offset=28500.0 total_offset=41900.0
-2023-01-03 20:26:23,177 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,181 - __main__ - 593 - DEBUG - pierNo=20 abutment_offset=800.0 pier_offset=13300.0 vent_offset=30000.0 total_offset=44100.0
-2023-01-03 20:26:23,185 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,189 - __main__ - 593 - DEBUG - pierNo=21 abutment_offset=800.0 pier_offset=14000.0 vent_offset=31500.0 total_offset=46300.0
-2023-01-03 20:26:23,189 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,193 - __main__ - 593 - DEBUG - pierNo=22 abutment_offset=800.0 pier_offset=14700.0 vent_offset=33000.0 total_offset=48500.0
-2023-01-03 20:26:23,197 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,201 - __main__ - 593 - DEBUG - pierNo=23 abutment_offset=800.0 pier_offset=15400.0 vent_offset=34500.0 total_offset=50700.0
-2023-01-03 20:26:23,205 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,209 - __main__ - 593 - DEBUG - pierNo=24 abutment_offset=800.0 pier_offset=16100.0 vent_offset=36000.0 total_offset=52900.0
-2023-01-03 20:26:23,213 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,217 - __main__ - 593 - DEBUG - pierNo=25 abutment_offset=800.0 pier_offset=16800.0 vent_offset=37500.0 total_offset=55100.0
-2023-01-03 20:26:23,217 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,221 - __main__ - 593 - DEBUG - pierNo=26 abutment_offset=800.0 pier_offset=17500.0 vent_offset=39000.0 total_offset=57300.0
-2023-01-03 20:26:23,221 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,225 - __main__ - 593 - DEBUG - pierNo=27 abutment_offset=800.0 pier_offset=18200.0 vent_offset=40500.0 total_offset=59500.0
-2023-01-03 20:26:23,229 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,229 - __main__ - 593 - DEBUG - pierNo=28 abutment_offset=800.0 pier_offset=18900.0 vent_offset=42000.0 total_offset=61700.0
-2023-01-03 20:26:23,233 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,237 - __main__ - 593 - DEBUG - pierNo=29 abutment_offset=800.0 pier_offset=19600.0 vent_offset=43500.0 total_offset=63900.0
-2023-01-03 20:26:23,241 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,241 - __main__ - 593 - DEBUG - pierNo=30 abutment_offset=800.0 pier_offset=20300.0 vent_offset=45000.0 total_offset=66100.0
-2023-01-03 20:26:23,245 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,257 - __main__ - 593 - DEBUG - pierNo=31 abutment_offset=800.0 pier_offset=21000.0 vent_offset=46500.0 total_offset=68300.0
-2023-01-03 20:26:23,261 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,277 - __main__ - 593 - DEBUG - pierNo=32 abutment_offset=800.0 pier_offset=21700.0 vent_offset=48000.0 total_offset=70500.0
-2023-01-03 20:26:23,285 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,285 - __main__ - 593 - DEBUG - pierNo=33 abutment_offset=800.0 pier_offset=22400.0 vent_offset=49500.0 total_offset=72700.0
-2023-01-03 20:26:23,289 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,293 - __main__ - 593 - DEBUG - pierNo=34 abutment_offset=800.0 pier_offset=23100.0 vent_offset=51000.0 total_offset=74900.0
-2023-01-03 20:26:23,293 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,297 - __main__ - 593 - DEBUG - pierNo=35 abutment_offset=800.0 pier_offset=23800.0 vent_offset=52500.0 total_offset=77100.0
-2023-01-03 20:26:23,297 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,301 - __main__ - 593 - DEBUG - pierNo=36 abutment_offset=800.0 pier_offset=24500.0 vent_offset=54000.0 total_offset=79300.0
-2023-01-03 20:26:23,305 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,309 - __main__ - 593 - DEBUG - pierNo=37 abutment_offset=800.0 pier_offset=25200.0 vent_offset=55500.0 total_offset=81500.0
-2023-01-03 20:26:23,309 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,313 - __main__ - 593 - DEBUG - pierNo=38 abutment_offset=800.0 pier_offset=25900.0 vent_offset=57000.0 total_offset=83700.0
-2023-01-03 20:26:23,317 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,321 - __main__ - 593 - DEBUG - pierNo=39 abutment_offset=800.0 pier_offset=26600.0 vent_offset=58500.0 total_offset=85900.0
-2023-01-03 20:26:23,321 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,325 - __main__ - 593 - DEBUG - pierNo=40 abutment_offset=800.0 pier_offset=27300.0 vent_offset=60000.0 total_offset=88100.0
-2023-01-03 20:26:23,329 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,329 - __main__ - 593 - DEBUG - pierNo=41 abutment_offset=800.0 pier_offset=28000.0 vent_offset=61500.0 total_offset=90300.0
-2023-01-03 20:26:23,333 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,337 - __main__ - 593 - DEBUG - pierNo=42 abutment_offset=800.0 pier_offset=28700.0 vent_offset=63000.0 total_offset=92500.0
-2023-01-03 20:26:23,337 - __main__ - 590 - DEBUG - 
-
-
-
-
-2023-01-03 20:26:23,341 - __main__ - 593 - DEBUG - pierNo=43 abutment_offset=800.0 pier_offset=29400.0 vent_offset=64500.0 total_offset=94700.0
+2023-01-05 05:35:44,724 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,726 - __main__ - 16 - DEBUG - [[  1   0   0]
+ [  0   1 150]
+ [  0   0   1]]
+2023-01-05 05:35:44,730 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,732 - __main__ - 20 - DEBUG - p=(16770.0, 7031.158786937051)
+2023-01-05 05:35:44,733 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,735 - __main__ - 25 - DEBUG - p=(16770.0, 7181.158786937051)
+2023-01-05 05:35:44,736 - __main__ - 127 - DEBUG - [(16770.0, 7031.158786937051)]
+2023-01-05 05:35:44,739 - __main__ - 14 - DEBUG - 
+
+
+
+
+2023-01-05 05:35:44,740 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,741 - __main__ - 16 - DEBUG - [[   1    0 -150]
+ [   0    1    0]
+ [   0    0    1]]
+2023-01-05 05:35:44,743 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,745 - __main__ - 20 - DEBUG - p=(16770.0, 7031.158786937051)
+2023-01-05 05:35:44,746 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,748 - __main__ - 25 - DEBUG - p=(16620.0, 7031.158786937051)
+2023-01-05 05:35:44,750 - __main__ - 127 - DEBUG - [(4920.0, 4050.0)]
+2023-01-05 05:35:44,752 - __main__ - 14 - DEBUG - 
+
+
+
+
+2023-01-05 05:35:44,753 - __main__ - 15 - DEBUG - Printing Translation Mattrix...............
+2023-01-05 05:35:44,755 - __main__ - 16 - DEBUG - [[  1.   0.   0.]
+ [  0.   1. 600.]
+ [  0.   0.   1.]]
+2023-01-05 05:35:44,756 - __main__ - 19 - DEBUG - before translation.............
+2023-01-05 05:35:44,758 - __main__ - 20 - DEBUG - p=(4920.0, 4050.0)
+2023-01-05 05:35:44,759 - __main__ - 24 - DEBUG - After translation.............
+2023-01-05 05:35:44,761 - __main__ - 25 - DEBUG - p=(4920.0, 4650.0)
+2023-01-05 05:35:44,764 - __main__ - 127 - DEBUG - [(4920.0, 4050.0), (17170.0, 6431.158786937051), (17170.0, 13531.158786937052), (16770.0, 13531.158786937052), (16770.0, 7181.158786937051), (16620.0, 7031.158786937051), (4920.0, 4650.0)]
+2023-01-05 05:35:44,766 - __main__ - 91 - DEBUG - 
+
+
+
+
+2023-01-05 05:35:44,767 - __main__ - 92 - DEBUG - Printing Reflection About Xaxis Mattrix...............
+2023-01-05 05:35:44,769 - __main__ - 93 - DEBUG - [[-1  0  0]
+ [ 0  1  0]
+ [ 0  0  1]]
+2023-01-05 05:35:44,770 - __main__ - 96 - DEBUG - before translation.............
+2023-01-05 05:35:44,772 - __main__ - 97 - DEBUG - p=(4920.0, 4050.0)
+2023-01-05 05:35:44,773 - __main__ - 101 - DEBUG - After translation.............
+2023-01-05 05:35:44,775 - __main__ - 102 - DEBUG - p=(-4920.0, 4050.0)
+2023-01-05 05:35:44,776 - __main__ - 96 - DEBUG - before translation.............
+2023-01-05 05:35:44,778 - __main__ - 97 - DEBUG - p=(17170.0, 6431.158786937051)
+2023-01-05 05:35:44,780 - __main__ - 101 - DEBUG - After translation.............
+2023-01-05 05:35:44,781 - __main__ - 102 - DEBUG - p=(-17170.0, 6431.158786937051)
+2023-01-05 05:35:44,783 - __main__ - 96 - DEBUG - before translation.............
+2023-01-05 05:35:44,785 - __main__ - 97 - DEBUG - p=(17170.0, 13531.158786937052)
+2023-01-05 05:35:44,786 - __main__ - 101 - DEBUG - After translation.............
+2023-01-05 05:35:44,788 - __main__ - 102 - DEBUG - p=(-17170.0, 13531.158786937052)
+2023-01-05 05:35:44,789 - __main__ - 96 - DEBUG - before translation.............
+2023-01-05 05:35:44,791 - __main__ - 97 - DEBUG - p=(16770.0, 13531.158786937052)
+2023-01-05 05:35:44,792 - __main__ - 101 - DEBUG - After translation.............
+2023-01-05 05:35:44,794 - __main__ - 102 - DEBUG - p=(-16770.0, 13531.158786937052)
+2023-01-05 05:35:44,818 - __main__ - 96 - DEBUG - before translation.............
+2023-01-05 05:35:44,820 - __main__ - 97 - DEBUG - p=(16770.0, 7181.158786937051)
+2023-01-05 05:35:44,821 - __main__ - 101 - DEBUG - After translation.............
+2023-01-05 05:35:44,823 - __main__ - 102 - DEBUG - p=(-16770.0, 7181.158786937051)
+2023-01-05 05:35:44,825 - __main__ - 96 - DEBUG - before translation.............
+2023-01-05 05:35:44,826 - __main__ - 97 - DEBUG - p=(16620.0, 7031.158786937051)
+2023-01-05 05:35:44,830 - __main__ - 101 - DEBUG - After translation.............
+2023-01-05 05:35:44,832 - __main__ - 102 - DEBUG - p=(-16620.0, 7031.158786937051)
+2023-01-05 05:35:44,834 - __main__ - 96 - DEBUG - before translation.............
+2023-01-05 05:35:44,835 - __main__ - 97 - DEBUG - p=(4920.0, 4650.0)
+2023-01-05 05:35:44,839 - __main__ - 101 - DEBUG - After translation.............
+2023-01-05 05:35:44,841 - __main__ - 102 - DEBUG - p=(-4920.0, 4650.0)
+2023-01-05 05:35:44,858 - __main__ - 127 - DEBUG - [(-4920.0, 4050.0), (-17170.0, 6431.158786937051), (-17170.0, 13531.158786937052), (-16770.0, 13531.158786937052), (-16770.0, 7181.158786937051), (-16620.0, 7031.158786937051), (-4920.0, 4650.0)]
+2023-01-05 05:35:44,860 - __main__ - 109 - DEBUG - 
+
+
+
+
+2023-01-05 05:35:44,863 - __main__ - 110 - DEBUG - Printing Reflection About Yaxis Mattrix...............
+2023-01-05 05:35:44,871 - __main__ - 111 - DEBUG - [[ 1  0  0]
+ [ 0 -1  0]
+ [ 0  0  1]]
+2023-01-05 05:35:44,873 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,875 - __main__ - 115 - DEBUG - p=(-4920.0, 4050.0)
+2023-01-05 05:35:44,877 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,879 - __main__ - 120 - DEBUG - p=(-4920.0, -4050.0)
+2023-01-05 05:35:44,881 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,883 - __main__ - 115 - DEBUG - p=(-17170.0, 6431.158786937051)
+2023-01-05 05:35:44,885 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,887 - __main__ - 120 - DEBUG - p=(-17170.0, -6431.158786937051)
+2023-01-05 05:35:44,889 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,891 - __main__ - 115 - DEBUG - p=(-17170.0, 13531.158786937052)
+2023-01-05 05:35:44,896 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,898 - __main__ - 120 - DEBUG - p=(-17170.0, -13531.158786937052)
+2023-01-05 05:35:44,900 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,902 - __main__ - 115 - DEBUG - p=(-16770.0, 13531.158786937052)
+2023-01-05 05:35:44,906 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,909 - __main__ - 120 - DEBUG - p=(-16770.0, -13531.158786937052)
+2023-01-05 05:35:44,918 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,919 - __main__ - 115 - DEBUG - p=(-16770.0, 7181.158786937051)
+2023-01-05 05:35:44,921 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,922 - __main__ - 120 - DEBUG - p=(-16770.0, -7181.158786937051)
+2023-01-05 05:35:44,924 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,927 - __main__ - 115 - DEBUG - p=(-16620.0, 7031.158786937051)
+2023-01-05 05:35:44,931 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,932 - __main__ - 120 - DEBUG - p=(-16620.0, -7031.158786937051)
+2023-01-05 05:35:44,935 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,939 - __main__ - 115 - DEBUG - p=(-4920.0, 4650.0)
+2023-01-05 05:35:44,942 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,946 - __main__ - 120 - DEBUG - p=(-4920.0, -4650.0)
+2023-01-05 05:35:44,950 - __main__ - 127 - DEBUG - [(4920.0, 4050.0), (17170.0, 6431.158786937051), (17170.0, 13531.158786937052), (16770.0, 13531.158786937052), (16770.0, 7181.158786937051), (16620.0, 7031.158786937051), (4920.0, 4650.0)]
+2023-01-05 05:35:44,952 - __main__ - 109 - DEBUG - 
+
+
+
+
+2023-01-05 05:35:44,953 - __main__ - 110 - DEBUG - Printing Reflection About Yaxis Mattrix...............
+2023-01-05 05:35:44,956 - __main__ - 111 - DEBUG - [[ 1  0  0]
+ [ 0 -1  0]
+ [ 0  0  1]]
+2023-01-05 05:35:44,959 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,964 - __main__ - 115 - DEBUG - p=(4920.0, 4050.0)
+2023-01-05 05:35:44,966 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,967 - __main__ - 120 - DEBUG - p=(4920.0, -4050.0)
+2023-01-05 05:35:44,969 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,971 - __main__ - 115 - DEBUG - p=(17170.0, 6431.158786937051)
+2023-01-05 05:35:44,973 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,975 - __main__ - 120 - DEBUG - p=(17170.0, -6431.158786937051)
+2023-01-05 05:35:44,976 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,980 - __main__ - 115 - DEBUG - p=(17170.0, 13531.158786937052)
+2023-01-05 05:35:44,983 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,985 - __main__ - 120 - DEBUG - p=(17170.0, -13531.158786937052)
+2023-01-05 05:35:44,987 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,988 - __main__ - 115 - DEBUG - p=(16770.0, 13531.158786937052)
+2023-01-05 05:35:44,990 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:44,991 - __main__ - 120 - DEBUG - p=(16770.0, -13531.158786937052)
+2023-01-05 05:35:44,994 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:44,999 - __main__ - 115 - DEBUG - p=(16770.0, 7181.158786937051)
+2023-01-05 05:35:45,002 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:45,004 - __main__ - 120 - DEBUG - p=(16770.0, -7181.158786937051)
+2023-01-05 05:35:45,006 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:45,009 - __main__ - 115 - DEBUG - p=(16620.0, 7031.158786937051)
+2023-01-05 05:35:45,012 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:45,014 - __main__ - 120 - DEBUG - p=(16620.0, -7031.158786937051)
+2023-01-05 05:35:45,016 - __main__ - 114 - DEBUG - before translation.............
+2023-01-05 05:35:45,018 - __main__ - 115 - DEBUG - p=(4920.0, 4650.0)
+2023-01-05 05:35:45,020 - __main__ - 119 - DEBUG - After translation.............
+2023-01-05 05:35:45,022 - __main__ - 120 - DEBUG - p=(4920.0, -4650.0)
+2023-01-05 05:35:45,025 - __main__ - 241 - DEBUG - Extreme Point of Barrel =4850.0 mm
+2023-01-05 05:35:45,027 - __main__ - 242 - DEBUG - [(4920.0, 4050.0)]
+2023-01-05 05:35:45,030 - __main__ - 243 - DEBUG - tx=0 mm ty=600.0 mm for point B
+2023-01-05 05:35:45,032 - __main__ - 244 - DEBUG - Wal1 kepoints=[(4920.0, 4050.0), (17170.0, 6431.158786937051), (17170.0, 13531.158786937052), (16770.0, 13531.158786937052), (16770.0, 7181.158786937051), (16620.0, 7031.158786937051), (4920.0, 4650.0)]
