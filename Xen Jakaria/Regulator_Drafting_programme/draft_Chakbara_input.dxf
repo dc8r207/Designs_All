@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2459954.118773148
+2459954.8111689813
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2459954.118773148
+2459954.8111689813
   9
 $TDUUPDATE
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-146
+FE
   9
 $SURFTAB1
  70
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{2A9A3615-5B17-4B3D-9D22-81394FDCF010}
+{28CCBD4F-8A97-4426-B4BE-0D892D8855C9}
   9
 $VERSIONGUID
   2
-{E9F349D1-DC28-4168-9031-EB2819043C59}
+{DD74B6A8-CA0C-44EB-BC3E-109547530B22}
   9
 $EXTNAMES
 290
@@ -1701,7 +1701,7 @@ ACAD
   0
 APPID
   5
-143
+FB
 330
 3
 100
@@ -1715,7 +1715,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-144
+FC
 330
 3
 100
@@ -4703,9 +4703,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2550.0
+2575.0
  20
-2250.0
+2275.0
  30
 0.0
  70
@@ -5209,9 +5209,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2550.0
+2575.0
  20
-1950.0
+1925.0
  30
 0.0
  70
@@ -5265,9 +5265,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2550.0
+2575.0
  20
-2250.0
+3175.0
  30
 0.0
  70
@@ -5289,7 +5289,7 @@ AcDb3dPolylineVertex
  10
 2700.0
  20
-2400.0
+3300.0
  30
 0.0
  70
@@ -5311,7 +5311,7 @@ AcDb3dPolylineVertex
  10
 2750.0
  20
-2400.0
+3300.0
  30
 0.0
  70
@@ -5333,7 +5333,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-2400.0
+3300.0
  30
 0.0
  70
@@ -5355,7 +5355,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-2300.0
+3200.0
  30
 0.0
  70
@@ -5377,7 +5377,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-2300.0
+3200.0
  30
 0.0
  70
@@ -5399,7 +5399,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-2400.0
+3300.0
  30
 0.0
  70
@@ -5421,7 +5421,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-2400.0
+3300.0
  30
 0.0
  70
@@ -5443,7 +5443,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-2300.0
+3200.0
  30
 0.0
  70
@@ -5465,7 +5465,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-2300.0
+3200.0
  30
 0.0
  70
@@ -5487,7 +5487,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-2400.0
+3300.0
  30
 0.0
  70
@@ -5509,7 +5509,7 @@ AcDb3dPolylineVertex
  10
 4340.0
  20
-2400.0
+3300.0
  30
 0.0
  70
@@ -5531,7 +5531,7 @@ AcDb3dPolylineVertex
  10
 4340.0
  20
-1800.0
+2700.0
  30
 0.0
  70
@@ -5553,7 +5553,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-1800.0
+2700.0
  30
 0.0
  70
@@ -5575,7 +5575,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-1900.0
+2800.0
  30
 0.0
  70
@@ -5597,7 +5597,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-1900.0
+2800.0
  30
 0.0
  70
@@ -5619,7 +5619,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-1800.0
+2700.0
  30
 0.0
  70
@@ -5641,7 +5641,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-1800.0
+2700.0
  30
 0.0
  70
@@ -5663,7 +5663,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-1900.0
+2800.0
  30
 0.0
  70
@@ -5685,7 +5685,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-1900.0
+2800.0
  30
 0.0
  70
@@ -5707,7 +5707,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-1800.0
+2700.0
  30
 0.0
  70
@@ -5729,7 +5729,7 @@ AcDb3dPolylineVertex
  10
 2750.0
  20
-1800.0
+2700.0
  30
 0.0
  70
@@ -5751,7 +5751,7 @@ AcDb3dPolylineVertex
  10
 2700.0
  20
-1800.0
+2700.0
  30
 0.0
  70
@@ -5771,537 +5771,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2550.0
+2575.0
  20
-1950.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E1
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2550.0
- 20
-2250.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E2
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2700.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E3
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2750.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E4
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E5
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E6
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E7
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E8
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-E9
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-EA
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-EB
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-EC
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4340.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-ED
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4340.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-EE
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-EF
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F0
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F1
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F2
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F3
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F4
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F5
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F6
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2750.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F7
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2700.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-F8
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2550.0
- 20
-1950.0
+2825.0
  30
 0.0
  70
@@ -6319,7 +5791,7 @@ AcDbEntity
   0
 POLYLINE
   5
-F9
+E1
 330
 17
 100
@@ -6343,7 +5815,7 @@ AcDb3dPolyline
   0
 VERTEX
   5
-FB
+E3
 330
 17
 100
@@ -6355,9 +5827,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2550.0
+2575.0
  20
-2250.0
+4075.0
  30
 0.0
  70
@@ -6365,469 +5837,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-FC
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2700.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-FD
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2750.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-FE
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-FF
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-100
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-101
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-102
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-103
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-104
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-105
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-106
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4340.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-107
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4340.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-108
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-109
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-10A
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-10B
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-10C
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-10D
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-10E
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-10F
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-110
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2750.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-111
+E4
 330
 17
 100
@@ -6841,7 +5851,7 @@ AcDb3dPolylineVertex
  10
 2700.0
  20
-1800.0
+4200.0
  30
 0.0
  70
@@ -6849,73 +5859,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-112
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2550.0
- 20
-1950.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-113
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2550.0
- 20
-2250.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-114
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2700.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-115
+E5
 330
 17
 100
@@ -6929,7 +5873,7 @@ AcDb3dPolylineVertex
  10
 2750.0
  20
-2400.0
+4200.0
  30
 0.0
  70
@@ -6937,7 +5881,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-116
+E6
 330
 17
 100
@@ -6951,7 +5895,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-2400.0
+4200.0
  30
 0.0
  70
@@ -6959,7 +5903,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-117
+E7
 330
 17
 100
@@ -6973,7 +5917,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-2300.0
+4100.0
  30
 0.0
  70
@@ -6981,7 +5925,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-118
+E8
 330
 17
 100
@@ -6995,7 +5939,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-2300.0
+4100.0
  30
 0.0
  70
@@ -7003,7 +5947,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-119
+E9
 330
 17
 100
@@ -7017,7 +5961,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-2400.0
+4200.0
  30
 0.0
  70
@@ -7025,7 +5969,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-11A
+EA
 330
 17
 100
@@ -7039,7 +5983,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-2400.0
+4200.0
  30
 0.0
  70
@@ -7047,7 +5991,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-11B
+EB
 330
 17
 100
@@ -7061,7 +6005,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-2300.0
+4100.0
  30
 0.0
  70
@@ -7069,7 +6013,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-11C
+EC
 330
 17
 100
@@ -7083,7 +6027,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-2300.0
+4100.0
  30
 0.0
  70
@@ -7091,7 +6035,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-11D
+ED
 330
 17
 100
@@ -7105,7 +6049,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-2400.0
+4200.0
  30
 0.0
  70
@@ -7113,7 +6057,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-11E
+EE
 330
 17
 100
@@ -7127,7 +6071,7 @@ AcDb3dPolylineVertex
  10
 4340.0
  20
-2400.0
+4200.0
  30
 0.0
  70
@@ -7135,7 +6079,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-11F
+EF
 330
 17
 100
@@ -7149,7 +6093,7 @@ AcDb3dPolylineVertex
  10
 4340.0
  20
-1800.0
+3600.0
  30
 0.0
  70
@@ -7157,7 +6101,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-120
+F0
 330
 17
 100
@@ -7171,7 +6115,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-1800.0
+3600.0
  30
 0.0
  70
@@ -7179,7 +6123,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-121
+F1
 330
 17
 100
@@ -7193,7 +6137,7 @@ AcDb3dPolylineVertex
  10
 4290.0
  20
-1900.0
+3700.0
  30
 0.0
  70
@@ -7201,7 +6145,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-122
+F2
 330
 17
 100
@@ -7215,7 +6159,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-1900.0
+3700.0
  30
 0.0
  70
@@ -7223,7 +6167,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-123
+F3
 330
 17
 100
@@ -7237,7 +6181,7 @@ AcDb3dPolylineVertex
  10
 4140.0
  20
-1800.0
+3600.0
  30
 0.0
  70
@@ -7245,7 +6189,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-124
+F4
 330
 17
 100
@@ -7259,7 +6203,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-1800.0
+3600.0
  30
 0.0
  70
@@ -7267,7 +6211,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-125
+F5
 330
 17
 100
@@ -7281,7 +6225,7 @@ AcDb3dPolylineVertex
  10
 3615.0
  20
-1900.0
+3700.0
  30
 0.0
  70
@@ -7289,7 +6233,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-126
+F6
 330
 17
 100
@@ -7303,7 +6247,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-1900.0
+3700.0
  30
 0.0
  70
@@ -7311,7 +6255,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-127
+F7
 330
 17
 100
@@ -7325,7 +6269,7 @@ AcDb3dPolylineVertex
  10
 3465.0
  20
-1800.0
+3600.0
  30
 0.0
  70
@@ -7333,7 +6277,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-128
+F8
 330
 17
 100
@@ -7347,7 +6291,7 @@ AcDb3dPolylineVertex
  10
 2750.0
  20
-1800.0
+3600.0
  30
 0.0
  70
@@ -7355,7 +6299,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-129
+F9
 330
 17
 100
@@ -7369,7 +6313,7 @@ AcDb3dPolylineVertex
  10
 2700.0
  20
-1800.0
+3600.0
  30
 0.0
  70
@@ -7377,7 +6321,7 @@ AcDb3dPolylineVertex
   0
 VERTEX
   5
-12A
+FA
 330
 17
 100
@@ -7389,537 +6333,9 @@ AcDbVertex
 100
 AcDb3dPolylineVertex
  10
-2550.0
+2575.0
  20
-1950.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-12B
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2550.0
- 20
-2250.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-12C
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2700.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-12D
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2750.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-12E
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-12F
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-130
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-131
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-132
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-133
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-134
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-2300.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-135
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-136
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4340.0
- 20
-2400.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-137
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4340.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-138
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-139
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4290.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-13A
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-13B
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-4140.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-13C
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-13D
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3615.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-13E
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-1900.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-13F
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-3465.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-140
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2750.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-141
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2700.0
- 20
-1800.0
- 30
-0.0
- 70
-32
-  0
-VERTEX
-  5
-142
-330
-17
-100
-AcDbEntity
-  8
-0
-100
-AcDbVertex
-100
-AcDb3dPolylineVertex
- 10
-2550.0
- 20
-1950.0
+3725.0
  30
 0.0
  70
@@ -7927,7 +6343,7 @@ AcDb3dPolylineVertex
   0
 SEQEND
   5
-FA
+E2
 330
 17
 100
@@ -8929,7 +7345,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-145
+FD
   0
 DICTIONARYVAR
   5
@@ -8941,11 +7357,11 @@ DictionaryVariables
 280
 0
   1
-0.18 @ 2023-01-08T20:51:02.296738+00:00
+0.18 @ 2023-01-09T13:28:05.222267+00:00
   0
 DICTIONARYVAR
   5
-145
+FD
 330
 2D
 100
@@ -8953,7 +7369,7 @@ DictionaryVariables
 280
 0
   1
-0.18 @ 2023-01-08T20:51:02.608737+00:00
+0.18 @ 2023-01-09T13:28:05.652861+00:00
   0
 ENDSEC
   0
