@@ -1,11 +1,25 @@
-2023-01-16 00:16:14,232 - __main__ - 10 - DEBUG - This is a warning message
-2023-01-16 00:16:14,385 - __main__ - 118 - DEBUG - 
+2023-01-16 04:13:26,159 - __main__ - 10 - DEBUG - This is a warning message
+2023-01-16 04:13:26,324 - __main__ - 155 - DEBUG - 
 
 
 
 
-2023-01-16 00:16:14,390 - __main__ - 119 - DEBUG - Printing Design Parameters......................
-2023-01-16 00:16:14,393 - __main__ - 120 - DEBUG - fs=18013.95 fc=1003.68
-2023-01-16 00:16:14,395 - __main__ - 121 - DEBUG - n=10.156767306459802 k=0.361 j=0.88
-2023-01-16 00:16:14,399 - __main__ - 122 - DEBUG - R=160.0 psi
-2023-01-16 00:16:14,401 - __main__ - 123 - DEBUG - allowable stress in flexure shear=55.10110706691836
+2023-01-16 04:13:26,326 - __main__ - 156 - DEBUG - Printing Design Parameters......................
+2023-01-16 04:13:26,328 - __main__ - 157 - DEBUG - fs=18013.95 fc=1003.68
+2023-01-16 04:13:26,333 - __main__ - 158 - DEBUG - n=10.156767306459802 k=0.361 j=0.88
+2023-01-16 04:13:26,336 - __main__ - 159 - DEBUG - R=160.0 psi
+2023-01-16 04:13:26,340 - __main__ - 160 - DEBUG - allowable stress in flexure shear=55.10110706691836
+2023-01-16 04:13:26,944 - __main__ - 113 - DEBUG - 
+
+
+
+
+2023-01-16 04:13:26,946 - __main__ - 114 - DEBUG - Designing Thicknes........................................
+2023-01-16 04:13:26,949 - __main__ - 115 - DEBUG - t_provided=24 deduction=3.5 d_provided=20.5
+2023-01-16 04:13:27,261 - __main__ - 139 - DEBUG - 
+
+
+
+
+2023-01-16 04:13:27,265 - __main__ - 140 - DEBUG - bar designation=d19 bar dia=0.75 inch bar area=0.44 sqinch
+2023-01-16 04:13:27,271 - __main__ - 141 - DEBUG - minimum_spacings_criteria=[1.5, 2.878, 1.75] s_min=2.878
