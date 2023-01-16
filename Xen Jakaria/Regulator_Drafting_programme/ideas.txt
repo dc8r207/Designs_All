@@ -1,0 +1,8 @@
+1.CAD files in Autocad 2018 have to be submitted.
+
+2.Everything in Modelspace otherthan Annotations shall be in 1:1 scale.
+
+3.Reinforcement Crossectional Area may be drawn in Higher scale for better visualization.If such is the case scale factor for reinfocement crosssectional area shall be mentioned.
+
+
+3.Paperspace Layout shall standard and mentioned in drawings.
