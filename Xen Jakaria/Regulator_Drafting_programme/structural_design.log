@@ -1,1369 +1,1080 @@
-2023-01-20 19:23:33,207 - __main__ - 10 - DEBUG - This is a warning message
-2023-01-20 19:23:33,377 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:46,183 - __main__ - 10 - DEBUG - This is a warning message
+2023-01-20 23:49:46,323 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:33,392 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:33,392 - __main__ - 257 - DEBUG - fs=18013.95 fc=1003.68
-2023-01-20 19:23:33,392 - __main__ - 258 - DEBUG - n=10.156767306459802 k=0.361 j=0.88
-2023-01-20 19:23:33,392 - __main__ - 259 - DEBUG - R=160.0 psi
-2023-01-20 19:23:33,392 - __main__ - 260 - DEBUG - allowable stress in flexure shear=55.10110706691836
-2023-01-20 19:23:33,846 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:46,325 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:46,327 - __main__ - 267 - DEBUG - fs=18013.95 fc=1003.68
+2023-01-20 23:49:46,330 - __main__ - 268 - DEBUG - n=10.156767306459802 k=0.361 j=0.88
+2023-01-20 23:49:46,334 - __main__ - 269 - DEBUG - R=160.0 psi
+2023-01-20 23:49:46,337 - __main__ - 270 - DEBUG - allowable stress in flexure shear=55.10110706691836
+2023-01-20 23:49:46,813 - __main__ - 113 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:33,846 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:33,846 - __main__ - 115 - DEBUG - t_provided=24 deduction=3.5 d_provided=20.5
-2023-01-20 19:23:34,094 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:46,815 - __main__ - 114 - DEBUG - Designing Thicknes........................................
+2023-01-20 23:49:46,818 - __main__ - 115 - DEBUG - t_provided=24 deduction=3.5 d_provided=20.5
+2023-01-20 23:49:47,032 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,094 - __main__ - 169 - DEBUG - As=0.42 Ab=0.12 b=12 n=3.5
-2023-01-20 19:23:34,094 - __main__ - 170 - DEBUG - spacing before rounding=3.4285714285714284
-2023-01-20 19:23:34,109 - __main__ - 171 - DEBUG - spacing After rounding=3.0
-2023-01-20 19:23:34,911 - __main__ - 10 - DEBUG - 
+2023-01-20 23:49:47,034 - __main__ - 169 - DEBUG - As=0.42 Ab=0.12 b=12 n=3.5
+2023-01-20 23:49:47,037 - __main__ - 170 - DEBUG - spacing before rounding=3.4285714285714284
+2023-01-20 23:49:47,040 - __main__ - 171 - DEBUG - spacing After rounding=3.0
+2023-01-20 23:49:47,690 - __main__ - 10 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,911 - __main__ - 11 - DEBUG - Reinforcement Design...................................
-2023-01-20 19:23:34,911 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:47,692 - __main__ - 11 - DEBUG - Reinforcement Design...................................
+2023-01-20 23:49:47,698 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,911 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:34,927 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:34,927 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:34,927 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:34,927 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:34,927 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:47,700 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,703 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,705 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:47,707 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:47,709 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:47,711 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,927 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:34,949 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:47,713 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:47,716 - __main__ - 113 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,949 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:34,949 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:34,949 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:34,949 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:34,965 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:34,965 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:34,965 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:47,720 - __main__ - 114 - DEBUG - Designing Thicknes........................................
+2023-01-20 23:49:47,723 - __main__ - 115 - DEBUG - t_provided=6 deduction=1.5 d_provided=4.5
+2023-01-20 23:49:47,727 - __main__ - 233 - DEBUG - d_design=9.05 t_design=10.55
+2023-01-20 23:49:47,731 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:47,733 - __main__ - 235 - DEBUG - As_calc=0.15000000000000002 As_min=0.18 As_design=0.18
+2023-01-20 23:49:47,736 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,965 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:34,965 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:34,965 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:34,980 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:34,980 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:47,741 - __main__ - 169 - DEBUG - As=0.18 Ab=0.12 b=6 n=1.5
+2023-01-20 23:49:47,743 - __main__ - 170 - DEBUG - spacing before rounding=4.0
+2023-01-20 23:49:47,746 - __main__ - 171 - DEBUG - spacing After rounding=4.0
+2023-01-20 23:49:47,752 - __main__ - 27 - DEBUG - {'t_design_inch': 10.55, 't_design_metric': 265.0, 'bar': 'd10', 'As_pvd': 0.18, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:47,755 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,980 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:34,980 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:34,980 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:34,996 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:34,996 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:34,996 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:47,757 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,760 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,764 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:47,769 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:47,772 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:47,775 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,996 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:34,996 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:47,777 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:47,783 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:47,785 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:47,787 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:47,790 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:34,996 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,011 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,011 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,011 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,011 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,011 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,011 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:47,792 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:47,795 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:47,798 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:47,801 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:47,804 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,027 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,027 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,027 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,027 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,027 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:47,807 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,809 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,811 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:47,815 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:47,817 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:47,819 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,043 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,043 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,049 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,051 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,051 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,051 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:47,822 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:47,824 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:47,828 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:47,831 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:47,835 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,051 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,059 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:47,837 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:47,839 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:47,841 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:47,842 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:47,846 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,061 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,061 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,061 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,069 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,071 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,071 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,071 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:47,848 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,850 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,851 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:47,855 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:47,857 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:47,859 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,080 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,082 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,082 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,082 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,082 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:47,860 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:47,867 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:47,869 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:47,870 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:47,872 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,090 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,092 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,092 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,100 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,102 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,102 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:47,874 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:47,875 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:47,879 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:47,881 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:47,883 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,102 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,110 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:47,890 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,891 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,893 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:47,895 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:47,897 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:47,901 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,112 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,112 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,112 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,112 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,120 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,122 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,122 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:47,902 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:47,904 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:47,905 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:47,907 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:47,909 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,122 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,130 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,132 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,132 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,132 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:47,911 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:47,914 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:47,916 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:47,918 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:47,919 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,132 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,142 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,142 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,142 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,150 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,152 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:47,921 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,923 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,925 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:47,927 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:47,929 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:47,930 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,152 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,152 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:47,931 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:47,933 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:47,938 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:47,941 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:47,943 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,161 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,163 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,163 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,163 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,171 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,173 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,173 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:47,944 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:47,946 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:47,948 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:47,951 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:47,954 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,173 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,181 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,183 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,183 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,183 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:47,955 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,957 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,959 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:47,960 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:47,963 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:47,965 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,191 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,193 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,193 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,193 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,193 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,201 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:47,967 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:47,969 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:47,971 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:47,972 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:47,974 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,203 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,203 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:47,983 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:47,985 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:47,989 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:47,990 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:47,993 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,203 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,203 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,211 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,213 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,213 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,213 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,221 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:47,995 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:47,997 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:47,999 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,000 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,002 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,004 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,223 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,223 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,223 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,223 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,231 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,007 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,009 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,010 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,012 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,015 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,234 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,234 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,234 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,242 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,244 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,244 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,020 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,025 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,027 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,029 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,033 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,254 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,254 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,036 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,041 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,043 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,047 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,049 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,052 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,254 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,264 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,264 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,264 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,264 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,264 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,264 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,053 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,055 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,059 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,062 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,064 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,272 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,274 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,274 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,274 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,274 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,068 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,070 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,072 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,074 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,077 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,282 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,282 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,284 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,284 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,284 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,284 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,078 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,080 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,081 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,083 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,085 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,087 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,284 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,292 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,089 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,092 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,097 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,102 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,105 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,294 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,294 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,294 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,294 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,294 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,302 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,304 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,107 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,109 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,111 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,112 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,117 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,304 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,304 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,304 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,304 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,312 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,119 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,121 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,123 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,127 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,130 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,132 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,315 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,315 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,315 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,323 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,325 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,325 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,133 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,135 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,137 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,139 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,141 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,325 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,325 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,142 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,144 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,145 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,147 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,149 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,333 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,335 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,335 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,335 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,335 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,335 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,343 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,151 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,152 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,154 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,156 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,158 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,159 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,345 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,345 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,345 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,345 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,345 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,161 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,164 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,167 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,168 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,170 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,353 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,355 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,355 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,355 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,383 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,385 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,172 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,173 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,175 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,177 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,181 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,385 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,385 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,183 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,185 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,186 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,188 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,189 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,191 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,385 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,393 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,395 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,395 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,404 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,406 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,406 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,193 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,194 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,196 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,198 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,199 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,406 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,414 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,416 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,416 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,416 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,202 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,203 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,204 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,206 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,208 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,424 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,426 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,426 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,434 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,436 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,436 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,210 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,212 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,213 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,215 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,217 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,219 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,436 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,444 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,220 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,224 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,226 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,228 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,229 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,446 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,446 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,446 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,454 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,456 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,456 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,456 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,231 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,233 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,234 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,236 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,238 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,466 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,466 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,466 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,466 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,466 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,240 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,241 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,243 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,245 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,248 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,249 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,474 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,474 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,477 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,477 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,477 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,485 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,250 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,252 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,254 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,255 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,257 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,487 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,487 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,258 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,260 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,261 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,264 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,267 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,487 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,487 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,497 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,505 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,507 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,507 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,507 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,268 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,270 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,272 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,273 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,275 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,280 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,515 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,517 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,517 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,517 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,517 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,282 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,283 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,285 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,287 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,289 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,517 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,525 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,527 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,527 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,527 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,527 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,290 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,292 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,294 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,296 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,298 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,535 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,537 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,300 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,302 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,303 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,305 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,307 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,308 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,537 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,537 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,537 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,546 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,548 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,548 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,548 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,310 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,311 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,313 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,315 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,317 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,556 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,556 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,558 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,558 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,558 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,319 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,320 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,323 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,325 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,330 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,566 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,568 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,568 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,568 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,568 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,568 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,336 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,338 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,339 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,341 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,343 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,345 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,568 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,576 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,347 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,349 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,353 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,354 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,356 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,578 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,578 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,578 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,578 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,586 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,588 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,588 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,358 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,359 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,362 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,363 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,365 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,588 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,588 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,588 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,596 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,598 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,369 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,370 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,372 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,374 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,375 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,378 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,598 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,598 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,598 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,598 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,606 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,608 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,379 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,381 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,383 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,384 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,386 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,616 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,616 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,388 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,389 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,391 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,393 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,395 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,618 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,618 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,618 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,618 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,627 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,629 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,629 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,398 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,399 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,401 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,402 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,404 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,405 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,629 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,629 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,629 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,637 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,639 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,407 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,409 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,411 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,413 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,416 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,639 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,639 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,639 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,647 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,647 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,649 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,417 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,419 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,421 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,422 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,424 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,649 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,649 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,426 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,429 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,431 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,434 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,437 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,438 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,649 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,649 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,657 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,659 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,659 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,659 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,659 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,440 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,442 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,443 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,444 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,447 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,667 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,669 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,669 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,669 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,669 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,458 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,459 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,463 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,466 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,469 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,669 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,677 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,679 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,679 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,679 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,679 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,470 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,472 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,474 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,476 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,478 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,480 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,679 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,687 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,482 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,484 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,485 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,487 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,489 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,689 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,697 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,699 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,699 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,699 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,708 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,710 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,491 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,492 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,495 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,497 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,499 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,710 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,710 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,710 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,710 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,720 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,501 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,503 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,504 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,506 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,508 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,511 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,720 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,720 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,730 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,738 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,740 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,740 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,517 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,520 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,524 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,526 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,529 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,740 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,740 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,530 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,532 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,533 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,535 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,538 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,748 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,750 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,750 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,750 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,758 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,760 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,760 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,539 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,541 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,542 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,545 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,548 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,550 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,760 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,760 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,768 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,770 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,770 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,553 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,555 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,557 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,559 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,562 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,770 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,770 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,778 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,780 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,780 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,780 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,563 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,565 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,569 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,571 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,573 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,788 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,788 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,575 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,578 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,589 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,592 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,595 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,598 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,790 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,790 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,790 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,790 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,799 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,801 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,801 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,602 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,603 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,605 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,607 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,609 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,801 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,809 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,811 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,811 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,819 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,613 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,615 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,619 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,621 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,624 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,821 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,821 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,821 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,821 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,821 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,831 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,628 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,630 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,632 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,635 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,638 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,640 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,831 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,831 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,645 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,648 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,649 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,651 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,653 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,831 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,839 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,841 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,841 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,841 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,841 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,849 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,655 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,670 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,673 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,675 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,681 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,851 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,851 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,851 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,851 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,859 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,683 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,684 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,686 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,688 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,690 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,692 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,861 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,861 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,861 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,861 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,869 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,871 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,695 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,698 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,700 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,703 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,707 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,871 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,871 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,709 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,713 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,718 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,721 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,724 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,871 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,879 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,881 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,881 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,881 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,881 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,881 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,731 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,733 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,737 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,739 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,743 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,748 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,881 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,890 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,892 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,892 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,892 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,753 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,757 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,769 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,771 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,772 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,892 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,900 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,902 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,902 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,902 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,902 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,774 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,776 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,780 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,782 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,786 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,910 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,912 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,790 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,801 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,809 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,818 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,820 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,824 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,912 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,912 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,912 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,912 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,922 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,922 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,922 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,829 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,832 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,835 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,837 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,840 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,922 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,922 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,930 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,932 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,932 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,842 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,845 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,848 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,850 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,853 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,932 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,932 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,940 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,942 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,942 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,942 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,857 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,861 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,863 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,865 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,867 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,870 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,942 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,942 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,872 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,874 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,877 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,879 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,882 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,950 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,950 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,952 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:35,952 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:35,952 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:35,952 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:35,960 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,884 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,886 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,888 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,891 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,894 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,962 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:35,962 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:35,962 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:35,962 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:35,972 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,897 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,899 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,901 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,904 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,906 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,907 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,972 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:35,972 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:35,981 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:35,981 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:35,983 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:35,983 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,909 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,910 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,912 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,914 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,916 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,983 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:35,991 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,917 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,919 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,921 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,923 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,925 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:35,993 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:35,993 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:35,993 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,001 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,003 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,003 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,003 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,927 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,930 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,932 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,933 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,935 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,936 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,003 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,003 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,013 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,013 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,013 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,938 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,939 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,941 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,942 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,945 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,013 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,023 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,023 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,031 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,033 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,033 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,951 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,953 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,956 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,958 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,964 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,041 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,043 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:48,967 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:48,969 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:48,972 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:48,974 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:48,976 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:48,978 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,043 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,051 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,051 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,053 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,063 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,063 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,063 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:48,980 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:48,982 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:48,983 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:48,985 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:48,987 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,063 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,072 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,074 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,074 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,084 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:48,988 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:48,990 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:48,992 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:48,993 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:48,996 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,084 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,092 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,094 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,094 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,094 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,104 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:48,998 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:49,000 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:49,002 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:49,003 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:49,005 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:49,007 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,104 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,104 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:49,023 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:49,030 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:49,032 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:49,035 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:49,037 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,104 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,115 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,115 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,115 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,115 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,123 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,153 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:49,039 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:49,042 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:49,045 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:49,048 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:49,051 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,155 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,155 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,155 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,155 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,163 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:49,053 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:49,055 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:49,058 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:49,060 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:49,063 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:49,065 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,165 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,165 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,165 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,165 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,173 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,173 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:49,067 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:49,070 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:49,073 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:49,075 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:49,078 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,175 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,175 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:49,079 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:49,081 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:49,082 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:49,084 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:49,086 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,175 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,175 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,183 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,185 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,185 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,185 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,185 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:49,088 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:49,089 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:49,091 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:49,092 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:49,096 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:49,098 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,193 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,216 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,216 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,216 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,216 - __main__ - 255 - DEBUG - 
+2023-01-20 23:49:49,101 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:49,102 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:49,104 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:49,105 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:49,108 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,216 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,224 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,226 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,226 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,226 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,226 - __main__ - 212 - DEBUG - 
+2023-01-20 23:49:49,109 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:49,112 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:49,114 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:49,116 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:49,118 - __main__ - 265 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,226 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,234 - __main__ - 113 - DEBUG - 
+2023-01-20 23:49:49,120 - __main__ - 266 - DEBUG - Printing Design Parameters......................
+2023-01-20 23:49:49,122 - __main__ - 267 - DEBUG - fs=27000.0 fc=1200.0
+2023-01-20 23:49:49,123 - __main__ - 268 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
+2023-01-20 23:49:49,125 - __main__ - 269 - DEBUG - R=158.0 psi
+2023-01-20 23:49:49,130 - __main__ - 270 - DEBUG - allowable stress in flexure shear=60.24948132556828
+2023-01-20 23:49:49,132 - __main__ - 212 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,234 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,236 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,236 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,236 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,236 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,244 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,246 - __main__ - 168 - DEBUG - 
+2023-01-20 23:49:49,135 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:49,137 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16
+2023-01-20 23:49:49,150 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:49,151 - __main__ - 235 - DEBUG - As_calc=0.4 As_min=0.36 As_design=0.4
+2023-01-20 23:49:49,153 - __main__ - 168 - DEBUG - 
 
 
 
 
-2023-01-20 19:23:36,246 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,246 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,246 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,246 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,254 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,256 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,274 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,276 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,276 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,276 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,284 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,286 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,286 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,286 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,295 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,297 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,297 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,297 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,297 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,297 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,305 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,307 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,307 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,307 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,307 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,315 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,317 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,327 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,327 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,327 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,327 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,335 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,337 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,337 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,337 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,337 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,337 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,345 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,345 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,347 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,357 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,365 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,367 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,367 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,367 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,375 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,377 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,377 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,377 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,377 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,377 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,377 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,386 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,388 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,388 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,388 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,388 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,388 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,396 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,398 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,398 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,398 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,398 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,398 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,406 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,408 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,408 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,408 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,408 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,408 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,416 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,418 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,418 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,418 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,418 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,418 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,418 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,426 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,428 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,428 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,428 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,428 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,428 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,436 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,438 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,438 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,438 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,438 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,438 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,446 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,448 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,448 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,458 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,458 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,458 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,458 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,466 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,469 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,487 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,489 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,489 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,489 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,497 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,499 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,499 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,499 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,499 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,509 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,509 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,509 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,509 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,517 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,519 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,519 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,519 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,527 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,529 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,529 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,529 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,529 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,539 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,539 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,539 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,539 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,549 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,549 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,549 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,557 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,560 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,560 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,560 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,560 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,568 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,570 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,570 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,570 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,578 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,580 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,580 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,580 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,580 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,580 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,588 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,590 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,590 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,590 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,590 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,598 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,600 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,600 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,600 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,600 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,600 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,608 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,610 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,610 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,610 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,610 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,610 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,620 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,620 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,620 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,620 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,620 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,630 - __main__ - 255 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,630 - __main__ - 256 - DEBUG - Printing Design Parameters......................
-2023-01-20 19:23:36,630 - __main__ - 257 - DEBUG - fs=27000.0 fc=1200.0
-2023-01-20 19:23:36,630 - __main__ - 258 - DEBUG - n=9.28886208634492 k=0.292 j=0.903
-2023-01-20 19:23:36,630 - __main__ - 259 - DEBUG - R=158.0 psi
-2023-01-20 19:23:36,638 - __main__ - 260 - DEBUG - allowable stress in flexure shear=60.24948132556828
-2023-01-20 19:23:36,640 - __main__ - 212 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,640 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
-2023-01-20 19:23:36,648 - __main__ - 113 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,651 - __main__ - 114 - DEBUG - Designing Thicknes........................................
-2023-01-20 19:23:36,651 - __main__ - 115 - DEBUG - t_provided=16 deduction=3.5 d_provided=12.5
-2023-01-20 19:23:36,651 - __main__ - 232 - DEBUG - {'status': True, 'd_revised': 12.5, 't_revised': 16.0}
-2023-01-20 19:23:36,651 - __main__ - 233 - DEBUG - d_design=12.5 t_design=16.0
-2023-01-20 19:23:36,651 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
-2023-01-20 19:23:36,659 - __main__ - 235 - DEBUG - As_calc=0.0 As_min=0.36 As_design=0.36
-2023-01-20 19:23:36,661 - __main__ - 168 - DEBUG - 
-
-
-
-
-2023-01-20 19:23:36,661 - __main__ - 169 - DEBUG - As=0.36 Ab=0.12 b=12 n=3.0
-2023-01-20 19:23:36,661 - __main__ - 170 - DEBUG - spacing before rounding=4.0
-2023-01-20 19:23:36,669 - __main__ - 171 - DEBUG - spacing After rounding=4.0
-2023-01-20 19:23:36,671 - __main__ - 27 - DEBUG - {'t_design_inch': 16.0, 't_design_metric': 400.0, 'bar': 'd10', 'As_pvd': 0.36, 'spacings': 4.0, 'sp_text': 'd10 @ 4.0 inch c/c', 'spacings_metric': 100.0, 'sp_text_metric': 'd10 @ 100.0 mm c/c', 'rem': ''}
-2023-01-20 19:23:36,711 - __main__ - 11 - DEBUG -                 ComponentName Initial Reinforcement_code Reinforcement_Type  \
-0         Operating_Deck_Slab     ODS             ODS-R1                  T   
+2023-01-20 23:49:49,155 - __main__ - 169 - DEBUG - As=0.4 Ab=0.12 b=12 n=3.3333333333333335
+2023-01-20 23:49:49,156 - __main__ - 170 - DEBUG - spacing before rounding=3.5999999999999996
+2023-01-20 23:49:49,157 - __main__ - 171 - DEBUG - spacing After rounding=3.5
+2023-01-20 23:49:49,164 - __main__ - 27 - DEBUG - {'t_design_inch': 16, 't_design_metric': 400, 'bar': 'd10', 'As_pvd': 0.41142857142857137, 'spacings': 3.5, 'sp_text': 'd10 @ 3.5 inch c/c', 'spacings_metric': 85.0, 'sp_text_metric': 'd10 @ 85.0 mm c/c', 'rem': ''}
+2023-01-20 23:49:49,208 - __main__ - 11 - DEBUG -                 ComponentName Initial Reinforcement_code Reinforcement_Type  \
+0         Operating_Deck_Slab     ODS             ODS-R1                  M   
 1         Operating_Deck_Slab     ODS             ODS-R2                  T   
 2         Operating_Deck_Slab     ODS             ODS-R3                  T   
 3         Operating_Deck_Slab     ODS             ODS-R4                  T   
@@ -1401,119 +1112,158 @@
 35                Return Wall     RWA             RWA-R6                  T   
 36                Return Wall     RWA             RWA-R7                  T   
 
-    P  M  V  fprime_c     fy   b  t_initial  deduction  t_design_inch  \
-0   0  0  0      3000  60000  12         16        3.5           16.0   
-1   0  0  0      3000  60000  12         16        3.5           16.0   
-2   0  0  0      3000  60000  12         16        3.5           16.0   
-3   0  0  0      3000  60000  12         16        3.5           16.0   
-4   0  0  0      3000  60000  12         16        3.5           16.0   
-5   0  0  0      3000  60000  12         16        3.5           16.0   
-6   0  0  0      3000  60000  12         16        3.5           16.0   
-7   0  0  0      3000  60000  12         16        3.5           16.0   
-8   0  0  0      3000  60000  12         16        3.5           16.0   
-9   0  0  0      3000  60000  12         16        3.5           16.0   
-10  0  0  0      3000  60000  12         16        3.5           16.0   
-11  0  0  0      3000  60000  12         16        3.5           16.0   
-12  0  0  0      3000  60000  12         16        3.5           16.0   
-13  0  0  0      3000  60000  12         16        3.5           16.0   
-14  0  0  0      3000  60000  12         16        3.5           16.0   
-15  0  0  0      3000  60000  12         16        3.5           16.0   
-16  0  0  0      3000  60000  12         16        3.5           16.0   
-17  0  0  0      3000  60000  12         16        3.5           16.0   
-18  0  0  0      3000  60000  12         16        3.5           16.0   
-19  0  0  0      3000  60000  12         16        3.5           16.0   
-20  0  0  0      3000  60000  12         16        3.5           16.0   
-21  0  0  0      3000  60000  12         16        3.5           16.0   
-22  0  0  0      3000  60000  12         16        3.5           16.0   
-23  0  0  0      3000  60000  12         16        3.5           16.0   
-24  0  0  0      3000  60000  12         16        3.5           16.0   
-25  0  0  0      3000  60000  12         16        3.5           16.0   
-26  0  0  0      3000  60000  12         16        3.5           16.0   
-27  0  0  0      3000  60000  12         16        3.5           16.0   
-28  0  0  0      3000  60000  12         16        3.5           16.0   
-29  0  0  0      3000  60000  12         16        3.5           16.0   
-30  0  0  0      3000  60000  12         16        3.5           16.0   
-31  0  0  0      3000  60000  12         16        3.5           16.0   
-32  0  0  0      3000  60000  12         16        3.5           16.0   
-33  0  0  0      3000  60000  12         16        3.5           16.0   
-34  0  0  0      3000  60000  12         16        3.5           16.0   
-35  0  0  0      3000  60000  12         16        3.5           16.0   
-36  0  0  0      3000  60000  12         16        3.5           16.0   
+    P      M     V  fprime_c     fy   b  t_initial  deduction  t_design_inch  \
+0   0  23198  3254      3000  60000   6          6        1.5          10.55   
+1   0      0     0      3000  60000  12         16        3.5          16.00   
+2   0      0     0      3000  60000  12         16        3.5          16.00   
+3   0      0     0      3000  60000  12         16        3.5          16.00   
+4   0      0     0      3000  60000  12         16        3.5          16.00   
+5   0      0     0      3000  60000  12         16        3.5          16.00   
+6   0      0     0      3000  60000  12         16        3.5          16.00   
+7   0      0     0      3000  60000  12         16        3.5          16.00   
+8   0      0     0      3000  60000  12         16        3.5          16.00   
+9   0      0     0      3000  60000  12         16        3.5          16.00   
+10  0      0     0      3000  60000  12         16        3.5          16.00   
+11  0      0     0      3000  60000  12         16        3.5          16.00   
+12  0      0     0      3000  60000  12         16        3.5          16.00   
+13  0      0     0      3000  60000  12         16        3.5          16.00   
+14  0      0     0      3000  60000  12         16        3.5          16.00   
+15  0      0     0      3000  60000  12         16        3.5          16.00   
+16  0      0     0      3000  60000  12         16        3.5          16.00   
+17  0      0     0      3000  60000  12         16        3.5          16.00   
+18  0      0     0      3000  60000  12         16        3.5          16.00   
+19  0      0     0      3000  60000  12         16        3.5          16.00   
+20  0      0     0      3000  60000  12         16        3.5          16.00   
+21  0      0     0      3000  60000  12         16        3.5          16.00   
+22  0      0     0      3000  60000  12         16        3.5          16.00   
+23  0      0     0      3000  60000  12         16        3.5          16.00   
+24  0      0     0      3000  60000  12         16        3.5          16.00   
+25  0      0     0      3000  60000  12         16        3.5          16.00   
+26  0      0     0      3000  60000  12         16        3.5          16.00   
+27  0      0     0      3000  60000  12         16        3.5          16.00   
+28  0      0     0      3000  60000  12         16        3.5          16.00   
+29  0      0     0      3000  60000  12         16        3.5          16.00   
+30  0      0     0      3000  60000  12         16        3.5          16.00   
+31  0      0     0      3000  60000  12         16        3.5          16.00   
+32  0      0     0      3000  60000  12         16        3.5          16.00   
+33  0      0     0      3000  60000  12         16        3.5          16.00   
+34  0      0     0      3000  60000  12         16        3.5          16.00   
+35  0      0     0      3000  60000  12         16        3.5          16.00   
+36  0      0     0      3000  60000  12         16        3.5          16.00   
 
-    t_design_metric bar_designation  Aprovided  spacings(inch)  \
-0             400.0             d10       0.36             4.0   
-1             400.0             d10       0.36             4.0   
-2             400.0             d10       0.36             4.0   
-3             400.0             d10       0.36             4.0   
-4             400.0             d10       0.36             4.0   
-5             400.0             d10       0.36             4.0   
-6             400.0             d10       0.36             4.0   
-7             400.0             d10       0.36             4.0   
-8             400.0             d10       0.36             4.0   
-9             400.0             d10       0.36             4.0   
-10            400.0             d10       0.36             4.0   
-11            400.0             d10       0.36             4.0   
-12            400.0             d10       0.36             4.0   
-13            400.0             d10       0.36             4.0   
-14            400.0             d10       0.36             4.0   
-15            400.0             d10       0.36             4.0   
-16            400.0             d10       0.36             4.0   
-17            400.0             d10       0.36             4.0   
-18            400.0             d10       0.36             4.0   
-19            400.0             d10       0.36             4.0   
-20            400.0             d10       0.36             4.0   
-21            400.0             d10       0.36             4.0   
-22            400.0             d10       0.36             4.0   
-23            400.0             d10       0.36             4.0   
-24            400.0             d10       0.36             4.0   
-25            400.0             d10       0.36             4.0   
-26            400.0             d10       0.36             4.0   
-27            400.0             d10       0.36             4.0   
-28            400.0             d10       0.36             4.0   
-29            400.0             d10       0.36             4.0   
-30            400.0             d10       0.36             4.0   
-31            400.0             d10       0.36             4.0   
-32            400.0             d10       0.36             4.0   
-33            400.0             d10       0.36             4.0   
-34            400.0             d10       0.36             4.0   
-35            400.0             d10       0.36             4.0   
-36            400.0             d10       0.36             4.0   
+    t_design_metric bar_designation  Aprovided(in^2)  spacings(inch)  \
+0             265.0             d10         0.180000             4.0   
+1             400.0             d10         0.411429             3.5   
+2             400.0             d10         0.411429             3.5   
+3             400.0             d10         0.411429             3.5   
+4             400.0             d10         0.411429             3.5   
+5             400.0             d10         0.411429             3.5   
+6             400.0             d10         0.411429             3.5   
+7             400.0             d10         0.411429             3.5   
+8             400.0             d10         0.411429             3.5   
+9             400.0             d10         0.411429             3.5   
+10            400.0             d10         0.411429             3.5   
+11            400.0             d10         0.411429             3.5   
+12            400.0             d10         0.411429             3.5   
+13            400.0             d10         0.411429             3.5   
+14            400.0             d10         0.411429             3.5   
+15            400.0             d10         0.411429             3.5   
+16            400.0             d10         0.411429             3.5   
+17            400.0             d10         0.411429             3.5   
+18            400.0             d10         0.411429             3.5   
+19            400.0             d10         0.411429             3.5   
+20            400.0             d10         0.411429             3.5   
+21            400.0             d10         0.411429             3.5   
+22            400.0             d10         0.411429             3.5   
+23            400.0             d10         0.411429             3.5   
+24            400.0             d10         0.411429             3.5   
+25            400.0             d10         0.411429             3.5   
+26            400.0             d10         0.411429             3.5   
+27            400.0             d10         0.411429             3.5   
+28            400.0             d10         0.411429             3.5   
+29            400.0             d10         0.411429             3.5   
+30            400.0             d10         0.411429             3.5   
+31            400.0             d10         0.411429             3.5   
+32            400.0             d10         0.411429             3.5   
+33            400.0             d10         0.411429             3.5   
+34            400.0             d10         0.411429             3.5   
+35            400.0             d10         0.411429             3.5   
+36            400.0             d10         0.411429             3.5   
 
    Reabar_spacings_inch  spacinings(mm)    Rebar_txt_metric  
 0    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-1    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-2    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-3    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-4    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-5    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-6    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-7    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-8    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-9    d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-10   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-11   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-12   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-13   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-14   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-15   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-16   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-17   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-18   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-19   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-20   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-21   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-22   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-23   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-24   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-25   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-26   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-27   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-28   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-29   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-30   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-31   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-32   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-33   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-34   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-35   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
-36   d10 @ 4.0 inch c/c           100.0  d10 @ 100.0 mm c/c  
+1    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+2    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+3    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+4    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+5    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+6    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+7    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+8    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+9    d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+10   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+11   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+12   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+13   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+14   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+15   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+16   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+17   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+18   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+19   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+20   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+21   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+22   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+23   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+24   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+25   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+26   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+27   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+28   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+29   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+30   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+31   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+32   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+33   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+34   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+35   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+36   d10 @ 3.5 inch c/c            85.0   d10 @ 85.0 mm c/c  
+2023-01-20 23:49:49,994 - __main__ - 113 - DEBUG - 
+
+
+
+
+2023-01-20 23:49:49,997 - __main__ - 114 - DEBUG - Designing Thicknes........................................
+2023-01-20 23:49:50,000 - __main__ - 115 - DEBUG - t_provided=6 deduction=1.5 d_provided=4.5
+2023-01-20 23:49:50,002 - __main__ - 212 - DEBUG - 
+
+
+
+
+2023-01-20 23:49:50,004 - __main__ - 213 - DEBUG - Initiating Reinforcement Design...................................
+2023-01-20 23:49:50,007 - __main__ - 113 - DEBUG - 
+
+
+
+
+2023-01-20 23:49:50,009 - __main__ - 114 - DEBUG - Designing Thicknes........................................
+2023-01-20 23:49:50,012 - __main__ - 115 - DEBUG - t_provided=6 deduction=1.5 d_provided=4.5
+2023-01-20 23:49:50,014 - __main__ - 233 - DEBUG - d_design=9.05 t_design=10.55
+2023-01-20 23:49:50,017 - __main__ - 234 - DEBUG - fs=27000.0 j=0.903
+2023-01-20 23:49:50,019 - __main__ - 235 - DEBUG - As_calc=0.15000000000000002 As_min=0.18 As_design=0.18
+2023-01-20 23:49:50,021 - __main__ - 168 - DEBUG - 
+
+
+
+
+2023-01-20 23:49:50,023 - __main__ - 169 - DEBUG - As=0.18 Ab=0.12 b=6 n=1.5
+2023-01-20 23:49:50,026 - __main__ - 170 - DEBUG - spacing before rounding=4.0
+2023-01-20 23:49:50,029 - __main__ - 171 - DEBUG - spacing After rounding=4.0
+2023-01-20 23:49:50,440 - __main__ - 254 - DEBUG - 
+
+
+
+
+2023-01-20 23:49:50,445 - __main__ - 255 - DEBUG - checkiing details
+2023-01-20 23:49:50,448 - __main__ - 256 - DEBUG - M=23198pound-inch V=3254pound
+2023-01-20 23:49:50,450 - __main__ - 261 - DEBUG - d_provided=4.5 inch d_shear=4.55 inch d_flexure=4.95 inch
