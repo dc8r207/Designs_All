@@ -1,0 +1,8 @@
+ IF concrete columns are not end bearing, the settlement may become an issue. The settlement of concrete column-reinforced soft foundations can be estimated using the method for piled rafts or pile groups.Horikoshi and Randolph (1999) and Poulos (2001) proposed simplified design methods to calculate the settlement of piled rafts, which are based on pile–raft interaction. 
+
+Estimation of overall settlement of piled rafts
+
+Randolph (1999) used the equivalent pier concept for the piled raft method as shown in Figure 5.16. 
+
+
+To ensure the suitability of this method, a Rf factor should be calculated first, which is Rf = (Ncls/Lc)0.5

@@ -1,9 +1,0 @@
-Very loose & 15 & 1.0 (47.8)\\
-\hline
-Loose & 20 & 1.4 (67.0)\\
-\hline
-Medium & 25 & 1.7 (83.1)\\
-\hline
-Dense & 30 & 2.0 (95.5)\\
-\hline
-Guideline for Side Friction in Siliceous Soil
