@@ -1,0 +1,12 @@
+GEOTECHNICAL DESIGN OF DRIVEN PILES UNDER AXIAL LOADS
+
+3(Three) Methods shall be discused with example.
+1.API:American Petroleum Institute Procedure
+2.FHWA:U.S. Federal Highway Administration Procedure
+3.U.S. Army Corps Method
+API gives lowest Capacity.It is conservative.So It shall be used in this note in detailed.
+API2A it recomnds for clay soil f should be taken as follows:
+f=ac for 
+
+c<=500psf(24 kpa)
+For other types of clay, ƒ should be taken equal to c for c less or equal to 1/4 ton per square foot (24 kPa). For c in excess of 1/4 ton per square foot (24 kPa) but less than or equal to 3/4 ton per square foot (72 kPa) the ratio of ƒ toc should decrease linearly from unity at c equal to 1/4 ton per square foot (24kPa) to 1/2 at c equal to 3/4 ton per square foot (72 kPa). For c in excess of
