@@ -7,3 +7,30 @@ Medium & 25 & 1.7 (83.1)\\
 Dense & 30 & 2.0 (95.5)\\
 \hline
 Guideline for Side Friction in Siliceous Soil
+
+
+
+shear modulus of the soil at the base of columns
+shear modulus of the soil below the base of columns Mpa
+average shear modulus of the soil within the length of columns Mpa
+
+area of the raft
+width or diameter of the raft
+influence factor (0.88 for a square raft or 0.79 for a circular raft)
+
+&\text{Raft Properties}:\\
+A_r&=\text{area of the raft m^2}\\
+B_r&=\text{}\\
+I_s&=\text{}\\
+
+
+\begin{equation*}
+\begin{align*}
+&\text{Step1:Calcualte Shear Modulus of Soil}\\
+G_L&=\text{shear modulus of the soil at the base of columns MPa}\\
+G_b&=\text{shear modulus of the soil below the base of columns Mpa}\\
+G_{avg}&=\text{average shear modulus of the soil within the length of columns Mpa}\\\\
+G&=\frac{E_s}{2(1+\nu)}
+
+\end{align*}
+\end{equation*}

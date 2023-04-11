@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.27)  5 APR 2023 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.27)  11 APR 2023 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -73,6 +73,9 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_b_int=\count196
 
 (C:\Miketex\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Miketex\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
 (C:\Miketex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip51
@@ -143,20 +146,20 @@ LaTeX Info: Redefining \] on input line 2954.
 ) (Settlement_of_floating_Pile.aux)
 \openout1 = `Settlement_of_floating_Pile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 (C:\Miketex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -213,88 +216,88 @@ G,.JBIG2,.JB2,.eps]
 (C:\Miketex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 <Equivalent_Pier.png, id=1, 396.48125pt x 149.55875pt>
 File: Equivalent_Pier.png Graphic file (type png)
 <use Equivalent_Pier.png>
-Package pdftex.def Info: Equivalent_Pier.png  used on input line 21.
+Package pdftex.def Info: Equivalent_Pier.png  used on input line 29.
 (pdftex.def)             Requested size: 396.48027pt x 149.55838pt.
 
-Overfull \hbox (6.48027pt too wide) in paragraph at lines 21--22
+Overfull \hbox (6.48027pt too wide) in paragraph at lines 29--30
  [][] 
  []
 
 
-Overfull \hbox (1.23622pt too wide) in paragraph at lines 29--30
+Overfull \hbox (1.23622pt too wide) in paragraph at lines 37--39
 []\OT1/cmr/m/n/12 Randolph (1999) used the equiv-a-lent pier con-cept for the p
 iled raft method
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.48 soil & \delta
-                  ,degrees & Limiting f,kips/fit^2(kPa) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.48 soil & \delta,degrees &
-                             Limiting f,kips/fit^2(kPa) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.48 soil & \delta,degrees & Limiting f,kips/fit^
-                                                 2(kPa) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \end{align*}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.49 \hline
-           
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-[]|\OT1/cmr/m/n/12 Limiting
- []
-
-
-Overfull \hbox (102.84406pt too wide) in paragraph at lines 46--59
-[][] 
- []
+! Undefined control sequence.
+<argument> ...gs of column in meter}\\ L_c&=\tect 
+                                                  {Length of column in meter...
+l.58 \end{align*}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [1
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Equivalent_
-Pier.png>] [2] (Settlement_of_floating_Pile.aux) ) 
+Pier.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \end{align*}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2] Excluding 'comment' comment. [3] (Settlement_of_floating_Pile.aux) ) 
 Here is how much of TeX's memory you used:
- 3144 strings out of 475284
- 54203 string characters out of 2790053
- 484080 words of memory out of 3000000
- 24594 multiletter control sequences out of 15000+600000
+ 3198 strings out of 475284
+ 55233 string characters out of 2790053
+ 489968 words of memory out of 3000000
+ 24644 multiletter control sequences out of 15000+600000
  474938 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,433b,268s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Miketex/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-<C:/Miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Miketex/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb><C:/Miketex/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-
-Output written on Settlement_of_floating_Pile.pdf (2 pages, 74076 bytes).
+ 72i,9n,77p,433b,228s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Mik
+etex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Miketex/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><C:/Miketex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
+Miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Miketex/fonts/type1/public
+/amsfonts/cm/cmr17.pfb>
+Output written on Settlement_of_floating_Pile.pdf (3 pages, 82798 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
