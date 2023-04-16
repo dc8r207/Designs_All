@@ -67,11 +67,24 @@ G_L&=\text{shear modulus of the soil at the base of columns MPa}\\
 G_b&=\text{shear modulus of the soil below the base of columns Mpa}\\
 G&=\frac{E}{2(1+\nu)}\\
 G_{avg}&=\frac{G_L+G_b}{2}\\
-\zeta&=\frac{G_L}{G_b}\\
+\xi&=\frac{G_L}{G_b}\\
 \rho&=\frac{G_{avg}}{G_L}
 \end{align*}
 \end{equation*}
 
+\noindent \text{Step2:Radius of Influence}\\
+\begin{equation*}
+\begin{align*}
+r_m&=Cr_c+\{0.25+\xi[2.5\rho(1-\nu_s)-0.25]\}L_c\\
+C&=0 \text{if \frac{L_c}{r_c}>5 }\\
+G_L&=\text{shear modulus of the soil at the base of columns MPa}\\
+G_b&=\text{shear modulus of the soil below the base of columns Mpa}\\
+G&=\frac{E}{2(1+\nu)}\\
+G_{avg}&=\frac{G_L+G_b}{2}\\
+\xi&=\frac{G_L}{G_b}\\
+\rho&=\frac{G_{avg}}{G_L}
+\end{align*}
+\end{equation*}
 
 
 
