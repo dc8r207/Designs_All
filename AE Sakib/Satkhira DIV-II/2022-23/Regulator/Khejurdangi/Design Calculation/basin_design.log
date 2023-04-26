@@ -1,0 +1,55 @@
+2023-04-26 17:06:29,015 - __main__ - 10 - DEBUG - This is a warning message
+2023-04-26 17:06:29,453 - __main__ - 141 - DEBUG - D1=0.79 meter
+2023-04-26 17:06:29,455 - __main__ - 142 - DEBUG - D2=2.54 meter
+2023-04-26 17:06:29,458 - __main__ - 143 - DEBUG - Fr1=2.98
+2023-04-26 17:06:29,461 - __main__ - 144 - DEBUG - conduit width=6.7 meter
+2023-04-26 17:06:29,463 - __main__ - 145 - DEBUG - flare angle=12.0
+2023-04-26 17:06:29,466 - __main__ - 146 - DEBUG - glacis drop=0.9
+2023-04-26 17:06:29,470 - __main__ - 63 - DEBUG - 
+
+
+
+
+2023-04-26 17:06:29,470 - __main__ - 64 - DEBUG - flare angle=12.0 degrees 0.20943951023931956 radians
+2023-04-26 17:06:29,487 - __main__ - 65 - DEBUG - b0=6700.0 mm b1=7848 mm
+2023-04-26 17:06:29,490 - __main__ - 66 - DEBUG - D1=790
+2023-04-26 17:06:29,492 - __main__ - 67 - DEBUG - N1=13.120253164556962 N2=14 N=15
+2023-04-26 17:06:29,494 - __main__ - 68 - DEBUG - w_initial=553.0 mm w_final=490 mm
+2023-04-26 17:06:29,496 - __main__ - 10 - DEBUG - Chuete Block width=490 mm
+2023-04-26 17:06:29,499 - __main__ - 11 - DEBUG - Chuete Block height=790 mm
+2023-04-26 17:06:29,501 - __main__ - 12 - DEBUG - Chuete Block Length=2370 mm
+2023-04-26 17:06:29,504 - __main__ - 13 - DEBUG - Chuete Block Spacings=490 mm
+2023-04-26 17:06:29,506 - __main__ - 14 - DEBUG - Total Chute Block=8.0 Nos
+2023-04-26 17:06:29,508 - __main__ - 95 - DEBUG - 
+
+
+
+
+2023-04-26 17:06:29,510 - __main__ - 96 - DEBUG - flare angle=12.0 degrees 0.20943951023931956 radians
+2023-04-26 17:06:29,512 - __main__ - 97 - DEBUG - b0=6700.0 mm b1=9221 mm
+2023-04-26 17:06:29,512 - __main__ - 98 - DEBUG - D1=790
+2023-04-26 17:06:29,525 - __main__ - 99 - DEBUG - N1=15.603074141048825 N2=16 N=17
+2023-04-26 17:06:29,526 - __main__ - 100 - DEBUG - w_initial=553.0 mm w_final=512 mm
+2023-04-26 17:06:29,528 - __main__ - 31 - DEBUG - Baffle Block height=790 mm
+2023-04-26 17:06:29,530 - __main__ - 32 - DEBUG - Baffle Block Top width=158.0 mm
+2023-04-26 17:06:29,531 - __main__ - 33 - DEBUG - Baffle Block Sloping width=790 mm
+2023-04-26 17:06:29,533 - __main__ - 34 - DEBUG - Baffle Block Spacings=512 mm
+2023-04-26 17:06:29,535 - __main__ - 35 - DEBUG - Baffle Block Nos=9.0 Nos
+2023-04-26 17:06:29,537 - __main__ - 36 - DEBUG - Baffle Block Location=3230 mm
+2023-04-26 17:06:29,538 - __main__ - 128 - DEBUG - 
+
+
+
+
+2023-04-26 17:06:29,540 - __main__ - 129 - DEBUG - Calcualting End Sill Parameter............
+2023-04-26 17:06:29,542 - __main__ - 130 - DEBUG - flare angle=12.0 degrees 0.20943951023931956 radians
+2023-04-26 17:06:29,543 - __main__ - 131 - DEBUG - b0=6700.0 mm b1=10705 mm
+2023-04-26 17:06:29,554 - __main__ - 132 - DEBUG - D1=790
+2023-04-26 17:06:29,556 - __main__ - 133 - DEBUG - N1=28.097112860892388 N2=29 N=29
+2023-04-26 17:06:29,559 - __main__ - 134 - DEBUG - w_initial=381.0 mm w_final=356 mm
+2023-04-26 17:06:29,561 - __main__ - 51 - DEBUG - Enf Sill height=508.0 mm
+2023-04-26 17:06:29,563 - __main__ - 52 - DEBUG - End Sill Topwidth=101.60000000000001 mm
+2023-04-26 17:06:29,564 - __main__ - 53 - DEBUG - End Sill Block Sloping width=1016.0 mm
+2023-04-26 17:06:29,567 - __main__ - 54 - DEBUG - End Sill Spacings=356 mm
+2023-04-26 17:06:29,569 - __main__ - 55 - DEBUG - Total End Sill=15.0 Nos
+2023-04-26 17:06:29,572 - __main__ - 56 - DEBUG - Endsil Location=6721 mm
