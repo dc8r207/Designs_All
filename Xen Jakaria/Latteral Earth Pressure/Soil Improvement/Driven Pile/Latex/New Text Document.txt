@@ -1,0 +1,26 @@
+The design procedure for granular columns in cohesive soils involves bearing capacity, settlement, rate of consolidation, and global slope stability. The typical procedure is as follows:
+
+\item Based on undrained shear strength of cohesive soil,calculate the ultimate bearing capacity of natural soilas 5c u (cu is undrained shear strength of soil).
+
+\item Based on undrained shear strength of cohesive soil,calculate the ultimate bearing capacity of individual columns using Equation (1) or (2).
+\item Calculate the ultimate bearing capacity of the composite foundation by considering ultimate bearing capacities of natural soil and individual columns, and the area replacement ratio using Equation (3).
+\item Based on the coefficient of volumetric compression,calculate the settlement of the natural soil using Equation (4).
+5. Based on the column–soil modulus ratio or column
+friction angle, calculate the stress reduction factor or
+improvement factor and then calculate the settlement
+of the composite foundation using Equation (5.29) or
+(5.31). 
+6. The degree of consolidation of a composite foundation
+can be estimated using the Han and Ye solution considering well resistance using Equation (5.47). In this
+calculation, the permeability of the column should be
+estimated first, possibly using the FHWA highway
+drainage method Equation (5.49).
+7. The factor of safety against global slope failure can
+be calculated using the individual column method or
+equivalent area method. When the equivalent area
+method is used for undrained analysis, a reduction
+factor of 0.9 should be applied to the calculated value.
+
+
+
+\item determine pile dia and spacings from equation(4).
