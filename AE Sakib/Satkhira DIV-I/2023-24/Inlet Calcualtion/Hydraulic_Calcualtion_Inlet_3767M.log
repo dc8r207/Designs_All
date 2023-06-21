@@ -1,1 +1,5 @@
-2023-06-21 14:09:09,485 - __main__ - 52 - DEBUG - This is a warning message for testing..............
+2023-06-21 16:17:48,415 - __main__ - 54 - DEBUG - This is a warning message for testing..............
+2023-06-21 16:17:48,446 - __main__ - 80 - DEBUG - Reading Basic Input Parameter for Hydraulic Design
+2023-06-21 16:17:48,446 - __main__ - 81 - DEBUG - ####################################################
+2023-06-21 16:17:48,468 - __main__ - 101 - DEBUG - Avg_gl=6.0 invert_level=1.0 c/s highest wl=7.0 VH=4.0
+2023-06-21 16:17:48,468 - __main__ - 104 - DEBUG - unit discharge=39.6823351548638 cfs
