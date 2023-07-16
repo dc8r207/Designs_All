@@ -1,0 +1,113 @@
+*GROUP    ; Group
+; NAME, NODE_LIST, ELEM_LIST
+   windshoe  , , 
+   pylon     , 501 502 507 508 511to555 601 602 607 608 611to650 905to1008, \
+        501to552 561to568 601to647 661to668
+   pier      , 3001to3013 3031 3101to3107, 3001to3012 3101to3107
+   girder_LS_1, 161to164 393 394 509 510 816 868, 161to163
+   girder_LM_1, 165to167 817 869, 164to166
+   girder_LS_2, 159 160 815 867, 157to160
+   girder_LM_2, 168 169 818 870, 167to170
+   girder_LS_3, 156 814 866, 153to156
+   girder_LM_3, 172 173 819 871, 171to174
+   girder_LS_4, 151 152 813 865, 149to152
+   girder_LM_4, 176 177 820 872, 175to178
+   girder_LS_5, 147 148 812 864, 145to148
+   girder_LM_5, 180 181 821 873, 179to182
+   girder_LS_6, 143 144 811 863, 141to144
+   girder_LM_6, 184 185 822 874, 183to186
+   girder_LS_7, 139 140 810 862, 137to140
+   girder_LM_7, 188 189 823 875, 187to190
+   girder_LS_8, 135 136 809 861, 133to136
+   girder_LM_8, 192 193 824 876, 191to194
+   girder_LS_9, 131 132 808 860, 129to132
+   girder_LM_9, 196 197 825 877, 195to198
+   girder_LS_10, 127 128 807 859, 125to128
+   girder_LM_10, 200 201 826 878, 199to202
+   girder_LS_11, 123 124 806 858, 121to124
+   girder_LM_11, 204 205 827 879, 203to206
+   girder_LS_12, 116to120 805 857 3012to3015 3108, 116to120
+   girder_LM_12, 208 209 828 880, 207to210
+   girder_LS_13, 113to115 804 856, 113to115
+   girder_LM_13, 212 213 829 881, 211to214
+   girder_LM_14, 216 217 830 882, 215to218
+   girder_LS_15, 105to108 802 854, 105to108
+   girder_LM_15, 220 221 831 883, 219to222
+   girder_LS_16, 100to104 389to392 801 853, 100to104
+   girder_LM_16, 224to227 832 884, 223to226
+   girder_RM_1, 264to266 842 894, 264to266
+   girder_RS_1, 267to270 395 396 609 610 843 895, 267to269
+   girder_RM_2, 260to263 841 893, 260to263
+   girder_RS_2, 271to274 844 896, 270to273
+   girder_RM_3, 256to259 840 892, 256to259
+   girder_RS_3, 275to278 845 897, 274to277
+   girder_RM_4, 254 255 839 891, 252to255
+   girder_RS_4, 279to282 846 898, 278to281
+   girder_RM_5, 250 251 838 890, 248to251
+   girder_RS_5, 283to286 847 899, 282to285
+   girder_RM_6, 246 247 837 889, 244to247
+   girder_RS_6, 287to290 848 900, 286to289
+   girder_RM_7, 242 243 836 888, 240to243
+   girder_RS_7, 291to294 849 901, 290to293
+   girder_RM_8, 238 239 835 887, 236to239
+   girder_RS_8, 295to298 850 902, 294to297
+   girder_RM_9, 234 235 834 886, 232to235
+   girder_RS_9, 299to302 851 903, 298to301
+   girder_RM_10, 228to231 833 885, 228to231
+   girder_RS_10, 303to307 397to400 852 904, 302to306
+   Cable_LS_1, , 1416 1516
+   Cable_LM_1, , 1417 1517
+   Cable_LS_2, , 1415 1515
+   Cable_LM_2, , 1418 1518
+   Cable_LS_3, , 1414 1514
+   Cable_LM_3, , 1419 1519
+   Cable_LS_4, , 1413 1513
+   Cable_LM_4, , 1420 1520
+   Cable_LS_5, , 1412 1512
+   Cable_LM_5, , 1421 1521
+   Cable_LS_6, , 1411 1511
+   Cable_LM_6, , 1422 1522
+   Cable_LS_7, , 1410 1510
+   Cable_LM_7, , 1423 1523
+   Cable_LS_8, , 1409 1509
+   Cable_LM_8, , 1424 1524
+   Cable_LS_9, , 1408 1508
+   Cable_LM_9, , 1425 1525
+   Cable_LS_10, , 1407 1507
+   Cable_LM_10, , 1426 1526
+   Cable_LS_11, , 1406 1506
+   Cable_LM_11, , 1427 1527
+   Cable_LS_12, , 1405 1505
+   Cable_LM_12, , 1428 1528
+   Cable_LS_13, , 1404 1504
+   Cable_LM_13, , 1429 1529
+   Cable_LS_14, , 1403 1503
+   Cable_LM_14, , 1430 1530
+   Cable_LS_15, , 1402 1502
+   Cable_LM_15, , 1431 1531
+   Cable_LS_16, , 1401 1501
+   Cable_LM_16, , 1432 1532
+   Cable_RM_1, , 1442 1542
+   Cable_RS_1, , 1443 1543
+   Cable_RM_2, , 1441 1541
+   Cable_RS_2, , 1444 1544
+   Cable_RM_3, , 1440 1540
+   Cable_RS_3, , 1445 1545
+   Cable_RM_4, , 1439 1539
+   Cable_RS_4, , 1446 1546
+   Cable_RM_5, , 1438 1538
+   Cable_RS_5, , 1447 1547
+   Cable_RM_6, , 1437 1537
+   Cable_RS_6, , 1448 1548
+   Cable_RM_7, , 1436 1536
+   Cable_RS_7, , 1449 1549
+   Cable_RM_8, , 1435 1535
+   Cable_RS_8, , 1450 1550
+   Cable_RM_9, , 1434 1534
+   Cable_RS_9, , 1451 1551
+   Cable_RM_10, , 1433 1533
+   Cable_RS_10, , 1452 1552
+   pier_key seg(420), , 420
+   Main span_key seg, , 227
+   Cable     , , 1401to1452 1501to1552
+   girder_LS_14, 109to113 803 855, 109to112
