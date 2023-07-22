@@ -1,0 +1,21 @@
+07/22/2023 05:59:21	Reading UID database.
+07/22/2023 05:59:21	Start loading STAAD model.
+07/22/2023 05:59:21	Reading model file.
+07/22/2023 05:59:22	Reading model file is complete.
+07/22/2023 05:59:22	Processing support.
+07/22/2023 05:59:22	Processing springs.
+07/22/2023 05:59:22	Processing properties.
+07/22/2023 05:59:22	Processing physical properties.
+07/22/2023 05:59:22	Processing constants.
+07/22/2023 05:59:22	Processing surface constants.
+07/22/2023 05:59:22	Processing BETA constants.
+07/22/2023 05:59:22	Processing hidden analytical member loads.
+07/22/2023 05:59:22	Processing command list for member release.
+07/22/2023 05:59:22	Processing command list for member offset.
+07/22/2023 05:59:22	Processing command list for member specs (cracked).
+07/22/2023 05:59:22	Processing command list for member specs (axial).
+07/22/2023 05:59:22	Processing command list for element release.
+07/22/2023 05:59:22	Processing command list for element offset.
+07/22/2023 05:59:22	Processing command list for element plate stress directive.
+07/22/2023 05:59:22	End Processing command list.
+07/22/2023 05:59:22	End loading STAAD model.
