@@ -1,0 +1,18 @@
+MIDAS Civil 2022 v1.2
+---------------------
+
+     Instructions:	Unrar and install the app.
+			Replace original .dll with the patched one.
+			Once run the app as admin.
+
+			Name: lavteam.org
+			Password: 5CEB050C-6ECC0D2B-B222E110-C7E4607A
+
+			Choose option 'Help --> Register Protection License'
+			Choose 'Hardware Lock' option.
+
+			Input any 16 digits as a Key Number and	press OK button.
+
+
+-----------------------
+www.rahim-soft.com
