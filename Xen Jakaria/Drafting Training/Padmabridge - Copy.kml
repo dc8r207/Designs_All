@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+<Document>
+	<name>Padma Bridge</name>
+
+	<Placemark>
+       <name>Mawa End</name>
+		<Point>
+			
+			<coordinates>90.26442699999998,23.470181,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+	<name>Jajira End</name>
+	<Point>
+	<coordinates> 90.261215,23.442196,0 </coordinates>
+
+	</Point>
+	
+	</Placemark>
+	<Placemark>
+	<name>Bridge Line</name>
+	<LineString>
+	<coordinates> 
+	90.26442699999998,23.470181,0
+	90.261215,23.442196,0 
+	
+	
+	</coordinates>
+	</LineString>
+	</Placemark>
+	
+	
+</Document>
+</kml>
