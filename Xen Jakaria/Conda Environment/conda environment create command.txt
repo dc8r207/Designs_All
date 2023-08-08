@@ -1,0 +1,18 @@
+conda env create -f gisenv.yml
+conda env create -f djangoenv.yml
+
+conda create --name gisenv
+
+conda remove --name gisenv --all
+
+conda install -c anaconda pip
+
+pip install geopandas
+
+
+pip uninstall notebook
+
+pip install Fiona -U
+
+
+Gap_L_R4_LB
