@@ -3,3 +3,7 @@ conda create --name dajngoenv
 #postgres superuser
 postgres
 password:bwdb_dc8_1234
+
+
+Installation of jupyter notebook
+#python -m ipykernel install --user --name=djangoenv
