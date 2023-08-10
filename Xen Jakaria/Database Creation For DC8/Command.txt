@@ -1,0 +1,5 @@
+conda create --name dajngoenv
+
+#postgres superuser
+postgres
+password:bwdb_dc8_1234
