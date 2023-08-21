@@ -1,0 +1,8 @@
+#find where python is installed
+py -c "import sys; print(sys.executable)"   #This command shows python installation directory
+
+##result of the command
+C:\Users\HP\AppData\Local\Programs\Python\Python311\python.exe
+#use follwing setx command to add it to path
+setx path "%PATH%;<your path here>"
+setx path "%PATH%;C:\Users\HP\AppData\Local\Programs\Python\Python311\python.exe"
