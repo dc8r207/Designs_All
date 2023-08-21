@@ -1,0 +1,4 @@
+#Monn phase calulation for Spring Tide and Neap Tide Calculation
+https://stackoverflow.com/questions/2526815/moon-lunar-phase-algorithm   ---How to calculate moon phase
+
+https://rhodesmill.org/skyfield/almanac.html                            ---Skyfield almanac calculation
