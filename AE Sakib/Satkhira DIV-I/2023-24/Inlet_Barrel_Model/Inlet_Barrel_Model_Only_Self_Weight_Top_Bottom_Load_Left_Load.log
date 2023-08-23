@@ -1,0 +1,122 @@
+15:18:58	Initializing STAAD Engine
+15:18:58	Run stream set up is complete.
+15:18:58	Initialize license libraries.
+15:18:58	License libraries initialized.
+15:18:58	Starting license(s) for A & D engine.
+15:18:59	License information set up is complete.
+****************************************************************************
+*                            START OF ANALYSIS                             *
+****************************************************************************
+* Initiating Analysis At Wed Aug 23 15:18:59 2023
+                          PROGRAM: STAAD.Pro
+                          VERSION: 22.00.00.15
+                15:18:59:39  ENTERING STAAD
+                15:18:59:40  USING 64 BIT STAAD ENGINE
+                15:18:59:40  ENTERING MAINN
+                15:18:59:41  START JOB INFORMATION
+                15:18:59:42  INPUT WIDTH 79
+                15:18:59:42  UNIT MMS KG
+                15:18:59:42  JOINT COORDINATES
+                15:18:59:43  ENTERING JOINTC
+                15:18:59:44  JOINTC NEWJ                                 400000
+                15:18:59:44  MAX NODE NO.                                   110
+                15:18:59:45  ELEMENT INCIDENCES SH
+                15:18:59:45  ENTERING ELEMEN
+                15:18:59:46  ELEMENT PROPERTY
+                15:18:59:46  ENTERING ELEMEN
+                15:18:59:47  DEFINE MATERIAL START
+                15:18:59:48  CONSTANTS
+                15:18:59:48  SUPPORTS
+                15:18:59:49  ENTERING SUPPORT
+                15:18:59:50  UNIT METER KN
+                15:18:59:50  DEFINE REFERENCE LOAD
+                15:18:59:51  BEFORE REFLOADPR
+                15:18:59:52  REOPEN AS DIR                                    0
+                15:18:59:53  DUPLICATE ELEMENT CHECK
+                15:18:59:54  CHECKING STRUCTURAL INTEGRITY
+                15:18:59:54  CHECK UNCONNECTED JOINTS AND
+                15:18:59:55  CALCULATE MAX JOINT CONNECTIVITY
+                15:18:59:55  MAX CONNECTIVITY                                 9
+                15:18:59:56  CHECK MULTIPLE STRUCTURES
+                15:18:59:56  ENTERING SUPPORT
+                15:18:59:57  NRJOLD                                           0
+                15:18:59:59  SUPPORT NOLD                                     0
+                15:18:59:59  SUPPORT N                                      561
+                15:18:59:60  MAXIMUM E =                           3.149987E+03
+                15:18:59:60  MINIMUM E =                           3.149987E+03
+                15:18:59:61  ENTER REFLOADPR
+                15:18:59:62  ref case no=    1 seq. no=   1 idynl= 0
+                15:18:59:62  MASSSET                                          0
+                15:18:59:63  LOADENDREF ISLAVE                                0
+                15:18:59:63  UNIT MMS KG
+                15:18:59:64  LOAD 1 LOADTYPE DEAD
+                15:18:59:64  BEFORE LOADPR
+                15:18:59:65  REOPEN AS DIR                                    0
+                15:18:59:66  ENTER LOADPR
+                15:18:59:67  PERFORM ANALYSIS PRIN
+                15:18:59:67  pdel iter                                        0
+                15:18:59:68  MBW DOF BAND=                                    5
+                15:18:59:68  NUMBER OF PRIMARY CASES                          3
+                15:18:59:69  NUMBER OF CASES                                 28
+                15:18:59:70  #OF CASES W/ELEM INMEMORY                       28
+                15:18:59:70  MEMORY FOR PLATE LOADS                       22400
+                15:18:59:71  MEMORY FOR DISPLACEMENTS                     18480
+                15:18:59:71  Using 64-bit analysis engine
+                15:18:59:72  BEFORE SOLVER 1
+                15:18:59:72  Start Input for Next Load Case
+                15:18:59:73  case no=    1 seq. no=   1 idynl= 0
+                15:18:59:74  MASSSET                                          0
+                15:18:59:74  LOADEND ISLAVE                                   0
+                15:18:59:75  Start Input for Next Load Case
+                15:18:59:76  case no=    2 seq. no=   2 idynl= 0
+                15:18:59:76  LOADEND ISLAVE                                   0
+                15:18:59:77  Start Input for Next Load Case
+                15:18:59:78  case no=    3 seq. no=   3 idynl= 0
+                15:18:59:78  LOADEND ISLAVE                                   0
+                15:18:59:79  NVPREV                                           0
+                15:18:59:79  AMAXNON                               3.280840E+00
+                15:18:59:80  IRECSIZL=                                     4000
+                15:18:59:80  MTX BLOCKSIZE=                                2805
+                15:18:59:81  MI=                                            561
+                15:18:59:81  NORECL=                                          1
+                15:18:59:82  NORECL1=                                         1
+                15:18:59:83  IWORD=                                       32000
+                15:18:59:83  JRECSIZE=                                     4000
+                15:18:59:84  IWORDJ=                                      32000
+                15:18:59:84  IBYTE=                                           4
+                15:18:59:85  JOINTS=                                        110
+                15:18:59:85  MEMBERS=                                         0
+                15:18:59:86  PLATES =                                       100
+                15:18:59:87  SOLIDS =                                         0
+                15:18:59:87  NO. OF EQUATIONS=                              561
+                15:18:59:88  idyn=                                            0
+                15:18:59:89  ipd=                                             0
+                15:18:59:89  icablanl=                                        0
+                15:18:59:90  ++ Processing Element Stiffness Matrix.
+                15:18:59:90  NV1                                              3
+                15:19: 0: 2  ++ Calculating Element Forces & Reactions.
+                15:19: 0: 4  COMBINATION CASES=                               0
+                15:19: 0: 4  MAX CM MEMORY (KILOWORDS)                       52
+                15:19: 0: 5  AFTER SOLVER 1
+                15:19: 0: 6  REOPEN AS SEQ                                    0
+                15:19: 0: 6  FINISH
+                15:19: 0: 7  All Commands FINISHed
+                15:19: 0: 8  Compute Plate Stresses for GUI
+                15:19: 0:10  ENTERING ESTRS2
+                15:19: 0:12  RETURNING FROM ESTRS2
+                15:19: 0:12  DATASAVE for SPRO GUI
+                15:19: 0:13  ++ Creating Displacement File (DSP)...
+                15:19: 0:14  ++ Creating Reaction File (REA)...
+                15:19: 0:14  ++ Creating Element Stress File (EST)...
+                15:19: 0:15  ++ Creating Element JT Stress File (EJT)...
+                15:19: 0:16  ++ Creating Element JT Force File (ECF)...
+                15:19: 0:17  ALLOCATED CM MEMORY (KILOWORDS)             100000
+                15:19: 0:17  MAX CM MEMORY (KILOWORDS)                       52
+                15:19: 0:18  DBS LONG SEC NAME
+* End Of Analysis At Wed Aug 23 15:19:00 2023
+* CPU usage = 0.859000
+* STAAD Exit Code: 100, Warning Count: 0, Error Count: 0, Duration: 0.859
+1 0 0 0.859
+****************************************************************************
+*                            END OF ANALYSIS                               *
+****************************************************************************
