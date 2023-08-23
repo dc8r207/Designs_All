@@ -1,0 +1,4 @@
+django-admin startproject dc8_progress_management . #creating a django project named dc8_progress_management
+
+python manage.py migrate
+python manage.py runserver 
