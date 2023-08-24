@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'dc8_progress_management.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": 'django.contrib.gis.db.backends.postgis',
-        "NAME": "dc8_main_db",
+        "NAME": "dc8_main",
         "USER":"postgres",
         "PASSWORD":"bwdb_dc8_1234",
         

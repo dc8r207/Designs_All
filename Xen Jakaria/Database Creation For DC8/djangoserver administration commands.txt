@@ -1,0 +1,5 @@
+py manage.py makemigrations
+py manage.py sqlmigrate dc8_jurisdiction 0001
+py manage.py migrate
+py manage.py shell
+world_shp = Path(dc8_jurisdiction.__file__).resolve().parent / "data" / "TM_WORLD_BORDERS-0.3.shp"
