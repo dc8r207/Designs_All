@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Inlet_Locations.shp</name>
+	<Schema name="Inlet_Locations" id="S_Inlet_Locations_SD">
+		<SimpleField type="string" name="Inlet_No"><displayName>&lt;b&gt;Inlet No&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="x"><displayName>&lt;b&gt;x&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="y"><displayName>&lt;b&gt;y&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="chaianage"><displayName>&lt;b&gt;chaianage&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Inlet No</b></td><td>$[Inlet_Locations/Inlet_No]</td></tr>
+  <tr><td><b>x</b></td><td>$[Inlet_Locations/x]</td></tr>
+  <tr><td><b>y</b></td><td>$[Inlet_Locations/y]</td></tr>
+  <tr><td><b>chaianage</b></td><td>$[Inlet_Locations/chaianage]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Inlet No</b></td><td>$[Inlet_Locations/Inlet_No]</td></tr>
+  <tr><td><b>x</b></td><td>$[Inlet_Locations/x]</td></tr>
+  <tr><td><b>y</b></td><td>$[Inlet_Locations/y]</td></tr>
+  <tr><td><b>chaianage</b></td><td>$[Inlet_Locations/chaianage]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Inlet_Locations</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_02</SimpleData>
+					<SimpleData name="x">737525</SimpleData>
+					<SimpleData name="y">2459512</SimpleData>
+					<SimpleData name="chaianage">7.657</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.30433689405341,22.22475649858241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_03</SimpleData>
+					<SimpleData name="x">737188</SimpleData>
+					<SimpleData name="y">2460981</SimpleData>
+					<SimpleData name="chaianage">9.536</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.30128607969679,22.23806341686061,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_04</SimpleData>
+					<SimpleData name="x">736867</SimpleData>
+					<SimpleData name="y">2461284</SimpleData>
+					<SimpleData name="chaianage">9.976</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.2982181647676,22.24084263872469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_05</SimpleData>
+					<SimpleData name="x">736127</SimpleData>
+					<SimpleData name="y">2461811</SimpleData>
+					<SimpleData name="chaianage">10.885</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.29112005887868,22.2457012035219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_06</SimpleData>
+					<SimpleData name="x">735387</SimpleData>
+					<SimpleData name="y">2462597</SimpleData>
+					<SimpleData name="chaianage">12.4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.2840593838049,22.25289750959122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_07</SimpleData>
+					<SimpleData name="x">735328</SimpleData>
+					<SimpleData name="y">2463342</SimpleData>
+					<SimpleData name="chaianage">13.306</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.28359634888965,22.25963072381767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_08</SimpleData>
+					<SimpleData name="x">737841</SimpleData>
+					<SimpleData name="y">2464949</SimpleData>
+					<SimpleData name="chaianage">16.616</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.30820517405097,22.27379246249853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_09</SimpleData>
+					<SimpleData name="x">736553</SimpleData>
+					<SimpleData name="y">2465805</SimpleData>
+					<SimpleData name="chaianage">19.6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.29583924782378,22.28169670401117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_10</SimpleData>
+					<SimpleData name="x">733257</SimpleData>
+					<SimpleData name="y">2464949</SimpleData>
+					<SimpleData name="chaianage">24.37</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.26374510864451,22.27441857953395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Inlet_Locations_SD">
+					<SimpleData name="Inlet_No">INL_11</SimpleData>
+					<SimpleData name="x">731986</SimpleData>
+					<SimpleData name="y">2464104</SimpleData>
+					<SimpleData name="chaianage">25.97</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.25129533247492,22.26696199499553,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -3,3 +3,4 @@ python -m venv django_env  #virtual environment
 rm -r .django_env #removing virtual environment
 
 . django_env\Scripts\activate.bat  #activating environment
+ .venv\Scripts\activate.bat

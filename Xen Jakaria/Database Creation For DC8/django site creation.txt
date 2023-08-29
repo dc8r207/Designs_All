@@ -21,5 +21,9 @@ python manage.py makemigrations
 python manage.py sqlmigrate dc8_jurisdiction 0001
 
 
+#creating table 
+python manage.py migrate
+
 #create a database name:
-dc8_main_db
+dc8_main_db              
+using pgadmin
