@@ -1,0 +1,13 @@
+python -m venv django_env  #virtual environment
+
+rm -r .django_env #removing virtual environment
+
+. django_env\Scripts\activate.bat  #activating environment
+ .venv\Scripts\activate.bat
+
+pip list #listing the packages in python virtual environment
+
+
+#navigation to project folder in home laptop
+cd "D:\Designs_All\Xen Jakaria\Database Creation For DC8\dc8_data_office"
+
