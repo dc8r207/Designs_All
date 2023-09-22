@@ -1,0 +1,14 @@
+py -m venv venv     #create virtual environment
+venv\Scripts\Activate  #activating virtual environment
+pip install django    #django instllation
+django-admin startproject core .                 #creates a prohect in current directory
+
+python manage.py startapp store                  #creating app named store
+
+python manage.py createsuperuser                #creating a super user for caffe.
+
+########User Credentials##################################################
+name:admin
+email:
+pwd:bwdb_vip_caffe 
+########UserEnd of User Credentials##################################################
