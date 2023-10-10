@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="poly_section_1.tif" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>poly_section_1.tif</name>
+		<Snippet maxLines="0"></Snippet>
+		<GroundOverlay id="ID_0">
+			<name>poly_section_1.tif</name>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>1000</drawOrder>
+			<Icon>
+				<href>Layer0.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>22.37657307672089</north>
+				<south>22.3653838464488</south>
+				<east>89.2443351213287</east>
+				<west>89.23023669118587</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Document>
+	<Document id="poly_section_2.tif" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>poly_section_2.tif</name>
+		<Snippet maxLines="0"></Snippet>
+		<GroundOverlay id="ID_0">
+			<name>poly_section_2.tif</name>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>1000</drawOrder>
+			<Icon>
+				<href>Layer0_0.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>22.46039055315832</north>
+				<south>22.44481770673312</south>
+				<east>89.26290233788367</east>
+				<west>89.2417232667454</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Document>
+	<Document id="poly_section_3.tif" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>poly_section_3.tif</name>
+		<Snippet maxLines="0"></Snippet>
+		<GroundOverlay id="ID_0">
+			<name>poly_section_3.tif</name>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>1000</drawOrder>
+			<Icon>
+				<href>Layer0_1.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>22.47116110471869</north>
+				<south>22.4636549126757</south>
+				<east>89.26793168671765</east>
+				<west>89.2536398970678</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Document>
+	<Document id="Poly_Section_2.tif" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Poly_Section_2.tif</name>
+		<Snippet maxLines="0"></Snippet>
+		<GroundOverlay id="ID_0">
+			<name>Poly_Section_2.tif</name>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>1000</drawOrder>
+			<Icon>
+				<href>Layer0_2.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>22.56649541479802</north>
+				<south>22.56165539929268</south>
+				<east>89.19314910253922</east>
+				<west>89.18858305017568</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Document>
+	<Document id="Poly_Section_3.tif" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Poly_Section_3.tif</name>
+		<Snippet maxLines="0"></Snippet>
+		<GroundOverlay id="ID_0">
+			<name>Poly_Section_3.tif</name>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>1000</drawOrder>
+			<Icon>
+				<href>Layer0_3.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>22.37990019700585</north>
+				<south>22.36125548318812</south>
+				<east>89.21967604880597</east>
+				<west>89.19461755343495</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Document>
+	<Document id="Poly_section_4.tif" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Poly_section_4.tif</name>
+		<Snippet maxLines="0"></Snippet>
+		<GroundOverlay id="ID_0">
+			<name>Poly_section_4.tif</name>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>1000</drawOrder>
+			<Icon>
+				<href>Layer0_4.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>22.4243187966765</north>
+				<south>22.41486960497976</south>
+				<east>89.21339861464969</east>
+				<west>89.19472701185691</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Document>
+	<Document id="Idw_csv_Feat7" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Idw_csv_Feat7</name>
+		<Snippet maxLines="0"></Snippet>
+		<GroundOverlay id="ID_0">
+			<name>Idw_csv_Feat7</name>
+			<Snippet maxLines="0"></Snippet>
+			<drawOrder>1000</drawOrder>
+			<Icon>
+				<href>Layer0_5.png</href>
+			</Icon>
+			<LatLonBox>
+				<north>22.52712631942402</north>
+				<south>22.51761371033334</south>
+				<east>89.19309466927606</east>
+				<west>89.18122293313088</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Document>
+</Folder>
+</kml>
