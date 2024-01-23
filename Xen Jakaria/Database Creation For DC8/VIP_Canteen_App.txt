@@ -1,1 +1,2 @@
- python manage.py startapp vip_canteen
+  .venv\Scripts\activate.bat  #activating virual environment
+ python manage.py startapp vip_canteen   #starting app  for vip_canteen

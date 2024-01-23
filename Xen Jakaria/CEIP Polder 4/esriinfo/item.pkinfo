@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.arcgisonline.com/home/pkinfostylesheet.xsl"?>
+<pkinfo Culture='en-US'>
+<ID>1359D1DC-3964-406D-8172-0796110CA706</ID>
+<name>POLDER 50-51</name>
+<version>10.8</version>
+<size>-1</size>
+<created></created>
+<type>Map Package</type>
+<servable>false</servable>
+<packagelocation></packagelocation>
+<pkinfolocation></pkinfolocation>
+<documenttypes>
+<documenttype>mxd</documenttype>
+</documenttypes>
+</pkinfo>

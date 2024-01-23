@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ESRI_ItemInformation Culture='en-US'>
+<name>POLDER 50-51</name>
+<guid>1359D1DC-3964-406D-8172-0796110CA706</guid>
+<catalogpath></catalogpath>
+<snippet>50-51</snippet>
+<description>50-51</description>
+<summary>50-51</summary>
+<title>POLDER 50-51</title>
+<tags>50-51</tags>
+<type>Map Package</type>
+<typekeywords>
+<typekeyword>File Geodatabase Feature Class</typekeyword>
+<typekeyword>Map Package</typekeyword>
+<typekeyword>Map</typekeyword>
+<typekeyword>2D</typekeyword>
+<typekeyword>ArcMap</typekeyword>
+<typekeyword>mpk</typekeyword>
+</typekeywords>
+<thumbnail>thumbnail/thumbnail.png</thumbnail>
+<documentation></documentation>
+<url></url>
+<datalastmodifiedtime></datalastmodifiedtime>
+<extent>
+<xmin>85.0476177580001</xmin>
+<ymin>20.6091829580001</ymin>
+<xmax>92.655253176</xmax>
+<ymax>26.6345041820001</ymax>
+</extent>
+<spatialreference>GCS_WGS_1984</spatialreference>
+<accessinformation>50-51</accessinformation>
+<licenseinfo></licenseinfo>
+</ESRI_ItemInformation>

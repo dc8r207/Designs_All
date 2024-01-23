@@ -8,7 +8,24 @@ python manage.py startapp store                  #creating app named store
 python manage.py createsuperuser                #creating a super user for caffe.
 
 ########User Credentials##################################################
-name:admin
-email:
+name:caffe_admin
+email:jakariapervez@gmail.com
 pwd:bwdb_vip_caffe 
 ########UserEnd of User Credentials##################################################
+python manage.py createsuperuser                #creating a super user for caffe.
+
+########User Credentials##################################################
+name:sadmin
+email:xen.pmu.ceip1@gmail.com
+pwd:bwdb_vip_caffe 
+########UserEnd of User Credentials##################################################
+
+
+
+
+########################Testing######################################################
+pip install coverage      #for installing coverage for onetime instllation.
+
+coverage run manage.py test #scanning by coverage
+coverage report            #generate reports
+coverage html              #generate html reports  
