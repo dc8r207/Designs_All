@@ -1,0 +1,4 @@
+python manage.py createsuperuser
+username:bwdb_dc8_admin
+password:bwdb_dc8_1234
+email:jakariapervez@gmail.com
