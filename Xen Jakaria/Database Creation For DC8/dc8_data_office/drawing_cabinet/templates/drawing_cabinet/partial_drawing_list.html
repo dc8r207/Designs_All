@@ -1,0 +1,8 @@
+{%load static %}
+{% for design in designs %}
+<tr>
+  <td>{{design.drawing_no}}</td>
+  <td>{{design.pdf_drw.url}}</td>
+  <td>{{design.dxf_drwl.url}}</td>
+</tr>
+{% endfor %}

@@ -1,0 +1,1 @@
+https://djangocentral.com/static-assets-in-django/#configuring-static-files-in-django

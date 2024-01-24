@@ -1,0 +1,21 @@
+{%load static %}
+
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Drawing_No</th>
+        <th scope="col">PDF</th>
+        <th scope="col">DWG</th>        
+      </tr>
+    </thead>
+    
+    <tbody>
+    {% for d in designs %}
+   <<tr>
+    <td>{{d.drawing_no}}</td>    
+    <td><a href="{{ d.pdf_drw.url }}" class="btn btn-primary">PDF</a></td>
+    <td><a href="{{ d.dxf_drw.url }}" class="btn btn-primary">CAD</a></td>
+   </tr>
+   {% endfor %}
+    </tbody>
+  </table>

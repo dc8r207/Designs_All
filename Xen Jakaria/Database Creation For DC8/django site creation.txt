@@ -27,3 +27,7 @@ python manage.py migrate
 #create a database name:
 dc8_main_db              
 using pgadmin
+
+
+#creating an app for drawing storage
+python manage.py startapp drawing_cabinet
