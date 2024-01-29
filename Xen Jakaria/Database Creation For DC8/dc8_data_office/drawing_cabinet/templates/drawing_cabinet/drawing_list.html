@@ -1,11 +1,14 @@
 {%load static %}
 
-<table class="table">
+<table class="table" id="drawing_table">
     <thead class="thead-dark">
       <tr>
         <th scope="col">Drawing_No</th>
         <th scope="col">PDF</th>
-        <th scope="col">DWG</th>        
+        <th scope="col">DWG</th>  
+        <th scope="col">UPDATE</th> 
+        <th scope="col">DELETE</th> 
+
       </tr>
     </thead>
     
@@ -13,9 +16,13 @@
     {% for d in designs %}
    <<tr>
     <td>{{d.drawing_no}}</td>    
-    <td><a href="{{ d.pdf_drw.url }}" class="btn btn-primary">PDF</a></td>
-    <td><a href="{{ d.dxf_drw.url }}" class="btn btn-primary">CAD</a></td>
+    <td><a href="{{ d.pdf_drw.url }}" class="btn btn-primary btn-sm">PDF</a></td>
+    <td><a href="{{ d.dxf_drw.url }}" class="btn btn-primary btn-sm">CAD</a></td>
+    <td><button data-url="{% url 'update_design' d.id %}" class="btn btn-warning js-update-design">Update </button></td>
+    <td><button data-url="{% url 'delete_design' d.id  %}" class="btn btn-danger js-delete-design">Delete </button></td>
    </tr>
+   {% empty %}
+   <td colspan="7" class="text-center bg-warning">No Drawing</td>
    {% endfor %}
     </tbody>
   </table>

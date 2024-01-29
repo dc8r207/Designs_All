@@ -1,9 +1,10 @@
 {% extends "drawing_cabinet/main.html" %}
+{%   load crispy_forms_tags  %}
 {% block content%}
 <hr>
 <form method="POST" enctype="multipart/form-data" >
 {% csrf_token %}
-{{ form.as_p }}
+{{ form |crispy }}
 <button type="submit" class="btn btn-primary">Upload_Design</button>
 </form>
 <hr>

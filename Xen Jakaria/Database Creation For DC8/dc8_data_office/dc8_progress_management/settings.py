@@ -38,8 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "django.contrib.gis",
+    
+    'widget_tweaks',
+    
+    'crispy_forms',
+    "crispy_bootstrap4", 
+    
     'accounts',
     'drawing_cabinet',
+    'books',
+    
         
 ]
 
@@ -58,7 +66,7 @@ ROOT_URLCONF = 'dc8_progress_management.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,7 +130,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 STATIC_ROOT  = os.path.join(BASE_DIR, 'staticfiles')
 
@@ -135,3 +143,12 @@ STATICFILES_DIRS = [
 ]
 MEDIA_ROOT=BASE_DIR / 'media'
 MEDIA_URL='/media/'
+
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+
+
+  

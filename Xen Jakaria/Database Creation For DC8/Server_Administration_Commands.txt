@@ -1,0 +1,5 @@
+.venv\Scripts\activate.bat
+python manage.py makemigrations
+python mange.py migrate
+python manage.py runserver
+python manage.py startapp books 

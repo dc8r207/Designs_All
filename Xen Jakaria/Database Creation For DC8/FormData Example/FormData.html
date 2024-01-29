@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge"> 
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0"> 
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"> 
+	</script> 
+
+	<style> 
+		body { 
+			margin: 3rem; 
+		} 
+
+		#myForm { 
+			width: 400px; 
+			margin: 0 auto; 
+			padding: 20px; 
+			border: 1px solid #ddd; 
+			border-radius: 5px; 
+		} 
+		
+		label { 
+			display: block; 
+			margin-bottom: 10px; 
+		} 
+
+		input[type="text"], 
+		input[type="email"] { 
+			width: 100%; 
+			padding: 10px; 
+			margin-bottom: 20px; 
+			border: 1px solid #ddd; 
+			border-radius: 5px; 
+			font-size: 16px; 
+			box-sizing: border-box; 
+		} 
+
+		button[type="submit"] { 
+			display: block; 
+			width: 100%; 
+			padding: 10px; 
+			background-color: green; 
+			color: #fff; 
+			border: none; 
+			border-radius: 5px; 
+			font-size: 16px; 
+			cursor: pointer; 
+		} 
+
+		button[type="submit"]:hover { 
+			background-color: rgb(22, 138, 22); 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<form id="myForm"> 
+		<h1 style="color:green"> 
+			GeeksforGeeks 
+		</h1> 
+		<h3> 
+			Send FormData objects with Ajax-requests 
+		</h3> 
+		<label for="username"> 
+			User Name: 
+		</label> 
+		<input type="text"
+			name="username"> 
+
+		<label for="name"> 
+			Name: 
+		</label> 
+		<input type="text"
+			name="name"> 
+
+		<label for="address"> 
+			Address: 
+		</label> 
+		<input type="text"
+			name="address"> 
+
+		<label for="email"> 
+			Email: 
+		</label> 
+		<input type="email"
+			name="email"> 
+
+		<button type="submit"> 
+			Submit 
+		</button> 
+	</form> 
+
+	<script> 
+		$(document).ready(function () {				 
+			$('#myForm').submit(function (event) { 
+				event.preventDefault();				 
+				var form = document.getElementById('myForm'); 
+				var formData = new FormData(form); 
+			
+				$.ajax({ 
+					url: 'https://...io/posts', 
+					method: 'POST', 
+					data: formData, 
+					processData: false, 
+					contentType: false, 
+					success: function (response) {					 
+						alert('Your form has been sent successfully.'); 
+					}, 
+					error: function (xhr, status, error) {					 
+						alert('Your form was not sent successfully.'); 
+						console.error(error); 
+					} 
+				}); 
+			}); 
+		}); 
+	</script> 
+</body> 
+
+</html>
