@@ -1,0 +1,9 @@
+{% load widget_tweaks %}
+{% load crispy_forms_tags %}
+<h1>Signup</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{ form | crispy }}
+    <button type="submit">Signup</button>
+    <a href="{% url 'login' %}">Already have account?</a>
+</form>

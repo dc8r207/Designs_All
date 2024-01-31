@@ -10,7 +10,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("",include("accounts.urls")),
     path("drawing_cabinet/",include("drawing_cabinet.urls")),
-     path("books/",include("books.urls")),
+   # path("books/",include("books.urls")),
     
 ]
 urlpatterns +=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

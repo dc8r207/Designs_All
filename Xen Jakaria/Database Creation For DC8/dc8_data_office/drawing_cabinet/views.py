@@ -5,7 +5,18 @@ from .forms import design_form
 from django.template.loader import render_to_string
 from django.http import JsonResponse
 from .models import design
+
+#logging related setup
+import datetime
+import logging
+# Get an instance of a logger
+logger = logging.getLogger('django')
+
+
+
 def index(request):
+    log_msg="Homepage was accessed at"+str(datetime.datetime.now())+" hours!"
+    logger.info(log_msg)
     designs=design.objects.all()
     context={"designs":designs}
     print("printing drawing list::::::::::::::")
@@ -54,7 +65,8 @@ def upload_design(request):
             data['html_design_list'] = render_to_string('drawing_cabinet/partial_drawing_list.html', {
                 'designs': designs
             })
-            
+            log_msg=instance.drawing_no+"was created at"+str(datetime.datetime.now())+" hours!"
+            logger.info(log_msg)
         else:
             data["form_is_valid"]=False
     else:
@@ -91,7 +103,8 @@ def update_design(request,pk):
             data['html_design_list'] = render_to_string('drawing_cabinet/partial_drawing_list.html', {
                 'designs': designs
             })
-            
+            log_msg=instance.drawing_no+"was updated at"+str(datetime.datetime.now())+" hours!"
+            logger.info(log_msg)
         else:
             data["form_is_valid"]=False
     else:
@@ -112,6 +125,9 @@ def delete_design(request,pk):
         designs = design.objects.all()
         data['html_design_list'] = render_to_string('drawing_cabinet/partial_drawing_list.html', {
                 'designs': designs            })
+        
+        log_msg=instance.drawing_no+"was deleted at"+str(datetime.datetime.now())+" hours!"
+        logger.info(log_msg)
 
     else:
         context = {'design': instance}

@@ -1,10 +1,11 @@
-from django.contrib import admin
-from django.urls import include, path
-from django.http import HttpResponse
-from . import views
 
+from django.urls import include, path
+from drawing_cabinet import views as cabinetview
+from .import views
 urlpatterns = [   
-    path("",views.home),
-    path("product/",    views.product),
-    path("customer/",views.customer),
+    path("",cabinetview.index),
+    path('login/', views.user_login, name='login'),
+    path('signup/', views.user_signup, name='signup'),
+    path('logout/', views.user_logout, name='logout'),
+    
 ]

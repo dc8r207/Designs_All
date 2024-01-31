@@ -1,0 +1,5 @@
+https://medium.com/@devsumitg/django-auth-user-signup-and-login-7b424dae7fab   ------------------------  User authentication tutorial
+
+https://bshoo.medium.com/how-to-send-emails-with-python-django-through-google-smtp-server-for-free-22ea6ea0fb8e      --------django using gmail smtp   
+
+https://www.airplane.dev/blog/django-logging    ---django logging        

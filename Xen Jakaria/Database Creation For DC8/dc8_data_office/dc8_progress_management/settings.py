@@ -39,11 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "django.contrib.gis",
     
-    'widget_tweaks',
-    
+    'widget_tweaks',    
     'crispy_forms',
     "crispy_bootstrap4", 
     
+    "phonenumber_field",
     'accounts',
     'drawing_cabinet',
     'books',
@@ -151,4 +151,45 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 
-  
+
+#gmail smtp services
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = '' # mail service smtp
+EMAIL_HOST_USER = 'se.design.circle.5@gmail.com' # email id
+EMAIL_HOST_PASSWORD ='bwdb_dc8_1234' #password
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+"""Logging Configaraton """
+LOGGING={
+    'version':1,
+    'disable_existing_loggers':False,
+    'loggers':{
+        'django':{
+            'handlers':['file'],
+            'level':'INFO'
+
+        }
+    },
+    'handlers':{
+        'file':{
+            'level':'INFO',
+            'class':'logging.FileHandler',
+            'filename':BASE_DIR /'debug.log',
+            'formatter':'simpleRe'
+
+
+        }
+    },
+    'formatters':
+        {'simpleRe':
+            {
+                'format':'{name}{levelname}{asctime}{module}{message}',
+                'style':'{',
+
+        }
+        
+
+    },
+
+}
