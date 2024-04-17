@@ -1,0 +1,2 @@
+python3 -m django startapp markers
+python manage.py startapp jurisdiction  --commands for creating an app for jurisdiction

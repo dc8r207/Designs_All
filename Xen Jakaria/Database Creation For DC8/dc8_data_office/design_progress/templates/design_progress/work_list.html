@@ -1,0 +1,29 @@
+{%load static %}
+<!--work_Name	project_name	division	designer	checker	reviewer	approver-->
+
+<table class="table" id="drawing_table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">work_Name</th>
+        <th scope="col">project_name</th>
+        <th scope="col">division</th> 
+
+        <th scope="col">designer</th>
+        <th scope="col">checker</th>
+        <th scope="col">reviewer</th>
+        <th scope="col">approver</th> 
+        <th scope="col">progress</th>
+         <th scope="col">UPDATE</th> 
+         <th scope="col">Upload Design Data</th>
+         <th scope="col">Download Design Data</th>
+       <!--   <th scope="col">DELETE</th> -->
+
+      </tr>
+    </thead>    
+    
+    <tbody>
+
+      {% include "design_progress/includes/partial_work_list.html" %}
+ 
+    </tbody>
+  </table>

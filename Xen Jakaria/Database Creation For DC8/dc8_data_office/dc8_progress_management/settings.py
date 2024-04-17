@@ -41,12 +41,21 @@ INSTALLED_APPS = [
     
     'widget_tweaks',    
     'crispy_forms',
-    "crispy_bootstrap4", 
-    
+    "crispy_bootstrap4",     
     "phonenumber_field",
+    'import_export', #for importing data from xlsx files
+    
+    
+    
     'accounts',
+    'documents',
     'drawing_cabinet',
     'books',
+    'jurisdiction',
+    'design_progress',
+    'PyPDF2',
+    
+    
     
         
 ]

@@ -1,0 +1,18 @@
+
+
+    {% for document in documents %}
+   <tr>
+    <td>{{document.doc_description}}</td> 
+    <td><a href="{{ document.pdf_doc.url }}" class="btn btn-primary btn-sm">PDF</a></td>
+     
+    
+
+   
+    <td><button data-url="{% url 'document_update' document.id  %}" class="btn btn-warning js-update-document-button">EDIT</button></td>
+    <td><button data-url="{% url 'document_delete' document.id %}" class="btn btn-warning js-document-delete-button">DELETE</button></td>
+   </tr>
+   {% empty %}
+   <tr>
+   <td colspan="7" class="text-center bg-warning">No Docuemts</td>
+   </tr>
+   {% endfor %}

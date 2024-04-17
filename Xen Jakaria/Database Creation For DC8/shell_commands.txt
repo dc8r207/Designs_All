@@ -1,0 +1,8 @@
+plist=design_work_progress.objects.filter(work_name=w).order_by('update_date').values()
+plist=design_work_progress.objects.filter(work_name=w).order_by('update_date')[0]
+#################################
+python manage.py shell
+from design_progress.auxilary_query import *
+from design_progress.models import *
+designs=design_work.objects.all()
+create_design_progrss_table_entry(designs)

@@ -1,4 +1,56 @@
+#super user
 python manage.py createsuperuser
 username:bwdb_dc8_admin
 password:bwdb_dc8_1234
+email:jakariapervez@gmail.com
+
+#user accounts for posted designers
+username:bwdb_dc5_ae1
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_ae2
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_ae3
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_ae4
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_sde1
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_sde2
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_xen1
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_xen2
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_xen3
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_xen4
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+username:bwdb_dc5_se
+password:bwdb_1234
+email:jakariapervez@gmail.com
+
+
+username:bwdb_dc5_ce
+password:bwdb_1234
+changed password:bwdb_12345
 email:jakariapervez@gmail.com

@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from django.contrib.auth import login,logout,authenticate
 from .forms import UserCreationForm,LoginForm
-
+from django.contrib.auth.forms import PasswordChangeForm
 #signup page
 def user_signup(request):
     if request.method == 'POST':
@@ -22,7 +22,9 @@ def user_login(request):
             user = authenticate(request, username=username, password=password)
             if user:
                 login(request, user)    
-                return redirect('drawing_list')
+                #return redirect('drawing_list')
+                return redirect('work_list')
+                
     else:
         form = LoginForm()
     return render(request, 'accounts/login.html', {'form': form})
@@ -31,7 +33,15 @@ def user_login(request):
 def user_logout(request):
     logout(request)
     return redirect('login')
-            
-            
-             
+from django.contrib.auth.views import PasswordChangeView  
+from django.urls import reverse_lazy  
+from .forms import PasswordChangingForm     
+class PasswordsChangeView(PasswordChangeView): 
+    form_class=PasswordChangingForm   
+    #success_url=reverse_lazy('login')
+    success_url=reverse_lazy('password_success')
+    pass   
+def password_success(request):
+    return render (request,'accounts/passwordchange_success.html',{})
+    pass        
         

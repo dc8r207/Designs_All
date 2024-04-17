@@ -1,7 +1,13 @@
 .venv\Scripts\activate.bat
 python manage.py makemigrations
-python mange.py migrate
+python manage.py migrate
 python manage.py runserver
 python manage.py startapp books #creation of app named books
 python manage.py startapp accounts
+cls                          #commands for clearing screen
 
+python manage.py startapp documents #creation of app named documents
+
+python manage.py startapp documents #creration of app named documents
+
+python manage.py startapp study_notes #creration of app named documents

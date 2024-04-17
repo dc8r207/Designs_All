@@ -20,9 +20,10 @@ def index(request):
     designs=design.objects.all()
     context={"designs":designs}
     print("printing drawing list::::::::::::::")
+    """  
     for d in designs:
         print("{}   {} {}".format(d.drawing_no,d.pdf_drw,d.dxf_drw))
-      
+    """
     #return render()
     return  render(request,"drawing_cabinet/index.html",context)
 

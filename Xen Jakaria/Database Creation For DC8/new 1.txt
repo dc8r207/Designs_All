@@ -1,0 +1,49 @@
+<form method="POST" action="/design_progress/72/add_design_data/" class="js-design-update-form" enctype="multipart/form-data">
+    <input type="hidden" name="csrfmiddlewaretoken" value="Mb8JZKQ3L2ZHPyWsfSdcHjlTn1kEsw24jrXJjJ67G3D0FVAyWfv0LYQwM7hCJmUW">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">       
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">ADD DESIGN DATA</h4>
+      </div>
+      <div class="modal-body">
+
+          <div class="form-group">
+            <label for="id_forawarding">Forawarding</label>
+            <input type="file" name="forawarding" class="form-control" required id="id_forawarding">
+
+          </div>
+
+          <div class="form-group">
+            <label for="id_technical_report">Technical report</label>
+            <input type="file" name="technical_report" class="form-control" required id="id_technical_report">
+
+          </div>
+
+          <div class="form-group">
+            <label for="id_cross_section">Cross section</label>
+            <input type="file" name="cross_section" class="form-control" required id="id_cross_section">
+
+          </div>
+
+          <div class="form-group">
+            <label for="id_long_section">Long section</label>
+            <input type="file" name="long_section" class="form-control" required id="id_long_section">
+
+          </div>
+
+          <div class="form-group">
+            <label for="id_bore_log">Bore log</label>
+            <input type="file" name="bore_log" class="form-control" required id="id_bore_log">
+
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+        <button type="submit" class="btn btn-primary">Update Design</button>
+      </div>
+
+
+
+</form>

@@ -1,0 +1,47 @@
+{% extends "main.html" %}
+{% load static %}
+
+{% block content %}
+
+<!--<button data-url="{% url 'upload_design' %}" type="button" class="btn btn-primary js-upload-design">Upload Drawing </button> -->
+<!--<button data-url="{% url 'create_design_work' %}" type="button" class="btn btn-primary js-design-create-button">Add Design Work </button> -->
+
+{% include "documents/document_list.html" %}
+<!-- Bootstrap Modals for Form Processings-->
+<div class="modal fade" id="modal-drawing">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+
+        </div>
+      
+      </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+{% block javascript %}
+
+<script src="{% static 'documents/js/document.js' %}"> </script>
+<!--<script src="{% static 'books/js/books.js' %}"></script>-->
+<!-- <script>
+$(function () 
+{
+  $("#drawing_table").on("click",".js-delete-design",
+  function ()
+  {
+   alert("Delete Button is Clicked");
+
+  }
+  
+  );
+
+
+
+});
+
+--->
+
+{%  endblock  %}

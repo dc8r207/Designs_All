@@ -1,0 +1,23 @@
+
+
+    {% for pe in pes %}
+   <tr>
+    <td>{{pe.design.work_name}}</td> 
+    <td>{{pe.design.project_name}}</td>  
+    <td>{{pe.design.division_name}}</td>
+
+    <td>{{pe.design.designer_name}}</td>
+    <td>{{pe.design.checker_name}}</td>
+    <td>{{pe.design.reviewer_name}}</td>
+    <td>{{pe.design.approver_name}}</td> 
+    <td>{{pe.cuurent_porgess}}  </td>
+    <td><button data-url="{% url 'update_design_progress' pe.design.id %}" class="btn btn-warning js-update-design-progress-button">Update</button></td>
+    <td><button data-url="{% url 'add_design_data' pe.design.id %}" class="btn btn-warning js-add-design-data-button">Upload</button></td>
+   <!--   <td><button data-url="{% url 'download_design_data' pe.design.id %}" class="btn btn-warning js-add-design-data-button">Download</button></td> -->
+    <td><a href="{% url 'download_design_data' pe.design.id   %}" class="btn btn-primary">Download</a></td>
+   </tr>
+   {% empty %}
+   <tr>
+   <td colspan="7" class="text-center bg-warning">No Design Work</td>
+   </tr>
+   {% endfor %}

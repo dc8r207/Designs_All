@@ -1,0 +1,21 @@
+{%load static %}
+<!--work_Name	project_name	division	designer	checker	reviewer	approver-->
+
+<table class="table" id="document_table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Description</th>
+        <th scope="col">PDF</th>
+        <th scope="col">EDIT</th> 
+        <th scope="col">DELETE</th>
+       <!--   <th scope="col">DELETE</th> -->
+
+      </tr>
+    </thead>    
+    
+    <tbody>
+
+      {% include "documents/includes/partial_document_list.html" %}
+ 
+    </tbody>
+  </table>
